@@ -1,7 +1,7 @@
 # Foundations of Existence / Osnovi postojanja
 
 **Author:** Zoran S. Dimić  
-**Project website:** https://zoransdimic-ai.github.io/foundations-of-existence/
+**Project website:** [Foundations of Existence](https://zoransdimic-ai.github.io/foundations-of-existence/)
 
 This repository presents a theoretical framework exploring physical reality as a consistent smooth continuum composed of energy, space, time, electric permittivity, and magnetic permeability.
 
