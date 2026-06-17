@@ -22,6 +22,12 @@ The central idea is that photons, matter, gravitation, charge, and electromagnet
 
 This is an initial public repository for organizing notes, derivations, figures, and future simulations related to this theoretical framework.
 
+## Main document
+
+The initial conceptual overview is available here:
+
+[Main Concept](main-concept.md)
+
 ## Planned contents
 
 - Main conceptual overview
