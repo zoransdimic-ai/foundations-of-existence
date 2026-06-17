@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Foundations of Existence / Osnovi postojanja"
+authors:
+  - family-names: "Dimić"
+    given-names: "Zoran S."
+repository-code: "https://github.com/zoransdimic-ai/foundations-of-existence"
+abstract: "A theoretical framework exploring energy, space, time, electric permittivity, magnetic permeability, and the formation of matter as smooth continuum phenomena."
+keywords:
+  - theoretical physics
+  - foundations of physics
+  - electromagnetism
+  - gravitation
+  - photon
+  - energy
+  - smooth continuum
+  - permittivity
+  - permeability
+  - matter formation
+license: "NOASSERTION"
+version: "0.1.0"
+date-released: 2026-06-17
