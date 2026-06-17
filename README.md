@@ -40,7 +40,9 @@ The initial conceptual overview is available here:
 
 ## License
 
-No license has been added yet.
+Text, theoretical content, figures, and documentation in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0), unless otherwise stated.
+
+Code and software simulations, if added later, may be licensed separately.
 
 The intended license for textual and theoretical content is likely to be:
 
