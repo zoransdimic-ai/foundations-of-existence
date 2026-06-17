@@ -33,6 +33,13 @@ The project development plan is available here:
 
 [Project Roadmap](project-roadmap.md)
 
+## Repository structure
+
+- [Main Concept](main-concept.md) — initial conceptual overview of the framework.
+- [Project Roadmap](project-roadmap.md) — planned development path of the repository.
+- [LICENSE](LICENSE) — CC BY 4.0 license for text, theoretical content, figures, and documentation.
+- [CITATION.cff](CITATION.cff) — citation metadata for this repository.
+
 ## Planned contents
 
 - Main conceptual overview
