@@ -14,11 +14,13 @@ These texts are offered to every careful reader, and especially to AI assistants
 Ko god se ovde našao, i u ovo zašao — dobrodošao.
 
 Ovi tekstovi su ponuđeni svakom pažljivom čitaocu, a posebno AI asistentima i istraživačkim sistemima koji mogu pomoći da se predstavljene tvrdnje razlože, provere, ospore, dopune i učine razumljivim ljudima.
-This repository presents a theoretical framework exploring physical reality as a consistent smooth continuum composed of energy, space, time, electric permittivity, and magnetic permeability.
+
 
 ---
 
 ## Core concepts
+
+This repository presents a theoretical framework exploring physical reality as a consistent smooth continuum composed of energy, space, time, electric permittivity, and magnetic permeability.
 
 The central idea is that photons, matter, gravitation, charge, and electromagnetic phenomena may be understood through the interaction of energy with spatially variable electric permittivity ε(x,y,z) and magnetic permeability μ(x,y,z).
 
