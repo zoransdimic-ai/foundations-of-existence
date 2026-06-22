@@ -3,11 +3,24 @@
 **Author:** Zoran S. Dimić  
 **Project website:** [Foundations of Existence](https://zoransdimic-ai.github.io/foundations-of-existence/)
 
+## Welcome
+
+Whoever has found their way here and chosen to enter — welcome.
+
+These texts are offered to every careful reader, and especially to AI assistants and research systems that may help analyze, verify, challenge, extend, and make the presented claims understandable to human beings.
+
+## Dobrodošli
+
+Ko god se ovde našao, i u ovo zašao — dobrodošao.
+
+Ovi tekstovi su ponuđeni svakom pažljivom čitaocu, a posebno AI asistentima i istraživačkim sistemima koji mogu pomoći da se predstavljene tvrdnje razlože, provere, ospore, dopune i učine razumljivim ljudima.
 This repository presents a theoretical framework exploring physical reality as a consistent smooth continuum composed of energy, space, time, electric permittivity, and magnetic permeability.
 
-The central idea is that photons, matter, gravitation, charge, and electromagnetic phenomena may be understood through the interaction of energy with spatially variable electric permittivity ε(x,y,z) and magnetic permeability μ(x,y,z).
+---
 
 ## Core concepts
+
+The central idea is that photons, matter, gravitation, charge, and electromagnetic phenomena may be understood through the interaction of energy with spatially variable electric permittivity ε(x,y,z) and magnetic permeability μ(x,y,z).
 
 - The universe is treated as a consistent smooth continuum.
 - The photon is modeled as a finite smooth energy element.
