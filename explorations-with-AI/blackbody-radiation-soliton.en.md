@@ -3,7 +3,7 @@
 # Blackbody Radiation Law from a Spherical Energy-Soliton Model
 
 *Part of the repository "Foundations of Existence / Osnovi postojanja".*
-*Produced through exploration assisted by an AI.*
+*Original work, first written in 2015., and in 2026. reviewed and extended with assistance of AI.*
 
 ---
 
@@ -224,68 +224,6 @@ which does not enter the derivation.
 ![Spherical soliton passing through the plane — five snapshots](soliton-snapshots.png)
 
 ![Four profiles along the passage: cross-section, slab energy, power, flux](four-profiles.png)
-
----
-
-## 7. Reconstructing $h$ and $k_{B}$ with the factor $\frac{6}{\pi}$
-
-It is interesting to ask how the constants would come out if the spectrum is
-fit with this law (prefactor $A=\frac{6}{\pi}$) instead of the standard one
-($A=2$).
-
-Two "handles" from the spectrum behave differently:
-
-- **Wien's displacement law** ($\lambda_{\max}T=b$) depends **only on the
-  shape** of the curve, not on the prefactor. It gives the ratio $h/k_{B}$
-  **independently** of $A$.
-- **The Stefan–Boltzmann constant** depends on the prefactor:
-  $$\sigma = A\,\frac{\pi^{5}k_{B}^{4}}{15\,h^{3}c^{2}}.$$
-
-Since the measured $\sigma$ is fixed, and $h/k_{B}$ is pinned by Wien, it
-follows that $k_{B}\propto 1/A$, so both $k_{B}$ and $h$ scale by
-$\dfrac{2}{6/\pi}=\dfrac{\pi}{3}\approx 1.047$:
-
-| quantity | standard ($A=2$) | this model ($A=\frac{6}{\pi}$) |
-|---|---|---|
-| $h$ | $6.626\times10^{-34}$ | $6.939\times10^{-34}$ |
-| $k_{B}$ | $1.381\times10^{-23}$ | $1.446\times10^{-23}$ |
-| $e$ | $1.602\times10^{-19}$ | $1.678\times10^{-19}$ |
-| $N_{A}$ | $6.022\times10^{23}$ | $5.751\times10^{23}$ |
-
-So $h$, $k_{B}$ and (downstream) $e$ would come out ~4.7% larger, and $N_{A}$
-~4.5% smaller.
-
-**Cross-check (the limit of this result).** Today $h$ and $e$ are measured
-independently of radiation too — via the Josephson and von Klitzing effects,
-from electrolysis, from X-ray crystallography for $N_{A}$ — and those values
-agree with the ones given by the factor $2$ to very small parts. The factor
-$\frac{6}{\pi}$ would require the radiation-derived values to be ~4.7% larger
-than these electrical ones, which would be a glaring discrepancy. **The author
-did not pursue the resolution of this discrepancy**; it is recorded here only
-as the point where the model touches measurement and where a test would be
-decisive.
-
----
-
-## 8. Summary and limits
-
-This approach yields the Planck form of the radiation law from a single
-transparent assumption (the photon as a spherical soliton with $E_{s}=h\nu$),
-without counting cavity modes and without thermodynamics as a prerequisite.
-The detailed 3D calculation confirms the averaged picture and exactly
-reproduces $\int P\,dt=h\nu$.
-
-What remains **open**, and what the model may have implications for:
-
-- The prefactor $\frac{6}{\pi}$ versus $2$ and its relation to counting
-  polarizations — this touches the question of the equality of
-  radiation-derived and electrically-measured values of the fundamental
-  constants (Section 7).
-- The nature of "per frequency" as the soliton's intrinsic bandwidth
-  ($\Delta\nu\sim\nu$), rather than a differential increment (Sections 4–5).
-
-*The author did not pursue experimental verification of these points; they are
-stated as an invitation to further research.*
 
 ---
 
