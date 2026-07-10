@@ -56,7 +56,7 @@ The black-body radiation derivation (soliton model), bilingual, is available her
 
 - [Main Concept](main-concept.md) — initial conceptual overview of the framework.
 - [Project Roadmap](project-roadmap.md) — planned development path of the repository.
-- [Explorations with AI](explorations-with-AI/) — derivations produced through AI-assisted exploration (e.g. the black-body radiation law from a soliton model, EN/SR).
+- [Explorations with AI](https://github.com/zoransdimic-ai/foundations-of-existence/tree/main/explorations-with-AI) — derivations produced through AI-assisted exploration (e.g. the black-body radiation law from a soliton model, EN/SR).
 - [LICENSE](LICENSE) — CC BY 4.0 license for text, theoretical content, figures, and documentation.
 - [CITATION.cff](CITATION.cff) — citation metadata for this repository.
 
