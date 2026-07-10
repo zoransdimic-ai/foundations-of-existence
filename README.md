@@ -50,7 +50,7 @@ The project development plan is available here:
 
 The black-body radiation derivation (soliton model), bilingual, is available here:
 
-[Blackbody Radiation — Soliton Model (EN)](explorations-with-AI/blackbody-radiation-soliton.en.md) · [Zakon zračenja crnog tela — soliton model (SR)](explorations-with-AI/blackbody-radiation-soliton.sr.md)
+[Blackbody Radiation — Soliton Model (EN)](https://github.com/zoransdimic-ai/foundations-of-existence/blob/main/explorations-with-AI/blackbody-radiation-soliton.en.md) · [Zakon zračenja crnog tela — soliton model (SR)](https://github.com/zoransdimic-ai/foundations-of-existence/blob/main/explorations-with-AI/blackbody-radiation-soliton.sr.md)
 
 ## Repository structure
 
