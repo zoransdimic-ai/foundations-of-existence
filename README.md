@@ -52,6 +52,7 @@ The project development plan is available here:
 
 - [Main Concept](main-concept.md) — initial conceptual overview of the framework.
 - [Project Roadmap](project-roadmap.md) — planned development path of the repository.
+- [Explorations with AI](explorations-with-AI/) — derivations produced through AI-assisted exploration (e.g. the black-body radiation law from a soliton model, EN/SR).
 - [LICENSE](LICENSE) — CC BY 4.0 license for text, theoretical content, figures, and documentation.
 - [CITATION.cff](CITATION.cff) — citation metadata for this repository.
 
