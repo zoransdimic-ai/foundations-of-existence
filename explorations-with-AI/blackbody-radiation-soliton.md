@@ -112,6 +112,8 @@ Odatle, deljenjem sopstvenim $\Delta\lambda\sim\lambda$:
 $$\boxed{PFp\lambda(\lambda,T) = \frac{6}{\pi}\frac{hc^{2}}{\lambda^{5}}
 \frac{1}{e^{hc/\lambda k_{B}T}-1}}$$
 
+![Talasno-dužinska Plankova raspodela za 4000, 5000 i 6000 K](planck-wavelength.png)
+
 Oblik je identičan standardnom Plankovom zakonu; jedina razlika je prefaktor
 $\frac{6}{\pi}\approx 1{,}91$ umesto $2$ — geometrijski faktor koji ne zavisi od
 reprezentacije, pa je isti u obe forme.
@@ -211,6 +213,10 @@ Sve četiri padaju na nulu na $\beta=\pm1$ (na površini lopte je
 $\cos^{2}\frac{\pi}{2}=0$). Detaljna i usrednjena slika daju **identičan
 rezultat** tamo gde se koristi; razlikuju se samo u vremenskom toku, koji u
 izvođenje ne ulazi.
+
+![Sferni soliton prolazi kroz ravan — pet snimaka](soliton-snapshots.png)
+
+![Četiri profila duž prolaska: presek, energija u sloju, snaga, fluks](four-profiles.png)
 
 ---
 
