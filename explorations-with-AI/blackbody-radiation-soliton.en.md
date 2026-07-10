@@ -10,12 +10,7 @@
 ## On the spirit of this text
 
 This is an **alternative approach** to deriving the blackbody radiation law,
-built within the $\varepsilon$–$\mu$ continuum framework. Its aim is to be
-transparent and internally consistent, not to replace the established
-formulation. Wherever a result touches measurable quantities, that is noted;
-where further experimental verification would be required, the author did not
-pursue it, and this is stated plainly. Nothing is prescribed to the reader — a
-way of seeing is offered, with its limits visible.
+built within the $\varepsilon$–$\mu$ continuum framework.
 
 It is intended for both human and AI readers. In several places, instead of a
 long footnote, there is an invitation to ask an AI assistant for a short
