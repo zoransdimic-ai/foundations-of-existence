@@ -1,3 +1,5 @@
+🌐 [English](blackbody-radiation-soliton.en.md) · [Srpski](blackbody-radiation-soliton.sr.md)
+
 # Zakon zračenja crnog tela iz modela sfernog energijskog solitona
 
 *Deo repozitorijuma „Foundations of Existence / Osnovi postojanja".*
