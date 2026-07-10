@@ -10,7 +10,7 @@
 ## O duhu ovog teksta
 
 Ovo izlaganje je **alternativni pristup** izvođenju zakona zračenja crnog
-tela, izgrađen unutar $\varepsilon$–$\mu$ kontinualnog okvira. Cilj mu je da
+tela, izgrađen unutar $\varepsilon––\mu$ kontinualnog okvira. Cilj mu je da
 bude transparentan i unutrašnje konzistentan, a ne da zameni postojeću
 formulaciju. Gde god rezultat dodiruje merljive veličine, to je i naznačeno;
 tamo gde bi bila potrebna dalja eksperimentalna provera, autor se u nju nije
