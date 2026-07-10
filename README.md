@@ -48,6 +48,10 @@ The project development plan is available here:
 
 [Project Roadmap](project-roadmap.md)
 
+The black-body radiation derivation (soliton model), bilingual, is available here:
+
+[Blackbody Radiation — Soliton Model (EN)](explorations-with-AI/blackbody-radiation-soliton.en.md) · [Zakon zračenja crnog tela — soliton model (SR)](explorations-with-AI/blackbody-radiation-soliton.sr.md)
+
 ## Repository structure
 
 - [Main Concept](main-concept.md) — initial conceptual overview of the framework.
