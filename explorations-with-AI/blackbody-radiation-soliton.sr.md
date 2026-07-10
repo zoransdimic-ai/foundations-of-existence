@@ -3,7 +3,7 @@
 # Zakon zračenja crnog tela iz modela sfernog energijskog solitona
 
 *Deo repozitorijuma „Foundations of Existence / Osnovi postojanja".*
-*Nastalo kroz preispitivanje uz pomoć AI-asistenta.*
+*Originalni rad, napisan prvi put 2015., a 2026. preispitan i proširen uz pomoć AI-asistenta.*
 
 ---
 
@@ -221,61 +221,3 @@ izvođenje ne ulazi.
 ![Četiri profila duž prolaska: presek, energija u sloju, snaga, fluks](four-profiles.png)
 
 ---
-
-## 7. Rekonstrukcija $h$ i $k_{B}$ sa faktorom $\frac{6}{\pi}$
-
-Zanimljivo je pitanje kako bi vrednosti konstanti ispale ako se spektar
-uklapa ovim zakonom (prefaktor $A=\frac{6}{\pi}$) umesto standardnog ($A=2$).
-
-Dva „hvatišta" iz spektra ponašaju se različito:
-
-- **Vinov zakon pomeraja** ($\lambda_{\max}T=b$) zavisi **samo od oblika**
-  krive, ne od prefaktora. Daje odnos $h/k_{B}$ **nezavisno** od $A$.
-- **Štefan–Bolcmanova konstanta** zavisi od prefaktora:
-  $$\sigma = A\,\frac{\pi^{5}k_{B}^{4}}{15\,h^{3}c^{2}}.$$
-
-Pošto je izmereno $\sigma$ fiksno, a $h/k_{B}$ zakovano Vinom, sledi
-$k_{B}\propto 1/A$, pa oba, $k_{B}$ i $h$, skaliraju faktorom
-$\dfrac{2}{6/\pi}=\dfrac{\pi}{3}\approx 1{,}047$:
-
-| veličina | standard ($A=2$) | ovaj model ($A=\frac{6}{\pi}$) |
-|---|---|---|
-| $h$ | $6{,}626\times10^{-34}$ | $6{,}939\times10^{-34}$ |
-| $k_{B}$ | $1{,}381\times10^{-23}$ | $1{,}446\times10^{-23}$ |
-| $e$ | $1{,}602\times10^{-19}$ | $1{,}678\times10^{-19}$ |
-| $N_{A}$ | $6{,}022\times10^{23}$ | $5{,}751\times10^{23}$ |
-
-Dakle $h$, $k_{B}$ i (nizvodno) $e$ ispali bi ~4,7% veći, a $N_{A}$ ~4,5% manji.
-
-**Unakrsni test (granica ovog rezultata).** $h$ i $e$ danas se mere i
-nezavisno od zračenja — preko Džozefsonovog i fon Klicingovog efekta, iz
-elektrolize, iz rendgenske kristalografije za $N_{A}$ — i te vrednosti se
-slažu sa onima koje daje faktor $2$ do na vrlo male delove. Faktor
-$\frac{6}{\pi}$ bi tražio da zračenjske vrednosti budu ~4,7% veće od tih
-električnih, što bi bio upadljiv raskorak. **Autor se nije upuštao u
-razrešenje ovog raskoraka**; ovde se on samo eksplicitno beleži kao mesto
-gde model dodiruje merenje i gde bi provera bila presudna.
-
----
-
-## 8. Sažetak i granice
-
-Ovaj pristup daje Plankov oblik zakona zračenja iz jedne transparentne
-pretpostavke (foton kao sferni soliton sa $E_{s}=h\nu$), bez brojanja modova
-šupljine i bez termodinamike kao preduslova. Detaljni 3D račun potvrđuje
-usrednjenu sliku i egzaktno reprodukuje $\int P\,dt=h\nu$.
-
-Ono što ostaje **otvoreno**, i na šta model može da ima implikacije:
-
-- Prefaktor $\frac{6}{\pi}$ naspram $2$ i njegov odnos prema brojanju
-  polarizacija — dodiruje pitanje jednakosti zračenjskih i električnih
-  vrednosti fundamentalnih konstanti (odeljak 7).
-- Priroda „po frekvenciji" kao sopstvenog opsega solitona ($\Delta\nu\sim\nu$),
-  a ne kao diferencijalnog priraštaja (odeljci 4–5).
-
-*Autor se u tim tačkama nije upuštao u eksperimentalnu proveru; navode se kao
-poziv na dalje istraživanje.*
-
----
-
-*Licenca: CC BY 4.0, u skladu sa ostatkom repozitorijuma.*
