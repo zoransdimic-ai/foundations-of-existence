@@ -102,9 +102,10 @@ Diferenciranjem izvedenog profila brzine $V_{ee}(r)$ po radijusu $r$ dobijamo:
 $$\frac{dv(r)}{dr} = v(r) \cdot \frac{\mathbf{E}}{F_{max}\,r^2}$$
 Iz bazične kinematičke relacije $dv = a \cdot dt$, sledi:
 $$a(r)\,dt(r) = v(r) \cdot \frac{\mathbf{E}}{F_{max}\,r^2} \cdot dr$$
+
 Zamenom lokalnog kinematičkog koraka fotona $dt = dr/c$, vršimo egzaktna dekompoziciju:
 
-$$a(r) \cdot dt(r) = c \, e^{-\frac{\mathbf{E}}{F_{max}\,r}} \cdot \frac{\mathbf{E}}{F_{max}\,r^2} \cdot \frac{dr}{c} = \underbrace{\frac{c^2\,\mathbf{E}}{F_{max}\,r^2}}_{a(r)} \cdot \underbrace{e^{-\frac{\mathbf{E}}{F_{max}\,r}}\,dt}_{d\tau(r)}$$
+$$a(r) \cdot dt(r) = c \\, e^{-\frac{\mathbf{E}}{F_{max}\\,r}} \cdot \frac{\mathbf{E}}{F_{max}\\,r^2} \cdot \frac{dr}{c} = \underbrace{\frac{c^2\\,\mathbf{E}}{F_{max}\\,r^2}}_{a(r)} \cdot \underbrace{e^{-\frac{\mathbf{E}}{F_{max}\\,r}}\\,dt}_{d\tau(r)}$$
 
 Eksponencijalni faktor mora biti ekskluzivno vezan za vremenski element ($d\tau$), a ne za ubrzanje ($a$), tapkanje eksperimenata potvrđuje da Njutnovo ubrzanje zadržava čistu $1/r^2$ zavisnost bez eksponenta. Vreme je bazična koordinata kontinuuma, dok je ubrzanje emergentna veličina. Iz ove kinematike direktno izviru rezultati:
 *   **Ubrzanje klastera:** $a(r) = \frac{c^2}{F_{max}} \cdot \frac{\mathbf{E}}{r^2} = \frac{GM}{r^2}$
