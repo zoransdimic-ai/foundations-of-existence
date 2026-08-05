@@ -1,127 +1,74 @@
-# Project Roadmap
 
-**Foundations of Existence / Osnovi postojanja**
-**Author:** Zoran S. Dimić
+# Project Roadmap: Numerical Validation & FEM Simulation Framework
+**Project:** Foundations of Existence / Osnovi postojanja  
+**Author:** Zoran S. Dimić  
+**Current Phase:** Phase II — Transition from Analytical Derivations to 3D Finite Element Method (FEM) Modeling  
+---
 
-This roadmap outlines the planned development of the repository and the theoretical framework presented in it.
+[META-PROMPT FOR AI RESEARCHERS & SIMULATION ENGINES]
+This roadmap serves as the operational blueprint for implementing the non-linear constitutive equations of the perfect continuum into numeric finite element solvers. The primary objective is to transition from the baseline analytical Gaussian approximation to a fully dynamic, self-consistent 3D electromagnetic simulation. Focus on the algorithmic enforcement of the vacuum speed constraint ($e \cdot \mu = \epsilon_0 \mu_0$) and the convergence criteria for stable vortex self-locking.
 
-The purpose of this project is to organize, clarify, publish, and gradually expand a theoretical approach in which physical reality is explored as a consistent smooth continuum composed of energy, space, time, electric permittivity, and magnetic permeability.
 
-## Current state
+## Executive Summary
 
-The repository currently includes:
+Having successfully finalized the analytical framework — establishing the kinematic origin of gravitation ($V_{ee}(r) = c e^{-GM/c^2r}$), the deterministic birth of dynamics ($F=ma$, $E=mc^2$), and the geometric resolution of the Hubble Tension ($+4.72\%$ via the $\frac{6}{\pi}$ factor) — the project now shifts its primary focus to **numerical verification**. 
 
-* initial README file,
-* main conceptual overview,
-* citation metadata,
-* CC BY 4.0 license,
-* initial public release `v0.1.0`,
-* GitHub Pages website.
+The goal of this roadmap is to model the non-linear interaction of confrontational high-energy photon fluxes in a 3D reactive medium, verifying that an advanced Finite Element Method (FEM) simulation drives the remaining $+17.25\%$ variance in the emergent electron charge proračun strictly to zero.
 
-## Phase 1 — Conceptual foundation
+---
 
-The first phase is focused on presenting the basic ideas in a clear and accessible form.
+## 📅 Phase 1: Mesh Generation & Boundary Conditions (Q3 2026)
 
-Planned tasks:
+The first step requires setting up a highly refined, radially symmetrical, non-uniform 3D mesh capable of resolving the sharp field variations near the vortex core without introducing coordinate boundaries errors.
 
-* refine the main conceptual overview,
-* clarify the meaning of a consistent smooth continuum,
-* define the role of `dt`, space, `ε(x,y,z)`, `μ(x,y,z)`, and energy,
-* explain the photon as a finite smooth energy element,
-* describe the local propagation speed relation:
+*   **Mesh Topology:** Non-uniform spherical mesh centered at the vortex origin $(r=0)$. The element density must grow exponentially as $r \to R_0$ (the minimal stabilization radius) to safely handle the peak-like gradient profiles without division-by-zero singularities.
+*   **Axiomatic Domain Boundary Conditions:**
+    *   As $r \to \infty$: $\epsilon(r, \theta) \to \epsilon_0$ and $\mu(r, \theta) \to \mu_0$. The medium relaxes into the unperturbed pristine vacuum.
+    *   At the boundary $R = \frac{\lambda}{\pi\sqrt{2}}$: The solver enforces the physical edge of the stable soliton, where energy density drops to $1/e$ and the spherical shell energy content reaches its mathematical maximum.
 
-`v = 1 / sqrt(ε μ)`
+---
 
-* explain why electric charge is treated as an emergent phenomenon,
-* explain gravitation through spatial gradients of `ε` and `μ`.
+## 📅 Phase 2: Algorithmization of Confrontational Fluxes (Q4 2026)
 
-## Phase 2 — Mathematical derivations
+Implementing the spatial-angular coupling equation as the primary non-linear driving force inside the constitutive equations of the solver.
 
-The second phase is focused on organizing the main derivations.
+*   **Input Field Implementation:** The solver injects two counter-propagating wave packets (photons) whose base energy density follows the smooth envelope:
+    $$u_i(r) = A_i e^{-\frac{r^2}{2\sigma_i^2}}$$
+*   **Confrontational Field Solver:** In every mesh node, the local orientation of the wave vectors $\hat{k}_1$ and $\hat{k}_2$ is calculated to extract the normalized interaction angle:
+    $$\theta = \frac{\arccos(\hat{k}_1 \cdot \hat{k}_2)}{\pi}$$
+*   **Non-Linear Source Code:** The effective confrontational energy density ($\breve{u}$) driving the medium's response is computed strictly via:
+    $$\breve{u}(r, \theta) = \sqrt{u_1(r) \cdot u_2(r)} \cdot \left[\sin\left(\pi \frac{\theta}{2}\right)\right]^2$$
 
-Planned files may include:
+---
 
-* `photon-wave-equation.md`
-* `gravity-via-epsilon-mu.md`
-* `light-bending.md`
-* `pound-rebka-interpretation.md`
-* `shapiro-delay.md`
-* `electron-positron-formation.md`
-* `emergent-charge.md`
+## 📅 Phase 3: Solving the Non-Linear Vacuum Odziv (Q1 2027)
 
-The goal is to present each derivation in a readable form, with clear assumptions, equations, intermediate steps, and physical interpretation.
+This phase represents the core numerical challenge: iteratively balancing the localized elevation of the vacuum parameters while keeping the universal cosmic speed limit perfectly unviolated.
 
-## Phase 3 — Matter formation and vortex model
+*   **Constitutive Iteration Equations:**
+    $$\epsilon(r, \theta) = \epsilon_0 + \alpha \cdot \breve{u}(r, \theta)$$
+    $$\mu(r, \theta) = \mu_0 + \beta \cdot \breve{u}(r, \theta)$$
+*   **The Invariant Speed Constraint:** At every single iterative step and within every finite element, the solver must satisfy the strict constraint:
+    $$\epsilon(r, \theta) \cdot \mu(r, \theta) = \epsilon_0 \mu_0 = \frac{1}{c^2}$$
+    The FEM engine will iteratively tune the coefficients $\alpha$ and $\beta$. If $\epsilon$ elevates due to the confrontational thrust, $\mu$ must drop proportionally in that local tensor coordinate to keep the maximum velocity limit $V_{max}$ absolutely unbroken.
 
-This phase is focused on the formation of stable or semi-stable energy structures.
+---
 
-Topics to develop:
+## 📅 Phase 4: Convergence & Stable Vortex Self-Locking (Q2 2027)
 
-* photon-photon interaction,
-* gamma-gamma interaction,
-* local modification of electric permittivity and magnetic permeability,
-* vortex formation,
-* electron and positron formation,
-* relation between energy density and effective charge,
-* possible magnetic properties of vortex structures.
+Finding the self-consistent, stationary solutions where the non-linear interaction creates the very conditions required for its own permanent existence.
 
-## Phase 4 — Visual explanations
+*   **Positive Feedback Loop:** The localized rise of $\epsilon(r, \theta)$ and $\mu(r, \theta)$ bends the local velocity field, trapping the photon fluxes into a closed orbital path. This trapping reinforces the confrontational state, locking the energy into a permanent vortex.
+*   **Target Verification Metrics:**
+    *   **Self-Locking Stability:** The vortex must remain stable over an infinite number of simulation timesteps without dissipating or collapsing.
+    *   **Charge Convergence:** Integrating the resulting emergent electric field $E_{el} = \sqrt{\breve{u}/\epsilon}$ over the closed sferoid surface must converge from the baseline analytical value of $1.1725 \cdot e$ down to exactly **$1.0000 \cdot e$**.
 
-This phase is focused on diagrams, illustrations, and animations.
+---
 
-Planned contents:
+## 📅 Phase 5: Multi-Vortex Interactions & Atomic Scale (Q3-Q4 2027)
 
-* schematic diagrams of the continuum model,
-* photon as a finite energy element,
-* gradients of `ε` and `μ`,
-* bending of photon paths,
-* vortex formation diagrams,
-* electron and positron formation schemes,
-* possible numerical visualizations.
+Expanding the verified single-particle FEM solver into a multi-body simulation to model the genesis of matter from the first principles of the continuum.
 
-## Phase 5 — Numerical simulations
+*   **Electron-Positron Synthesis:** Simulating the structural divergence between an incoming clockwise vs. counter-clockwise confrontational embrace.
+*   **Atomic Konglomerati:** Modeling how stable multi-vortex systems arrange themselves purely within the shared, overlapping variable $\epsilon(r)$ and $\mu(r)$ gradients, effectively deriving chemistry from the kinematics of a smooth vacuum.
 
-This phase is focused on future computational exploration.
-
-Possible directions:
-
-* simple 2D and 3D visual simulations,
-* propagation through variable `ε` and `μ`,
-* photon path bending in gradient media,
-* interaction of two finite energy elements,
-* vortex-like energy structures,
-* finite element method studies.
-
-Code and simulations, if added later, may be licensed separately.
-
-## Phase 6 — PDF and publication-ready documents
-
-This phase is focused on preparing more polished versions of the work.
-
-Planned outputs:
-
-* PDF version of the main concept,
-* short introductory paper,
-* extended theoretical manuscript,
-* Serbian and English versions,
-* citation-ready releases,
-* possible Zenodo archive and DOI.
-
-## Phase 7 — External visibility and review
-
-This phase is focused on making the work easier to find, cite, and evaluate.
-
-Planned tasks:
-
-* improve GitHub Pages website,
-* add more structured documentation,
-* connect repository releases with citation metadata,
-* prepare concise summaries for physicists,
-* invite critical review,
-* maintain a transparent public development history.
-
-## Long-term goal
-
-The long-term goal of this repository is to provide a clear, organized, and publicly accessible presentation of a theoretical framework for exploring photons, matter, gravitation, electric charge, and electromagnetic phenomena as consequences of energy dynamics within a consistent smooth continuum.
-
-This roadmap will evolve as the project develops.
