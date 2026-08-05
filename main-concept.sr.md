@@ -184,7 +184,7 @@ Fluks snage pojedinačnog sfernog solitona dobija se iz odnosa njegove energije 
 $$\frac{P_s}{\bar{A}_{c.s.}} = \frac{E_s}{T_s \bar{A}_{c.s.}} = \frac{6}{\pi}\frac{h}{c^2}\nu^4$$
 
 Deljenjem ovog fluksa sopstvenim frekvencijskim prozorom širine solitona ($\Delta\nu \sim \nu$), i množenjem sa funkcijom popunjenosti stanja $u$, dobijamo pun zakon spektralne gustine fluksa zračenja:
-$$\boxed{ PFpf\left(\nu,T\right)=\frac{6}{\pi}\frac{h}{c^2}\frac{\nu^3}{e^{h\nu/k_BT}-1} }$$
+$$\boxed{ PFpf\left(\nu,T\right)=\frac{6}{\pi}\frac{h}{c^2}\frac{\nu^3}{e^{h\nu/k_BT}-1}}$$
 
 Zakon spektralne gustine zračenja u ovom modelu ne koristi standardni faktor $2$ (koji se u klasici ad-hoc pripisuje transverzalnim polarizacijama u kockastoj šupljini), već uvodi **geometrijski prefaktor $\frac{6}{\pi}$** koji izranja iz odnosa zapremine i dužine sferne kapljice energije.
 
