@@ -181,6 +181,7 @@ In thermal equilibrium, the quotient $\frac{dE}{d\ln\sqrt[n]{\Theta}}$ represent
 $$\boxed{ u = \frac{E}{E_s} = \frac{1}{e^{h\nu/kT} - 1} }$$
 
 The power flux of a single spherical soliton is derived from the relation of its energy $E_s = h\nu$, its internal period of motion $T_s = 1/\nu$, and its average cross-sectional area averaged along the direction of propagation ($\bar{A}_{\\mathrm{c.s.}} = \frac{\pi}{6}\lambda^2 = \frac{\pi}{6}\frac{c^2}{\nu^2}$):
+
 $$\frac{P_s}{\bar{A}_{c.s.}} = \frac{E_s}{T_s \bar{A}_{c.s.}} = \frac{6}{\pi}\frac{h}{c^2}\nu^4$$
 
 Dividing this flux by the soliton's own intrinsic frequency window ($\Delta\nu \sim \nu$), and multiplying by the state occupancy function $u$, we obtain the full law of spectral power flux density:
