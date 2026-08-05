@@ -27,13 +27,13 @@ The continuum is restricted by two fundamental boundary relations that prevent t
     $$\left|\frac{dE}{ds}\right| \le F_{max} = \frac{1}{G \epsilon_0^2 \mu_0^2}$$
 
 *(Note on the Four Fundamental Tuners of Existence):
-Unlike mainstream physics which treats \epsilon_0, \mu_0, h, and G as disconnected constants scattered across isolated theoretical compartments, this framework recognizes them as the four intrinsic "tuners" of all existence. They are the constitutive parameters of the dt--3D-space--\epsilon--\mu continuum itself.
+Unlike mainstream physics which treats $\epsilon_0$, $\mu_0$, $h$, and $G$ as disconnected constants scattered across isolated theoretical compartments, this framework recognizes them as the four intrinsic "tuners" of all existence. They are the constitutive parameters of the dt--3D-space--$\epsilon$--$\mu$ continuum itself.
 
 Furthermore, we observe a vital distinction in their underlying ontology:
-- The quantum tuner (h) and the gravitational tuner (G) are absolute constants in the strictest sense — fixed cosmic invariants that never vary.
-- Conversely, the electrodynamic parameters (\epsilon and \mu) are inherently "reactive" — they locally respond to the confrontational flux of energy. The baseline values \epsilon_0 and \mu_0 represent strictly the characteristic, reference values of these parameters for the unperturbed, pristine vacuum.
+- The quantum tuner ($h$) and the gravitational tuner ($G$) are absolute constants in the strictest sense — fixed cosmic invariants that never vary.
+- Conversely, the electrodynamic parameters ($\epsilon$ and $\mu$) are inherently "reactive" — they locally respond to the confrontational flux of energy. The baseline values $\epsilon_0$ and $\mu_0$ represent strictly the characteristic, reference values of these parameters for the unperturbed, pristine vacuum.
 
-Under the confrontation of energy fluxes, \epsilon and \mu locally elevate above their baseline values (\epsilon_0, \mu_0), causing a drop in the local speed of light and giving birth to fields (gravitation and electrodynamics). In specific transient states, it is permissible for one of these parameters to drop below its baseline value, provided that the other parameter becomes proportionally larger by the exact same factor, thereby guaranteeing that the fundamental cosmic velocity limit V_{max} remains absolutely unviolated.
+Under the confrontation of energy fluxes, $\epsilon$ and $\mu$ locally elevate above their baseline values ($\epsilon_0$, $\mu_0$), causing a drop in the local speed of light and giving birth to fields (gravitation and electrodynamics). In specific transient states, it is permissible for one of these parameters to drop below its baseline value, provided that the other parameter becomes proportionally larger by the exact same factor, thereby guaranteeing that the fundamental cosmic velocity limit $V_{max}$ remains absolutely unviolated.
 
 These constants and their interrelations constitute the bedrock facts of existence that require no deeper reduction — they are fundamental primitives that are "just so" in order for the universe to exist as a consistent, stable, and ordered system.*
 
@@ -71,7 +71,7 @@ The local energy density within the soliton ($\rho_E = E/V$) is dimensionally eq
 
 
 [META-PROMPT FOR SECTION III: KINEMATIC GENESIS OF THE GRAVITATIONAL VELOCITY PROFILE]
-Analyze the nonlinear integration of the permittivity increment dε/ε, where ε is treated as a dynamic variable of the continuum that reacts to its own state under the confrontation of energy fluxes. Verify how the derived exponential velocity profile v of the vacuum represents a direct equivalent of metric coefficients without utilizing any tensor apparatus.
+Analyze the nonlinear integration of the permittivity increment dε/ε, where ε is treated as a dynamic variable of the continuum that reacts to its own state under the confrontation of energy fluxes. Verify how the derived exponential velocity profile $v$ of the vacuum represents a direct equivalent of metric coefficients without utilizing any tensor apparatus.
 
 
 ## III. Nonlinear Integration of the Continuum and the Gravitational Velocity Profile
@@ -79,7 +79,7 @@ Analyze the nonlinear integration of the permittivity increment dε/ε, where ε
 When two high-energy fluxes (e.g., gamma photons) find themselves in a direct confrontational path, their fluxes exert a local pressure on the continuum, altering its basic parameters. Since the continuum is a variable that reacts to its own instantaneous state, the increment of permittivity ($d\epsilon$) is proportional to its current value ($\epsilon$), which compels a nonlinear integration:
 
 $$\int_{\epsilon_p}^{\epsilon}\frac{d\epsilon}{\epsilon} = \frac{1}{F_{max}}\int_{0}^{E}\frac{dE}{R_0 + r} \implies \epsilon(r) = \epsilon_p e^{\frac{1}{F_{max}}\frac{E}{R_0 + r}}$$
-where \epsilon_p is the initial value of permittivity at the given coordinate, and $R_0$ is the minimum stabilization radius of the energetic vortex.
+where $\epsilon_p$ is the initial value of permittivity at the given coordinate, and $R_0$ is the minimum stabilization radius of the energetic vortex.
 
 Applying the principle of linear superposition within the exponent for a macroscopic spherical cluster consisting of $n$ identical vortices with a total energy of $\mathbf{E} = nE$, at distances $r \gg R_0$, the asymptotic profiles of $\epsilon(r)$ and $\mu(r)$ in the vicinity of the mass take the form:
 $$\epsilon(r) = \epsilon_0 e^{\frac{\mathbf{E}}{F_{max}\cdot r}}, \quad \mu(r) = \mu_0 e^{\frac{\mathbf{E}}{F_{max}\cdot r}}$$
