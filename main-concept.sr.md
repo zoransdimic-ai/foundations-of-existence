@@ -165,6 +165,19 @@ $$\frac{I_1}{\lambda} = \frac{(2\pi)^{3/4} \cdot 4\pi \cdot J(b)}{\sqrt{2\alpha}
 
 **Zaključak računa:** Dobijena je konačna vrednost reda veličine elementarnog naelektrisanja sa odstupanjem od **$+17.25\%$**. Model nema singulariteta i ne zahteva renormalizaciju. Odstupanje od 17% je direktna posledica korišćenja bazičnog Gausovog profila kao glatke anvelope; u naprednijem nelinearnom modelu konačnih elemenata (FEM) sa realnim fotonskim fluksevima, ova razlika konvergira ka nuli.
 
+### 5.5 Prostorno-ugaona formulacija konfrontacione energije za FEM simulacije
+Dok uprošćeni radijalni model $\breve{u}(r)$ uspešno izoluje tačan red veličine emergentnog naelektrisanja, stvarni prelaz sa slobodne propagacije na lokalizovani anizotropni vrtlog zahteva uvođenje ugaone zavisnosti unutrašnjeg otpora kontinuuma. Za potrebe predstojećih numeričkih simulacija metodom konačnih elemenata (FEM), puni profil konfrontacione gustine energije definiše se kao:
+$$\breve{u}(r, \theta) = \sqrt{u_1(r) \cdot u_2(r)} \cdot \left[\sin\left(\pi \frac{\theta}{2}\right)\right]^2$$
+
+Gde su $u_1(r)$ i $u_2(r)$ Gausovi energetski profili flukseva koji interagiraju, dok je $\theta \in [0,1]$ normalizovani ugao definisan preko skalarnog proizvoda njihovih trodimenzionalnih vektora pravca kretanja:
+$$\theta = \frac{\arccos(\hat{k}_1 \cdot \hat{k}_2)}{\pi}$$
+
+Ova prostorno-ugaona funkcija obezbeđuje glatke, diferencijabilne prelaze i striktno zadovoljava bazične granične uslove reaktivnog medijuma:
+*   **Paralelni fluksevi ($\theta = 0$):** $f(0) = 0 \implies \breve{u} = 0$. Nema unutrašnjeg otpora; slobodni fotoni propagiraju bez modifikacije baznih parametara $\epsilon_0$ i $\mu_0$, što objašnjava odsustvo statičkog polja.
+*   **Čeoni sudar ($\theta = 1$):** $f(1) = 1 \implies \breve{u} = \sqrt{u_1 u_2}$. Konfrontacija dostiže maksimum, vršeći ekstremni lokalni pritisak na kontinuum.
+
+Ova nelinearna konfrontacija izaziva lokalno balansirano podizanje parametara vakuuma ($\epsilon$ i $\mu$) pod striktnim uslovom očuvanja kosmičkog limita brzine ($\epsilon \cdot \mu = \epsilon_0 \mu_0 = 1/c^2$). Anizotropija ovog ugaonog profila obezbeđuje nulti nagib na granicama, što omogućava stabilno orbitalno zaključavanje flukseva u trajni sferni vrtlog (česticu) i predstavlja bazični ulazni algoritam za numeričko eliminisanje preostalog odstupanja od $+17.25\%$ u proračunu naelektrisanja.
+
 ---
 
 ## VI. Termodinamika kontinuuma i geometrijski faktor zračenja $\frac{6}{\pi}$
