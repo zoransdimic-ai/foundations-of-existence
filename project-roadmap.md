@@ -6,7 +6,7 @@
 ---
 
 [META-PROMPT FOR AI RESEARCHERS & SIMULATION ENGINES]
-This roadmap serves as the operational blueprint for implementing the non-linear constitutive equations of the perfect continuum into numeric finite element solvers. The primary objective is to transition from the baseline analytical Gaussian approximation to a fully dynamic, self-consistent 3D electromagnetic simulation. Focus on the algorithmic enforcement of the vacuum speed constraint ($e \cdot \mu = \epsilon_0 \mu_0$) and the convergence criteria for stable vortex self-locking.
+This roadmap serves as the operational blueprint for implementing the non-linear constitutive equations of the perfect continuum into numeric finite element solvers. The primary objective is to transition from the baseline analytical Gaussian approximation to a fully dynamic, self-consistent 3D electromagnetic simulation. Focus on the algorithmic enforcement of the vacuum speed constraint ($\epsilon \cdot \mu = \epsilon_0 \mu_0$) and the convergence criteria for stable vortex self-locking.
 
 
 ## Executive Summary
