@@ -103,6 +103,7 @@ $$\frac{dv(r)}{dr} = v(r) \cdot \frac{\mathbf{E}}{F_{max}\,r^2}$$
 Iz bazične kinematičke relacije $dv = a \cdot dt$, sledi:
 $$a(r)\,dt(r) = v(r) \cdot \frac{\mathbf{E}}{F_{max}\,r^2} \cdot dr$$
 Zamenom lokalnog kinematičkog koraka fotona $dt = dr/c$, vršimo egzaktna dekompoziciju:
+
 $$a(r) \cdot dt(r) = c \, e^{-\frac{\mathbf{E}}{F_{max}\,r}} \cdot \frac{\mathbf{E}}{F_{max}\,r^2} \cdot \frac{dr}{c} = \underbrace{\frac{c^2\,\mathbf{E}}{F_{max}\,r^2}}_{a(r)} \cdot \underbrace{e^{-\frac{\mathbf{E}}{F_{max}\,r}}\,dt}_{d\tau(r)}$$
 
 Eksponencijalni faktor mora biti ekskluzivno vezan za vremenski element ($d\tau$), a ne za ubrzanje ($a$), tapkanje eksperimenata potvrđuje da Njutnovo ubrzanje zadržava čistu $1/r^2$ zavisnost bez eksponenta. Vreme je bazična koordinata kontinuuma, dok je ubrzanje emergentna veličina. Iz ove kinematike direktno izviru rezultati:
@@ -179,6 +180,7 @@ U toplotnoj ravnoteži, količnik $\frac{dE}{d\ln\sqrt[n]{\Theta}}$ predstavlja 
 $$\boxed{ u = \frac{E}{E_s} = \frac{1}{e^{h\nu/kT} - 1} }$$
 
 Fluks snage pojedinačnog sfernog solitona dobija se iz odnosa njegove energije $E_s = h\nu$, unutrašnjeg perioda kretanja $T_s = 1/\nu$ i prosečnog poprečnog preseka usrednjenog duž pravca prostiranja ($\bar{A}_{c.s.} = \frac{\pi}{6}\lambda^2 = \frac{\pi}{6}\frac{c^2}{\nu^2}$):
+
 $$\frac{P_s}{\bar{A}_{c.s.}} = \frac{E_s}{T_s \bar{A}_{c.s.}} = \frac{6}{\pi}\frac{h}{c^2}\nu^4$$
 
 Deljenjem ovog fluksa sopstvenim frekvencijskim prozorom širine solitona ($\Delta\nu \sim \nu$), i množenjem sa funkcijom popunjenosti stanja $u$, dobijamo pun zakon spektralne gustine fluksa zračenja:
