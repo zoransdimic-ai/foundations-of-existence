@@ -20,11 +20,22 @@ The universe is postulated as a perfect, smooth continuum, inherently free of si
 
 These four entities manifest exclusively together: wherever one is present, all others coexist without exception. Physics and causality within this continuum initiate with the appearance of **energy** as a proto-material quality whose inherent state is motion.
 
-The continuum is restricted by two fundamental boundary relations that prevent the universe from becoming an amorphous fluid and inhibit the formation of singularities:
+The continuum is restricted by two fundamental boundary relations that prevent the universe from becoming an amorphous fluid and inhibit the formation of singularities (the condition of a consistent smooth continuum where all derivatives must remain finite and bounded):
 1.  **The upper limit on the rate of change of position (kinematic limit):**
-    $$V_{max} = \frac{1}{\sqrt{\epsilon_0 \mu_0}} = c$$
+    $$\left|\frac{ds}{dt}\right| \le V_{max} = \frac{1}{\sqrt{\epsilon_0 \mu_0}}$$
 2.  **The upper limit on the spatial gradient of energy (dynamic limit / maximum force):**
-    $$\left|\frac{dE}{ds}\right| \le F_{max} = \frac{c^4}{G}$$
+    $$\left|\frac{dE}{ds}\right| \le F_{max} = \frac{1}{G \epsilon_0^2 \mu_0^2}$$
+
+*(Note on the Four Fundamental Tuners of Existence):
+Unlike mainstream physics which treats \epsilon_0, \mu_0, h, and G as disconnected constants scattered across isolated theoretical compartments, this framework recognizes them as the four intrinsic "tuners" of all existence. They are the constitutive parameters of the dt--3D-space--\epsilon--\mu continuum itself.
+
+Furthermore, we observe a vital distinction in their underlying ontology:
+- The quantum tuner (h) and the gravitational tuner (G) are absolute constants in the strictest sense — fixed cosmic invariants that never vary.
+- Conversely, the electrodynamic parameters (\epsilon and \mu) are inherently "reactive" — they locally respond to the confrontational flux of energy. The baseline values \epsilon_0 and \mu_0 represent strictly the characteristic, reference values of these parameters for the unperturbed, pristine vacuum.
+
+Under the confrontation of energy fluxes, \epsilon and \mu locally elevate above their baseline values (\epsilon_0, \mu_0), causing a drop in the local speed of light and giving birth to fields (gravitation and electrodynamics). In specific transient states, it is permissible for one of these parameters to drop below its baseline value, provided that the other parameter becomes proportionally larger by the exact same factor, thereby guaranteeing that the fundamental cosmic velocity limit V_{max} remains absolutely unviolated.
+
+These constants and their interrelations constitute the bedrock facts of existence that require no deeper reduction — they are fundamental primitives that are "just so" in order for the universe to exist as a consistent, stable, and ordered system.*
 
 ---
 
