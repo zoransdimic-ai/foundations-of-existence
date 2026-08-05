@@ -104,8 +104,8 @@ $$\frac{dv(r)}{dr} = v(r) \cdot \frac{\mathbf{E}}{F_{max}\,r^2}$$
 From the basic kinematic relation $dv = a \cdot dt$, it follows that:
 $$a(r)\,dt(r) = v(r) \cdot \frac{\mathbf{E}}{F_{max}\,r^2} \cdot dr$$
 Substituting the local kinematic step of the photon $dt = dr/c$, we perform an exact decomposition:
-$$a(r) \cdot dt(r) = c \, e^{-\frac{\mathbf{E}}{F_{max}\,r}} \cdot \frac{\mathbf{E}}{F_{max}\,r^2} \cdot \frac{dr}{c}$$ 
-$$= \underbrace{\frac{c^2\,\mathbf{E}}{F_{max}\,r^2}} {a(r)} \cdot \underbrace{e^{-\frac{\mathbf{E}}{F_{max}\,r}}\,dt}_{d\tau(r)}$$
+$$a(r) \cdot dt(r) = c e^{-\frac{\mathbf{E}}{F_{max}\,r}} \cdot \frac{\mathbf{E}}{F_{max}\,r^2} \cdot \frac{dr}{c}$$ 
+$$= \underbrace{\frac{c^2\,\mathbf{E}}{F_{max}\,r^2}}_{a(r)} \cdot \underbrace{e^{-\frac{\mathbf{E}}{F_{max}\,r}}\,dt}_{d\tau(r)}$$
 
 The exponential factor must be exclusively bound to the temporal element ($d\tau$), rather than acceleration ($a$), because experiments confirm that Newtonian acceleration retains a pure $1/r^2$ dependence without an exponential modifier. Time is a fundamental coordinate of the continuum, whereas acceleration is an emergent quantity. From this kinematics, the following results emerge directly:
 *   **Cluster Acceleration:** $a(r) = \frac{c^2}{F_{max}} \cdot \frac{\mathbf{E}}{r^2} = \frac{GM}{r^2}$
