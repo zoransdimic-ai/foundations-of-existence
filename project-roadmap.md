@@ -13,7 +13,7 @@ This roadmap serves as the operational blueprint for implementing the non-linear
 
 Having successfully finalized the analytical framework — establishing the kinematic origin of gravitation ($V_{ee}(r) = c e^{-GM/c^2r}$), the deterministic birth of dynamics ($F=ma$, $E=mc^2$), and the geometric resolution of the Hubble Tension ($+4.72\%$ via the $\frac{6}{\pi}$ factor) — the project now shifts its primary focus to **numerical verification**. 
 
-The goal of this roadmap is to model the non-linear interaction of confrontational high-energy photon fluxes in a 3D reactive medium, verifying that an advanced Finite Element Method (FEM) simulation drives the remaining $+17.25\%$ variance in the emergent electron charge proračun strictly to zero.
+The goal of this roadmap is to model the non-linear interaction of confrontational high-energy photon fluxes in a 3D reactive medium, verifying that an advanced Finite Element Method (FEM) simulation drives the remaining $+17.25\%$ variance in the emergent electron charge calculation strictly to zero.
 
 ---
 
