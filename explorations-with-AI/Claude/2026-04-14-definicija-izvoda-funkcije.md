@@ -2501,6 +2501,37 @@ Hoćemo li koristiti ovaj Njutnov pristup kao pedagoški most ka EM talasnoj jed
 
 **Zoran:**
 
+Sledi opet malo „razbacan“ tekst, ali to je posledica … psihološki „momenat“: meni jeste malo dosadilo „sređivanje“ „sitnica“, a mozak se od toga „brani“ tako što … počne da razmišlja o nečemu drugom, da se „malo razmrda“ pre nego što se ponovo posle vrati „sređivanju“. Dakle: sledi „mala“ divergencija:
+Prvo … ponovo gledam izvođenje i vidim da je moglo jednostavnije (odmah preko infinitezimala)(i po meni jasnije, nema potrebe za crtanjem):
+dP = \rho dx dv/dt
+dt = dx/v
+dP = \rho v dv
+Da bismo videli šta sledi dalje, uvodimo „princip“ kontinuiteta. Jednačina kontinuiteta u infinitezimalnom obliku je:
+\rho dv = v d\rho , odnosno: \rho dv = d\rho v (*)(vidi obrazloženje malo kasnije, ispod konačnog rezultata)
+Dakle, imamo  dP = \rho v dv = \rho dv v = d\rho v v = d\rho v^2
+v = \sqrt{\frac{dP}{d\rho}}
+
+(*)obrazloženje:
+\rho v = (\rho + d\rho)(v - dv) (kada gustina raste, brzina se smanjuje)
+=\rho v - \rho dv + d\rho v - d\rho dv
+0 = - \rho dv + d\rho v
+\rho dv = d\rho v
+
+
+Drugo … i ovde (u tom tekstu na mathpages.com) se pominje da je Njutn znao za PV ~ kT (a jednostavnom dimenzionom analizom, dobija se da je PV = E, energija)
+U nekoj debati (ne znam da li sa tobom, uglavnom: sa nekim od AI: kritikovao sam Njutna što je tvrdoglavo odbacivao Lajbnicov „koncept“: energiju, a znao je za PV ~ kT, a jednostavnom dimenzionom analizom se vidi da je PV energija … a onda AI to „opravdava“ nedovoljnom komunikacijom u to vreme, odnosno, da Njutn vrlo verovatno i nije znao za PV ~kT). A evo, i u nastavku njegovog izvođenja … uvodi se energija, i dobija se ispravan rezultat/model. To je mogao da uradi i Njutn, a ne tek Laplas, 100 godina kasnije. I uopšte, uvođenje … najvažnijeg, najfundamentalnijeg „koncepta“ u fizici: energije, tek 100 godina kasnije, čisto zbog … sujete velikog autoriteta. (Izvini, opet ja … zanemari. Ali, čim sam video u tekstu „Newton was aware of Boyle's Law“ … „triger“-ovao sam se 😐😊)
+Talasna priroda svetlosti …Thomas Young, two-slit eksperiment => mogao da meri lambda svetlosti, lambda = c/f
+Frekvencije (odnosno, talasne dužine) možemo da odvajamo pomoću Njutnove prizme i da radimo Milikanov eksperiment, i da potvrdimo razmišljanje E T = const. I, ako se sećaš, u svom radu objavljenom na academia.edu, pominjem princip kontinuiteta, koji sam izveo upravo iz jednačine ET=h, odnosno, to JESTE jednačina kontinuiteta, i to navodim kao … dokaz da je na fundamentalnom nivou … da je univerzum, fundamentalno, savršeni kontinuum. U tom radu pominjao sam princip kontinuiteta i na onom mestu gde upoređujem Ajnštajnovu i „moju“ jednačinu za gravitaciono vreme, i demonstriram, jednostavno, da je moja u skladu sa principom održanja energije (što je takođe vid „principa kontinuiteta“) … .
+
+Znamo da je brzina za sve talasne dužine u vakuumu i u vazduhu ista: to, jednostavno, vidimo: kombinacija boja se ne menja sa udaljenošću, gledamo čoveka ispred sebe, gledamo čoveka  kroz durbin sa udaljenosti od kilometar: iste boje. (ili neku „belu“ svetlost noću: ona je bela i kada smo ispred izvora, i kada ga gledamo kroz durbin sa više kilometara udaljenosti).
+
+A ako posmatramo stvari tako da je svaki talas soliton, onda iz dp/dt i dE/ds izvedemo talasnu jednačinu, i potvrdimo to.
+Double-slit eksperiment: šta se tamo „poništava“ kada se koristi „kvantno-mehanički talas? Verovatnoće ne mogu, jer mogu da budu ili 0 ili pozitivne. Baš kao i energija fotona-solitona.
+Proces razmišljanja: naiđem na nešto, a onda kreće … povezivanje, korelacija, komparacija, pa se tu nagomila dosta stvari, tok misli je … pomalo haotičan, jedno, drugo, treće, pa nazad, pa četvrto, itd.  ali u suštini nije haotičan, jer povezuje stvari po njihovim zajedničkim osobinama (ako ih ima), pa idu pitanja, traženje odgovora, pokušava se korelacija tog odgovora sa prethodnim, pa onda … otvori se novo pitanje, uoči se neki „gap“, pa opet „prebiranje“ po mislima, korelacija, … „rodi se“ novi uvid, novo shvatanje, … (ili ne novi, ali bolji)
+Dakle, opet prilično razbacan tekst, puno toga, ali to … konvergira ka nečemu.
+Interesuje me sada baš nešto „nevezano“ za ovaj chat:
+Kako se pomoću kvantne mehanike izvodi rezultat za double-slit eksperiment, i pre svega tumačenje onoga što se prilikom interferencije „poništava“: šta se poništava? Šta predstavlja „talas“ u svemu tome? Mora da predstavlja neku gustinu verovatnoće, ili verovatnoću, (ili?), a ako je u pitanju verovatnoća, šta je u tom talasu „negativno“ i što se onda poništava sa nekim drugim „pozitivnim“ delom?
+
 :)
 
 
