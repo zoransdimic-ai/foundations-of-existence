@@ -397,7 +397,7 @@ $$|\frac{dE_{ee}}{d\lambda_{ee}}| < F_{max}$$
 $$\frac{E_{ee}}{\lambda_{ee}} < F_{max}$$
 $$\frac{h}{T_{ee}\lambda_{ee}} < F_{max}$$
 $$\frac{h V_{max}}{\lambda_{ee}^2} < F_{max}$$
-$$\lambda_{ee} > \sqrt{\frac{h V_{max}}}{F_{max}}$$
+$$\lambda_{ee} > \sqrt{\frac{h V_{max}}{F_{max}}$$
  
 Znači, entiteti moraju da budu 3D entiteti i to konačnih dimenzija. Ne mogu da postoje entiteti čija je veličina infinitezimalna. Unutar zapremine koju Energieelement zauzima, ni jedna jedina dimenzija (ni jedan dijametar) tog volumena ne može biti ni infinitezimalna, a kamoli 0 – sve dimenzije moraju biti konačne.
 U nekonzistentnom kontinuumu, mogle bi da postoje „tačkaste čestice“ („point-like“ „particles“). U konzistentnom kontinuumu: ne mogu.
