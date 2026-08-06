@@ -2503,16 +2503,20 @@ Hoćemo li koristiti ovaj Njutnov pristup kao pedagoški most ka EM talasnoj jed
 
 Sledi opet malo „razbacan“ tekst, ali to je posledica … psihološki „momenat“: meni jeste malo dosadilo „sređivanje“ „sitnica“, a mozak se od toga „brani“ tako što … počne da razmišlja o nečemu drugom, da se „malo razmrda“ pre nego što se ponovo posle vrati „sređivanju“. Dakle: sledi „mala“ divergencija:
 Prvo … ponovo gledam izvođenje i vidim da je moglo jednostavnije (odmah preko infinitezimala)(i po meni jasnije, nema potrebe za crtanjem):
+
 $$dP = \rho dx dv/dt$$
 $$dt = dx/v$$
 $$dP = \rho v dv$$
+
 Da bismo videli šta sledi dalje, uvodimo „princip“ kontinuiteta. Jednačina kontinuiteta u infinitezimalnom obliku je:
 $\rho dv = v d\rho$ , odnosno: $\rho dv = d\rho v$ (*)(vidi obrazloženje malo kasnije, ispod konačnog rezultata)
-Dakle, imamo  
+Dakle, imamo
+
 $$dP = \rho v dv = \rho dv v = d\rho v v = d\rho v^2$$
 $$v = \sqrt{\frac{dP}{d\rho}}$$
 
 (*)obrazloženje:
+
 $$\rho v = (\rho + d\rho)(v - dv)$$ (kada gustina raste, brzina se smanjuje)
 $$=\rho v - \rho dv + d\rho v - d\rho dv$$
 $$0 = - \rho dv + d\rho v$$
