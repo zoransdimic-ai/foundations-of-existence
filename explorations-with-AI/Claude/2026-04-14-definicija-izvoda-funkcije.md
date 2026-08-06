@@ -2504,8 +2504,25 @@ Hoćemo li koristiti ovaj Njutnov pristup kao pedagoški most ka EM talasnoj jed
 Sledi opet malo „razbacan“ tekst, ali to je posledica … psihološki „momenat“: meni jeste malo dosadilo „sređivanje“ „sitnica“, a mozak se od toga „brani“ tako što … počne da razmišlja o nečemu drugom, da se „malo razmrda“ pre nego što se ponovo posle vrati „sređivanju“. Dakle: sledi „mala“ divergencija:
 Prvo … ponovo gledam izvođenje i vidim da je moglo jednostavnije (odmah preko infinitezimala)(i po meni jasnije, nema potrebe za crtanjem):
 
+Na "rubovima" oblasti sa povišenom gustinom vazduha dešava se promena gustine vazduha i promena pritiska vazduha.
+Promena pritiska ... u najjednostavnijem slučaju, biće direktno proporcionalna promeni gustine: $dP \propto d\rho$
+Hajde da vidimo koju bi fizičku veličinu imala konstanta proporcionalnosti.
+
+$$\frac{dP}{d\rho}$$
+
+Ako odredimo dimenziju ove veličine, dobijamo (F/S)(m/V) = (F/m)L = a L = (L/t^2)L = L^2 / t^2
+Ili: P/(m/V) = PV/m = E/m, a Lajbnic je eksperimentalno otkrio da je nejgova "vis-viva", a danas poznaka kao kinetička energija: $E \propto mv^2$
+Dakle, imamo da je to: brzina na kvadrat.
+Znači, odnos (količnik) ove dve jedine promene koje se dešavaju ima dimenziju "brzina na kvadrat".
+Ta brzina može jedino da bude ... brzina prostiranja (propagacije):
+
+$$v = \sqrt{\frac{dP}{d\rho}}$$
+
+Uz neki faktor "korekcije", koji je "čist broj", i koji bi zavisio od ... temperature i tipa (vrste) gasa ili smeše gasova, njihove viskoznosti.
+
+Pritisak je sila po površini
 $$dP = \rho dx dv/dt$$
-$$dt = dx/v$$
+$$dx/dt = v$$
 $$dP = \rho v dv$$
 
 Da bismo videli šta sledi dalje, uvodimo „princip“ kontinuiteta. Jednačina kontinuiteta u infinitezimalnom obliku je:
