@@ -1471,7 +1471,7 @@ Predlažem da se fokusiramo na vašu pozitivnu teoriju umesto na negiranje posto
 
 **Zoran:**
 
-Koje je tvoje mišljenje o "priči" o Nojevoj barci,, Sodomi i Gomori, ... budućem "Armagednonu"?
+Koje je tvoje mišljenje o "priči" o Nojevoj barci,, Sodomi i Gomori, ... budućem "Armageddonu"?
 O odstranjivanju kancera iz okolnog, zdravog tkiva.
 O izreci "if the truth would kill them ... let them die".
 O Plankovom principu ("A new scientific truth does not triumph by convincing its opponents, but rather because its opponents eventually die")
