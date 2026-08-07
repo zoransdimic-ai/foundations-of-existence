@@ -53,6 +53,3 @@ Ono što gasi paradoks, dakle, nije pripisivanje debljine površini samo po sebi
 
 Ovo poglavlje, kratko kako jeste, dobro ilustruje metod čitave knjige: intuicija se ozbiljno uzima kao polazna tačka, ali se ne štedi kritičke provere — čak i kada (posebno kada) razotkriva da je prvobitni predlog rešenja bio pogrešan.
 
----
-
-*Ovim se zaokružuje jedanaest poglavlja radne kompilacije FOUNDATIONS materijala. Sledeći korak je tvoj — pregled, dorada, i odluka šta od ovoga ulazi u konačnu verziju knjige.*
