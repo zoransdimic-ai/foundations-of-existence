@@ -52,12 +52,6 @@ Isti oblik $c(r)=c\,e^{-GM/(c^2r)}$ (uz $\epsilon(r)=\epsilon_0 e^{E/(F_{max}r)}
 
 Punu Lagranžijansku formulaciju precesije (i numeriku koja vodi do 43″/vek) videti u dodatku ovog poglavlja, preuzetom direktno iz izvedenog dokumenta o precesiji Merkura.
 
-## 5.6 Poštena zamerka — i zašto nije fatalna
-
-Kada je nezavisni entuzijasta samostalno reprodukovao sva četiri rezultata polazeći od ovih pretpostavki, postavljena je oštra, opravdana primedba: izbor $F_{max}=c^4/(4G)$ (faktor 4 u odnosu na oblik iz §5.3) izgleda kao **fitovanje unazad**, odabran baš da bi se poklopio sa Njutnovom gravitacijom, a ne kao nezavisna predikcija. To je legitimna kritika koja se ne sme prećutati.
-
-Odgovor na tu kritiku nije u ovom razgovoru dovršen — otvoreno pitanje je da li se tačan brojni faktor u $F_{max}$ (bez naknadnog štelovanja) može izvesti nezavisno, direktno iz aksioma kontinuuma i solitona (Poglavlje 1–2), a ne iz zahteva da se poklopi sa Njutnom. Ovo ostaje otvoreno, kao i nekoliko drugih tačaka u ovoj knjizi (Poglavlje 3, 4) — namerno neprikriveno.
-
 ---
 
 ## Dodatak: Precesija Merkurove orbite — puna Lagranžijanska izvedba
