@@ -10,7 +10,8 @@ Ovaj dokument predstavlja aksiomatski i kinematički redukcionizam fizikalne rea
 
 ## I. Aksiomatska baza i definicija kontinuuma
 
-Univerzum se definiše kao savršen, glatki kontinuum lišen singulariteta, prekida i proizvoljnih stavki. Konstitutivni elementi postojanja koji formiraju ovaj neraskidivi jedinstveni medijum jesu:
+Univerzum se definiše kao savršen, glatki kontinuum lišen singulariteta, prekida i proizvoljnih stavki. 
+Konstitutivni elementi postojanja koji formiraju ovaj neraskidivi jedinstveni medijum jesu:
 
 *   **Infinitezimalno vreme ($dt$)** — Apsolutni, globalni parametar simultanosti ("SADA") koji prožima sve tačke.
 *   **Trodimenzionalni prostor ($3D$)** — Kontinualna, neograničena praznina bez unutrašnjeg viskoznog otpora.
@@ -25,23 +26,19 @@ Kontinuum je restriktovan sa dve fundamentalne granične relacije koje sprečava
 2.  **Gornja granica prostornog gradijenta energije (dinamički limit / maksimalna sila):**
     $$\left|\frac{dE}{ds}\right| \le F_{max} = \frac{1}{G \epsilon_0^2 \mu_0^2}$$
 
-*(Napomena o četiri fundamentalna tjunera postojanja):
+*(Napomena o četiri fundamentalna *tjunera* postojanja):
 Za razliku od standardne fizike koja konstante $\epsilon_0$, $\mu_0$, $h$, i $G$ drži razdvojene u izolovanim teorijskim fiokama, ovaj model ih prepoznaje kao četiri suštinska unutrašnja "tjunera" celokupnog postojanja. Oni su inherentni parametri samog dt--3D-prostor--$\epsilon$--$\mu$ kontinuuma.
 
 Pri tome, uočavamo suštinsku razliku u njihovoj prirodi:
-- Kvantni tjuner ($h$) i gravitacioni tjuner ($G$) su apsolutne konstante u najstrožem smislu reči — fiksne kosmičke invarijante koje se nikada ne menjaju.
-- Sa druge strane, elektrodinamički parametri ($\epsilon$ i $\mu$) su po svojoj prirodi "reaktivni" — oni lokalno reaguju na konfrontacioni tok energije. Vrednosti $\epsilon_0$ i $\mu_0$ predstavljaju isključivo karakteristične, referentne vrednosti ovih parametara za čist, neporemećeni vakuum.
+- Kvantni *tjuner* ($h$) i gravitacioni *tjuner* ($G$) su apsolutne konstante u najstrožem smislu reči — fiksne kosmičke invarijante koje se nikada ne menjaju.
+- Sa druge strane, elektrodinamički parametri ($\epsilon$ i $\mu$) su po svojoj prirodi *reaktivni* — oni lokalno reaguju na konfrontacioni tok energije. Vrednosti $\epsilon_0$ i $\mu_0$ predstavljaju isključivo karakteristične, referentne vrednosti ovih parametara za čist, neporemećeni vakuum.
 
-U stanju konfrontacije flukseva, $\epsilon$ i $\mu$ lokalno rastu iznad svojih baznih vrednosti ($\epsilon_0$, $\mu_0$), što uzrokuje pad lokalne brzine svetlosti i rađanje polja (gravitacije i elektrodinamike). U specifičnim prelaznim stanjima, dozvoljeno je da jedan od ovih parametara padne ispod svoje referentne vrednosti, ali isključivo pod uslovom da drugi parametar postane proporcionalno toliko puta veći, čime se garantuje da fundamentalni kosmički limit brzine $V_{max}$ ostane apsolutno nenarušen.
+U stanju konfrontacije flukseva, $\epsilon$ i $\mu$ lokalno rastu iznad svojih baznih vrednosti ($\epsilon_0$, $\mu_0$), što uzrokuje pad lokalne brzine svetlosti i rađanje polja (gravitacije i elektrodinamike). 
+U specifičnim prelaznim stanjima, dozvoljeno je da jedan od ovih parametara padne ispod svoje referentne vrednosti, ali isključivo pod uslovom da drugi parametar postane proporcionalno toliko puta veći, čime se garantuje da fundamentalni kosmički limit brzine $V_{max}$ ostane apsolutno nenarušen.
 
 Ove konstante i njihovi odnosi predstavljaju bazične fakte postojanja koji nemaju dublje obrazloženje — oni su fundamenti koji su takvi kakvi jesu da bi univerzum uopšte mogao da postoji kao konzistentan i stabilan sistem.*
 
 ---
-
-
-[META-PROMPT ZA CELINU II: GEOMETRIJA I INHERENTNA STABILNOST SOLITONA]
-Fokusiraj se na logičku nužnost izvođenja donje granice prostorne dužine. Analiziraj kako striktno ograničenje gradijenta dE/ds iznuđuje konačan dijametar energetskog paketa, čineći ga inherentno stabilnim sfernim solitonom bez potrebe za eksternom ("ambijentalnom") nelinearnošću medijuma.
-
 
 ## II. Inherentno stabilan energetski soliton i zakon $E \cdot T = h$
 
@@ -70,7 +67,7 @@ Lokalna gustina energije unutra solitona ($\rho_E = E/V$) dimenziono je ekvivale
 
 
 [META-PROMPT ZA CELINU III: KINEMATIČKA GENEZA GRAVITACIONOG PROFILA BRZINE]
-Analiziraj nelinearnu integraciju priraštaja permitivnosti dε/ε gde se ε tretira kao dinamička varijabla kontinuuma koja reaguje na sopstveno stanje usled konfrontacije flukseva. Potvrdi kako izvedeni eksponencijalni profil brzine v vakuuma predstavlja direktan ekvivalent metričkih koeficijenata bez upotrebe tenzorskog aparata.
+Analiziraj nelinearnu integraciju priraštaja permitivnosti dε/ε gde se ε tretira kao dinamička varijabla kontinuuma koja reaguje na sopstveno stanje usled konfrontacije flukseva. Uoči kako izvedeni eksponencijalni profil brzine v vakuuma predstavlja direktan ekvivalent metričkih koeficijenata bez upotrebe tenzorskog aparata.
 
 
 ## III. Nelinearna integracija kontinuuma i gravitacioni profil brzine
