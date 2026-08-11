@@ -204,21 +204,3 @@ The spectral radiation density law in this model bypasses the standard factor of
 
 Integrating this flux over the entire frequency spectrum ($\nu \in [0, \infty)$) via the Riemann zeta function ($\zeta(4) = \pi^4/90$), temperature isolates to the fourth power, generating the **Stefan-Boltzmann law of the continuum**:
 $$j^\star = \int_0^\infty PFpf(\nu, T)d\nu = \frac{6 k_B^4}{\pi h^3 c^2} \left( \frac{\pi^4}{15} \right) \cdot T^4 \implies \boxed{ j^\star = \frac{2 \pi^3 k_B^4}{5 h^3 c^2} \cdot T^4 = \sigma_{\text{new}} T^4 }$$
-
----
-
-## VII. Cosmology of Eternal Equilibrium and the Resolution of the Hubble Tension
-
-Because modern astronomy does not measure temperature directly, but instead detects the actual radiation flux intensity ($I$) and calculates temperature inversely via Planck's law, the use of the cubic factor $2$ instead of the spherical $\frac{6}{\pi}$ introduced a systematic error. Given that $\frac{6}{\pi} < 2$, real cosmic bodies must be hotter to emit the same measured flux through a less efficient spherical mechanism:
-$$T_{\text{actual}} = T_{\text{Planck}} \cdot \left(\frac{2}{6/\pi}\right)^{1/4} = T_{\text{Planck}} \cdot \left(\frac{\pi}{3}\right)^{1/4} \approx T_{\text{Planck}} \cdot 1.0116$$
-
-All radiation-measured temperatures in the universe are systematically underestimated by **$1.16\%$**, shifting the true temperature of the Cosmic Microwave Background (CMBR) to **$2.7571\text{ K}$** (instead of the official $2.7255\text{ K}$). Pursuant to the law $\rho_{\text{rad}} \propto T^4$, the true energy balance of radiation in the universe is higher by the exact ratio of the two factors:
-$$\frac{\rho_{\text{actual}}}{\rho_{\text{Planck}}} = \frac{2}{6/\pi} = \frac{\pi}{3} \approx 1.0472 \implies \mathbf{+4.72\%}$$
-
-The universe is physically non-expanding, nor did it originate from a Big Bang singularity. Traveling through a cosmic omni-continuum filled with a permanent energy density $\rho_E$, a photon slowly surrenders micro-portions of energy to the medium, manifesting as a linear red shift proportional to distance ($z \propto R$) — **deterministic tired light**. The derived Hubble constant represents an intrinsic property of the medium's elasticity and pressure:
-$$H_0 = \frac{c \cdot \rho_E}{F_{max}} = \frac{G \cdot \rho_E}{c^3}$$
-
-Injecting the corrected, **$4.72\%$** higher vacuum energy density (derived from the spherical geometry of solitons) into early-universe calculations causes the baseline Hubble constant derived from CMBR data to rise from $67.4$ to **$70.58 \text{ km/s/Mpc}$**. This result sits precisely at the center of the cosmological discrepancy and **completely resolves the Hubble Tension** — the greatest crisis in modern observational cosmology. The remaining fraction of the gap to the full $8.3\%$ discrepancy stems from an identical systematic error where mainstream physics calculates mass via a simple Newtonian approximation rather than through the integral soliton-mass of the vortex.
-
-
-The energy lost by "tired" photons is not destroyed; it degrades and thermalizes through permanent convolutions and collisions of the solitons' microscopic tails within the vacuum. The CMBR radiation at $2.75\text{ K}$ is not the echo of a primordial explosion, but the stable thermodynamic floor and baseline temperature of the cosmic energy reservoir. The universe maintains its eternal dynamic equilibrium, wherein the measured critical density $\rho_E = \frac{H_0 \cdot c^3}{G}$ is a standard operating point of a stable, non-expanding omni-continuum.
