@@ -27,7 +27,7 @@ The complete mathematical and theoretical derivations are available in both lang
 
 ## 🎯 Theoretical News and Advances
 
-This framework operates on just **two fundamental relations** within a smooth $\{dt, 3D, \epsilon, \mu\}$ continuum and delivers :
+This framework operates on just **two fundamental relations** within a smooth $\{dt, 3D, \epsilon, \mu\}$ continuum.
 
 ### 1. Micro-Scale: Emergent Charge & Soliton Stability
 
