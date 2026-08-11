@@ -59,7 +59,7 @@ Building on the 3D energy soliton established above, this section starts from a 
 
 ## 🛠 Next Steps & Planned Simulations
 
-*   **Finite Element Method (FEM) Modeling:** Transitioning from the baseline Gaussian approximation to advanced numerical simulations of real confrontational photon fluxes to eliminate the remaining $+17.25\%$ variance in the electron charge.
+*   **Finite Element Method (FEM) Modeling:** Transitioning from the baseline Gaussian approximation to advanced numerical simulations of real confrontational photon fluxes to investigate the remaining +17.25% variance in the electron charge.
 *   **Vortex-Vortex Interactions:** Numerical modeling of stable multi-vortex conglomerates (atomic structures) within the variable $\epsilon(r)$ and $\mu(r)$ medium.
 
 ---
