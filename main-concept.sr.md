@@ -197,7 +197,7 @@ $$\frac{P_s}{\bar{A}_{c.s.}} = \frac{E_s}{T_s \bar{A}_{c.s.}} = \frac{6}{\pi}\fr
 Deljenjem ovog fluksa sopstvenim frekvencijskim prozorom širine solitona ($\Delta\nu \sim \nu$), i množenjem sa funkcijom popunjenosti stanja $u$, dobijamo pun zakon spektralne gustine fluksa zračenja:
 $$\boxed{ PFpf\left(\nu,T\right)=\frac{6}{\pi}\frac{h}{c^2}\frac{\nu^3}{e^{h\nu/k_BT}-1}}$$
 
-Zakon spektralne gustine zračenja u ovom modelu ne koristi standardni faktor $2$ (koji se u klasici ad-hoc pripisuje transverzalnim polarizacijama u kockastoj šupljini), već uvodi **geometrijski prefaktor $\frac{6}{\pi}$** koji izranja iz odnosa zapremine i dužine sferne kapljice energije.
+Zakon spektralne gustine zračenja u ovom modelu uvodi **geometrijski prefaktor $\frac{6}{\pi}$** koji izranja iz odnosa zapremine i dužine sferne kapljice energije.
 
 Integracijom ovog fluksa po celom frekvencijskom spektru ($\nu \in [0, \infty)$) preko Rimanove zeta funkcije ($\zeta(4) = \pi^4/90$), temperatura se samostalno izoluje na četvrti stepen, generišući **Štefan-Bolcmanov zakon kontinuuma**:
 $$j^\star = \int_0^\infty PFpf(\nu, T)d\nu = \frac{6 k_B^4}{\pi h^3 c^2} \left( \frac{\pi^4}{15} \right) \cdot T^4 \implies \boxed{ j^\star = \frac{2 \pi^3 k_B^4}{5 h^3 c^2} \cdot T^4 = \sigma_{\text{novi}} T^4 }$$
