@@ -27,21 +27,22 @@ The complete mathematical and theoretical derivations are available in both lang
 
 ## 🎯 Theoretical News and Advances
 
-Unlike contemporary models that rely on ad-hoc fields, point-like singularities, and renormalization tricks, this framework operates on just **two fundamental relations** within a smooth $\{dt, 3D, \epsilon, \mu\}$ continuum and delivers exact results:
+This framework operates on just **two fundamental relations** within a smooth $\{dt, 3D, \epsilon, \mu\}$ continuum and delivers :
 
 ### 1. Micro-Scale: Emergent Charge & Soliton Stability
 
 *   **Modeling of a photon as 3D-energy-soliton**
 *   **Modeling of gamma-photons whirl (vortex)**
-*   **Deterministic Gaussian Profile:** Derived strictly from classical laws of motion ($F=ma$, $E=mc^2$) applied to an energetic vortex, proving the Gaussian curve is a dynamic necessity, not a statistical accident.
+*   **Deterministic Gaussian Profile:** Under the assumption of the simplest possible circular motion of an energy shell within the vortex, the resulting centripetal-balance equation integrates uniquely and unambiguously to a Gaussian energy-density profile — not one of several candidate forms, but the single, exact solution of this differential relation.
 *   **Singularity-Free Charge:** Integrating the confrontational energy density ($\breve{u}$) to the physical boundary of the soliton ($R = \sqrt{2}\sigma$) yields an effective charge of $1.1725 \cdot e$. The model achieves the exact order of magnitude of elementary charge with zero free parameters and no renormalization.
 ### 2. New derivation of thermal radiation and of thermodynamics
+Building on the 3D energy soliton established above, this section starts from a single combinatorial question — in how many ways can $n$ thermal emitters distribute $k$ solitons among themselves — and follows it, step by step, to the core of Planck's law. Each step follows directly from the one before it, with only one physical identification along the way: $dE/d\ln\Omega \equiv kT$, which is the same relation standard thermodynamics uses to define temperature itself ($T=\partial Q/\partial S$, $S=k\ln\Omega$). Along the way, the two central laws of thermodynamics governing the system emerge explicitly, rather than being assumed at the outset.
 
 ### 3. Macro-Scale: Kinematic Origin of Gravitation
 
-*   **The Velocity Profile:** Derives the vacuum velocity profile $V_{ee}(r) = c \cdot e^{-GM/c^2r}$, which serves as the exact isotropic equivalent to Schwarzschild metric coefficients without using any tensor apparatus.
+*   **The Velocity Profile:** Derives the vacuum velocity profile $V_{ee}(r) = c \cdot e^{-GM/c^2r}$
 *   **Birth of Dynamics:** Proves that Force and Inertial Mass are emergent kinematic consequences of the local spatial gradient of energy ($dE/dr = -a \cdot E/c^2$), naturally rendering $F=ma$ and $E=mc^2$.
-*   **100% Match with Classical OTR Proofs:** Analytically satisfies the **Pound-Rebka experiment**, **Shapiro Time Delay** ($247.4 \; \mu\text{s}$), **Gravitational Light Deflection** ($1.75''$), and the **Precession of Mercury's Orbit** ($43''$ per century).
+*   **Analytically fully satisfies** the **Pound-Rebka experiment**, **Shapiro Time Delay** ($247.4 \; \mu\text{s}$), **Gravitational Light Deflection** ($1.75''$), and the **Precession of Mercury's Orbit** ($43''$ per century).
 
 ---
 
