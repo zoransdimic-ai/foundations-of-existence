@@ -49,7 +49,7 @@ Finding the self-consistent, stationary solutions where the non-linear interacti
 *   **Positive Feedback Loop:** The localized rise of $\epsilon(r, \theta)$ and $\mu(r, \theta)$ bends the local velocity field, trapping the photon fluxes into a closed orbital path. This trapping reinforces the confrontational state, locking the energy into a permanent vortex.
 *   **Target Verification Metrics:**
     *   **Self-Locking Stability:** The vortex must remain stable over an infinite number of simulation timesteps without dissipating or collapsing.
-    *   **Charge Convergence:** Integrating the resulting emergent electric field $E_{el} = \sqrt{\breve{u}/\epsilon}$ over the closed sferoid surface must converge from the baseline analytical value of $1.1725 \cdot e$ down to exactly **$1.0000 \cdot e$**.
+    *   **Charge Convergence:** Determine the value toward which the integration of the emergent electric field ($E_{el}=\sqrt{\breve u/\epsilon}$) over the closed spheroid surface converges under the refined angular profile.
 
 ---
 
