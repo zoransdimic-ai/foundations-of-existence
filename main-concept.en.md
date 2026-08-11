@@ -193,7 +193,7 @@ $$\frac{P_s}{\bar{A}_{c.s.}} = \frac{E_s}{T_s \bar{A}_{c.s.}} = \frac{6}{\pi}\fr
 Dividing this flux by the soliton's own intrinsic frequency window ($\Delta\nu \sim \nu$), and multiplying by the state occupancy function $u$, we obtain the full law of spectral power flux density:
 $$\boxed{ PFpf\left(\nu,T\right)=\frac{6}{\pi}\frac{h}{c^2}\frac{\nu^3}{e^{h\nu/k_BT}-1} }$$
 
-The spectral radiation density law in this model bypasses the standard factor of $2$ (which classical physics attributes ad-hoc to transverse polarization states in a cubic cavity) and introduces a **geometric pre-factor of $\frac{6}{\pi}$**, emerging from the volume-to-length ratio of a spherical droplet of energy.
+The spectral radiation density law in this model introduces a **geometric pre-factor of $\frac{6}{\pi}$**, emerging from the volume-to-length ratio of a spherical droplet of energy.
 
 Integrating this flux over the entire frequency spectrum ($\nu \in [0, \infty)$) via the Riemann zeta function ($\zeta(4) = \pi^4/90$), temperature isolates to the fourth power, generating the **Stefan-Boltzmann law of the continuum**:
 $$j^\star = \int_0^\infty PFpf(\nu, T)d\nu = \frac{6 k_B^4}{\pi h^3 c^2} \left( \frac{\pi^4}{15} \right) \cdot T^4 \implies \boxed{ j^\star = \frac{2 \pi^3 k_B^4}{5 h^3 c^2} \cdot T^4 = \sigma_{\text{new}} T^4 }$$
