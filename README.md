@@ -20,8 +20,8 @@ Dobrodošli. Ovaj repozitorijum predstavlja aksiomatski, inherentno objedinjeni 
 
 The complete mathematical and theoretical derivations are available in both languages:
 
-*   **English:** [Main Concept — Inherently Unified Physics of a Smooth Continuum](main_concept.en.md)
-*   **Srpski:** [Glavni koncept — Inherentno objedinjena fizika glatkog kontinuuma](main_concept.sr.md)
+*   **English:** [Main Concept — Inherently Unified Physics of a Smooth Continuum](main-concept.en.md)
+*   **Srpski:** [Glavni koncept — Inherentno objedinjena fizika glatkog kontinuuma](main-concept.sr.md)
 
 ---
 
