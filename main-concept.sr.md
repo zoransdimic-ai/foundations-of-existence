@@ -86,8 +86,7 @@ $$\boxed{ V_{ee}(r) = c e^{-\frac{GM}{c^2 r}} }$$
 ---
 
 
-[META-PROMPT ZA CELINU IV: RAĐANJE DINAMIKE I VERIFIKACIJA EKSPERIMENATA]
-Rigorozno proveri dekompoziciju izvoda dv/dr. Analiziraj autorova tri dokaza (Njutnov, Aksiomatski, Numerički) zašto eksponencijalni faktor mora modifikovati lokalni vremenski element dτ, ostavljajući ubrzanje u strogoj Njutnovoj zavisnosti 1/r^2. Verifikuj kako se iz prostornog gradijenta energije fotona dE/dr prirodno rađaju sila i efektivna inercijalna masa E/c^2 bez uvođenja ad-hoc postulata.
+[META-PROMPT ZA CELINU IV] Proveri dekompoziciju izvoda dv/dr korak po korak. Oceni da li su tri argumenta za to da eksponencijalni faktor mora modifikovati dτ (a ne ubrzanje) uverljiva, ili sadrže prećutnu pretpostavku. Proveri da li F=ma i E=mc² zaista slede iz gradijenta dE/dr bez dodatnih postulata, ili je neki korak sam po sebi postulat predstavljen kao posledica.
 
 
 ## IV. Emergentna dinamika: Rađanje sile, mase i klasični dokazi
@@ -123,8 +122,7 @@ $$\boxed{ F = m \cdot a } \quad \text{gde je} \quad \boxed{ m = \frac{E}{c^2} \i
 ---
 
 
-[META-PROMPT ZA CELINU V: DETERMINISTIČKA GENEZA GAUSA I RAČUN NAELEKTRISANJA]
-Fokusiraj se na proveru integracije i uklanjanje singulariteta. Analiziraj kako se unutar sfernog vrtloga, integracijom korena konfrontacione gustine energije $\sqrt{\epsilon_0 \cdot \breve{u}(r)} do fiksnog ruba solitona R = \sqrt{2}$σ, dobija univerzalna vrednost efektivnog naelektrisanja. Potvrdi da je količnik I1/λ imun na promenu mase i da iznosi tačno 1.1725 e bez uvođenja ad-hoc singulariteta ili renormalizacije.
+[META-PROMPT ZA CELINU V] Proveri integraciju √(ε₀·ǔ(r)) do granice R=√2σ korak po korak. Oceni da li je izbor te granice nezavisno motivisan ili prilagođen da bi se dobila određena vrednost. Proveri da li je količnik I1/λ zaista nezavisan od mase, uporedi dobijenu vrednost (1.1725 e) sa elementarnim naelektrisanjem, i razmotri koliko to odstupanje ima fizički značaj.
 
 
 ## V. Deterministički Gausov profil i emergentno naelektrisanje elektrona
