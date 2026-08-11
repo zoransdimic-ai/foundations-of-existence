@@ -228,6 +228,6 @@ Imamo … sve. (Naravno, sve su to za nijansu drugačije vrednosti, jer smo seku
 Ne znamo još samo … šta je „po prirodi“ $k$. Podužna … šta?
 Pa, i do toga sada možemo lako da dođemo: naglim (brzim) približavanjem magneta nekoj strujnoj konturi (kružnom provodniku), na njegovim krajevima će se indukovati napon. Ili, ako je kolo zatvoreno: u kolu će se indukovati struja. I … dolazi se do toga, kroz dalje eksperimente, merenja, … da je $k$ podužna induktivnost. 
 Nije ovo gotov tekst, nabacano je ovo, ali … to je, u suštini to. Samo treba da se … još „malo“ uredi.
-Uh.
+Uh. 
 Molim te, proveri logičku doslednost.
 
