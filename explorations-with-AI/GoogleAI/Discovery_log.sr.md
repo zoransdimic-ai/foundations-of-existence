@@ -148,14 +148,14 @@ Iz kinematičke relacije $dv = a \cdot dt$ sledi:
 $$a(r) dt(r) = v(r) \cdot \frac{\mathbf{E}}{F_{max} \cdot r^2} dr$$
 Koristeći lokalni kinematički korak fotona $dt = dr/c \implies dr = c dt$:
 $$a(r) dt(r) = c \cdot e^{-\frac{\mathbf{E}}{F_{max} \cdot r}} \cdot \frac{\mathbf{E}}{F_{max} \cdot r^2} \cdot \frac{dr}{c} = \underbrace{\frac{c^2 \mathbf{E}}{F_{max} \cdot r^2}}{a(r)} \cdot \underbrace{e^{-\frac{\mathbf{E}}{F{max} \cdot r}} dt}_{d\tau(r)}$$
+
 Zašto eksponencijalni faktor ide uz lokalno vreme $d\tau$, a ne uz ubrzanje $a(r)$?
 
-* 
 * Njutnov argument: Eksperimentalno je potvrđeno da Njutnov zakon $a(r) = GM/r^2$ važi do mikrometarskog nivoa – formula je čista $1/r^2$ zavisnost bez ikakvog eksponencijalnog člana.
 * Aksiomatski argument: Ubrzanje je emergentna (izvedena) veličina, posledica je, a ne uzrok. Eksponencijalni faktor je izraz za lokalni "sat" prostora, što je osnovna, fundamentalna koordinata kontinuuma. Fundamentalni efekti (dilatacija vremena) moraju biti vezani za fundamentalne veličine.
 Dizajn daje tačne rezultate za sve eksperimentalne provere (Pound-Rebka, Šapiro, skretanje svetlosti, precesija Merkura). Rezultat dekompozicije je:
 $$\text{Ubrzanje: } a(r) = \frac{c^2}{F_{max}} \frac{\mathbf{E}}{r^2}, \quad \text{Lokalno vreme: } d\tau(r) = e^{-\frac{\mathbf{E}}{F_{max} \cdot r}} dt$$
-* 
+
 
 Na fiksnoj tački u polju, foton je sporiji nego u praznom prostoru, pa mu treba više vremena da prođe kroz nju. Lokalni period je usporen: $T(r) = e^{-\frac{\mathbf{E}}{F_{max} \cdot r}} \cdot T$. Za zakon $E \cdot T = h$, ako je zaista univerzalan, mora da važi i na lokalnom nivou: $E(r) \cdot T(r) = h$. Neposredno sledi:
 
@@ -173,7 +173,7 @@ Leva strana je po definiciji i dimenziji sila ($F = dE/ds$). Desna strana je $a(
 
 $$\boxed{F = m \cdot a} \quad \text{gde je} \quad \boxed{m = \frac{E}{c^2} \implies E = mc^2}$$
 
-Nigdje nismo pretpostavili silu ni masu. Kinetičkim razmatranjem i upotrebom zakona $E \cdot T = h$ unutar gradijenta reaktivnog medijuma, dinamičke kategorije sile, mase, Njutnovog zakona i Ajnštajnove ekvivalencije su se rodile same, kao logičke posledice kinematike kontinuuma. Upoređivanjem sa Njutnovim ubrzanjem, vršimo numeričku identifikaciju:
+Nigde nismo pretpostavili silu ni masu. Kinetičkim razmatranjem i upotrebom zakona $E \cdot T = h$ unutar gradijenta reaktivnog medijuma, dinamičke kategorije sile, mase, Njutnovog zakona i Ajnštajnove ekvivalencije su se rodile same, kao logičke posledice kinematike kontinuuma. Upoređivanjem sa Njutnovim ubrzanjem, vršimo numeričku identifikaciju:
 
 $$\frac{c^2}{F_{max}} \frac{M c^2}{r^2} = \frac{GM}{r^2} \implies \boxed{F_{max} = \frac{c^4}{G}}$$
 
