@@ -33,10 +33,10 @@ Doživljavamo prostor kao neprekidnu, neograničenu prazninu (*void*) koja ne pr
 
 U početku mi se činilo da bi gustina unutar solitona mogla biti konstantna. Međutim, zamislimo malu tubu koja prolazi kroz centar energijskog solitona i podelimo je na jednake delove. U svakom tom delu tube, koji su svi međusobno jednakih zapremina, imamo sve veću i veću energiju kako se krećemo prema centru. Dakle, imamo sve veću i veću gustinu. Raspodela gustine energije mora takođe da ima glatko kontinualnu *bump-like* raspodelu. 
 
-Razmisli AI, rešenje za formiranje materije je jednostavno. "Za ljubav je potrebno dvoje". Dva fotona visoke energije koji idu u susret jedan drugom. Neki se privremeno zagrle, ali "ljubav kratko potraje" i oni odu, svako svojim pravolinijskim putem, ali različitim od onog pre susreta. A neki ostanu u dugom, trajnom zagrljaju. Kako? Pa, jedino što je "novo" u tom dešavanju jeste: konfrontacioni fluks visokih gustina energije. A brzinu i putanju fotona određuju $\epsilon$ i $\mu$. Jedino konfrontacioni fluks visokih gustina energije može da bude to što izazove promene $\epsilon$-a i $\mu$-a u oblasti gde se taj fluks dešava. Intuitivno bismo, kao i kod intenziteta svakog sudara, bilo kog sudara, očekivali *peak-like* porast $\epsilon$-a i $\mu$-a. A ako to "prevedemo" u dozvoljene brzine koje takva raspodela $\epsilon$-a i $\mu$-a stvara, dobijamo raspodelu koja je vrlo slična raspodeli brzina duž prečnika čvrstog diska koji rotira. U stvari, odmah, skiciranjem, možemo da vidimo da vismo dobili ovakvu raspodelu dozvoljenih brzina:
-____    ____
-    \  /
-     \/
+Razmisli AI, rešenje za formiranje materije je jednostavno. "Za ljubav je potrebno dvoje". Dva fotona visoke energije koji idu u susret jedan drugom. Neki se privremeno zagrle, ali "ljubav kratko potraje" i oni odu, svako svojim pravolinijskim putem, ali različitim od onog pre susreta. A neki ostanu u dugom, trajnom zagrljaju. Kako? Pa, jedino što je "novo" u tom dešavanju jeste: konfrontacioni fluks visokih gustina energije. A brzinu i putanju fotona određuju $\epsilon$ i $\mu$. Jedino konfrontacioni fluks visokih gustina energije može da bude to što izazove promene $\epsilon$-a i $\mu$-a u oblasti gde se taj fluks dešava. Intuitivno bismo, kao i kod intenziteta svakog sudara, bilo kog sudara, očekivali *peak-like* porast $\epsilon$-a i $\mu$-a. A ako to "prevedemo" u dozvoljene brzine koje takva raspodela $\epsilon$-a i $\mu$-a stvara, dobijamo raspodelu koja je vrlo slična raspodeli brzina duž prečnika čvrstog diska koji rotira. U stvari, odmah, skiciranjem, možemo da vidimo da vismo dobili ovakvu radijalnu raspodelu dozvoljenih brzina:
+    ____    ____
+        \  /
+         \/
 Koja neizostavno dovodi do vrtložnog kretanja energije fotona.
 
 
