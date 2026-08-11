@@ -205,21 +205,4 @@ Zakon spektralne gustine zračenja u ovom modelu ne koristi standardni faktor $2
 Integracijom ovog fluksa po celom frekvencijskom spektru ($\nu \in [0, \infty)$) preko Rimanove zeta funkcije ($\zeta(4) = \pi^4/90$), temperatura se samostalno izoluje na četvrti stepen, generišući **Štefan-Bolcmanov zakon kontinuuma**:
 $$j^\star = \int_0^\infty PFpf(\nu, T)d\nu = \frac{6 k_B^4}{\pi h^3 c^2} \left( \frac{\pi^4}{15} \right) \cdot T^4 \implies \boxed{ j^\star = \frac{2 \pi^3 k_B^4}{5 h^3 c^2} \cdot T^4 = \sigma_{\text{novi}} T^4 }$$
 
----
-
-## VII. Kosmologija večnog ekvilibrijuma i rešenje Hablove tenzije
-
-Pošto savremena astronomija ne meri temperaturu direktno, već detektuje intenzitet fluksa zračenja ($I$) pa temperaturu računa inverzno preko Plankovog zakona, upotreba kockastog faktora $2$ umesto sfernog $\frac{6}{\pi}$ dovela je do sistemske greške. Budući da je $\frac{6}{\pi} < 2$, realni kosmički objekti moraju biti topliji kako bi kroz manje efikasan sferni mehanizam emitovali isti izmereni fluks:
-$$T_{\text{stvarna}} = T_{\text{Plank}} \cdot \left(\frac{2}{6/\pi}\right)^{1/4} = T_{\text{Plank}} \cdot \left(\frac{\pi}{3}\right)^{1/4} \approx T_{\text{Plank}} \cdot 1.0116$$
-
-Sve temperature merene preko zračenja crnog tela u univerzumu potcenjene su za **$1.16\%$**, što pomera stvarnu temperaturu kosmičkog pozadinskog zračenja (CMBR) na **$2.7571\text{ K}$** (umesto zvaničnih $2.7255\text{ K}$). Shodno zakonu $\rho_{\text{rad}} \propto T^4$, stvarni energetski bilans zračenja u svemiru je viši za tačan odnos dva faktora:
-$$\frac{\rho_{\text{stvarna}}}{\rho_{\text{Plank}}} = \frac{2}{6/\pi} = \frac{\pi}{3} \approx 1.0472 \implies \mathbf{+4.72\%}$$
-
-Svemir se fizički ne širi, niti je imao početak u singuralitetu Velikog praska. Putujući kroz kosmički omni-kontinuum ispunjen permanentnom gustinom energije $\rho_E$, foton polako predaje mikro-porcije energije medijumu, što se manifestuje kao linearni crveni pomak proporcionalan rastojanju ($z \propto R$) — **deterministički umor svetlosti**. Izvedena Hablova konstanta predstavlja čisto svojstvo elastičnosti i pritiska samog medijuma:
-$$H_0 = \frac{c \cdot \rho_E}{F_{max}} = \frac{G \cdot \rho_E}{c^3}$$
-
-Ubacivanjem korigovane, za **$4.72\%$** više gustine energije vakuuma (dobijene iz sferne geometrije solitona) u jednačine ranog svemira, bazična predikcija Hablove konstante automatski skače sa $67.4$ na **$70.58 \text{ km/s/Mpc}$**. Ovaj rezultat se nalazi tačno u središtu disprekancije i **u potpunosti rešava Hablovu tenziju** — najveću krizu moderne opservacione kosmologije. Preostali deo jaza do punih $8.3\%$ nesklada potiče od identične sistemske greške kojom zvanična fizika računa masu preko proste Njutnove aproksimacije, umesto preko integralne soliton-mase vrtloga.
-
-Izgubljena energija "umornih" fotona se ne uništava; ona se degradira i termalizuje kroz permanentne konvolucije i sudare mikroskopskih repova solitona unutar vakuuma. CMBR zračenje na temperaturi od $2.75\text{ K}$ nije eho primordijalne eksplozije, već **stabilno termodinamičko dno i bazična temperatura kosmičkog rezervoara energije**. Svemir održava svoju večnu dinamičku ravnotežu, u kojoj je izmerena kritična gustina $\rho_E = \frac{H_0 \cdot c^3}{G}$ prosta radna tačka stabilnog, ne-ekspandirajućeg omni-kontinuuma.
-
 ------------------------------
