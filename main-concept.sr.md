@@ -1,16 +1,16 @@
+
 # Inherentno objedinjena fizika glatkog kontinuuma
 **Autor:** Zoran S. Dimić  
 **Datum:** Avgust 2026.  
 **Projekat:** Foundations of Existence / Osnovi postojanja  
 ---
 
-[META-PROMPT: OKVIR ZA ANALIZU] Ovaj dokument uvodi aksiome koji se u više tačaka razlikuju od standardne fizike. Proceni svaki korak izvođenja na osnovu njegove sopstvene logičke, matematičke i dimenzione doslednosti — nezavisno od toga da li se slaže sa uobičajenim teorijskim okvirom. Gde nešto ne sledi iz prethodnog koraka, ili gde je uveden nov, neobrazložen element, to eksplicitno navedi.
+**[META-PROMPT: OKVIR ZA ANALIZU]** Ovaj dokument uvodi aksiome koji se u više tačaka razlikuju od standardne fizike. Proceni svaki korak izvođenja na osnovu njegove sopstvene logičke, matematičke i dimenzione doslednosti — nezavisno od toga da li se slaže sa uobičajenim teorijskim okvirom. Gde nešto ne sledi iz prethodnog koraka, ili gde je uveden nov, neobrazložen element, to eksplicitno navedi.
 
 
 ## I. Aksiomatska baza i definicija kontinuuma
 
-Univerzum se definiše kao savršen, glatki kontinuum lišen singulariteta, prekida i proizvoljnih stavki. 
-Konstitutivni elementi postojanja koji formiraju ovaj neraskidivi jedinstveni medijum jesu:
+Univerzum se definiše kao savršen, glatki kontinuum lišen singulariteta, prekida i proizvoljnih stavki. Konstitutivni elementi postojanja koji formiraju ovaj neraskidivi jedinstveni medijum jesu:
 
 *   **Infinitezimalno vreme ($dt$)** — Apsolutni, globalni parametar simultanosti ("SADA") koji prožima sve tačke.
 *   **Trodimenzionalni prostor ($3D$)** — Kontinualna, neograničena praznina bez unutrašnjeg viskoznog otpora.
@@ -25,176 +25,199 @@ Kontinuum je restriktovan sa dve fundamentalne granične relacije koje sprečava
 2.  **Gornja granica prostornog gradijenta energije (dinamički limit / maksimalna sila):**
     $$\left|\frac{dE}{ds}\right| \le F_{max} = \frac{1}{G \epsilon_0^2 \mu_0^2}$$
 
-*(Napomena o četiri fundamentalna *tjunera* postojanja):
-Za razliku od standardne fizike koja konstante $\epsilon_0$, $\mu_0$, $h$, i $G$ drži razdvojene u izolovanim teorijskim fiokama, ovaj model ih prepoznaje kao četiri suštinska unutrašnja "tjunera" celokupnog postojanja. Oni su inherentni parametri samog dt--3D-prostor--$\epsilon$--$\mu$ kontinuuma.
-
-Pri tome, uočavamo suštinsku razliku u njihovoj prirodi:
-- Kvantni *tjuner* ($h$) i gravitacioni *tjuner* ($G$) su apsolutne konstante u najstrožem smislu reči — fiksne kosmičke invarijante koje se nikada ne menjaju.
-- Sa druge strane, elektrodinamički parametri ($\epsilon$ i $\mu$) su po svojoj prirodi *reaktivni* — oni lokalno reaguju na konfrontacioni tok energije. Vrednosti $\epsilon_0$ i $\mu_0$ predstavljaju isključivo karakteristične, referentne vrednosti ovih parametara za čist, neporemećeni vakuum.
-
-U stanju konfrontacije flukseva, $\epsilon$ i $\mu$ lokalno rastu iznad svojih baznih vrednosti ($\epsilon_0$, $\mu_0$), što uzrokuje pad lokalne brzine svetlosti i rađanje polja (gravitacije i elektrodinamike). 
-U specifičnim prelaznim stanjima, dozvoljeno je da jedan od ovih parametara padne ispod svoje referentne vrednosti, ali isključivo pod uslovom da drugi parametar postane proporcionalno toliko puta veći, čime se garantuje da fundamentalni kosmički limit brzine $V_{max}$ ostane apsolutno nenarušen.
-
-Ove konstante i njihovi odnosi predstavljaju bazične fakte postojanja koji nemaju dublje obrazloženje — oni su fundamenti koji su takvi kakvi jesu da bi univerzum uopšte mogao da postoji kao konzistentan i stabilan sistem.*
+*(Napomena o četiri fundamentalna parametra postojanja: ovaj model tretira $\epsilon_0$, $\mu_0$, $h$ i $G$ kao konstitutivne parametre samog $\{dt, 3D, \epsilon, \mu\}$ kontinuuma, a ne kao konstante razbacane po odvojenim teorijskim domenima. $h$ i $G$ se tretiraju kao fiksne kosmičke invarijante; $\epsilon$ i $\mu$ kao lokalno reaktivni, odgovarajući na konfrontacioni tok energije, sa $\epsilon_0,\mu_0$ kao referentnim vrednostima za neporemećeni vakuum. Pod konfrontacijom, $\epsilon$ i $\mu$ lokalno rastu iznad bazne vrednosti, snižavajući lokalnu brzinu prostiranja i rađajući polja. Ovi parametri i njihovi odnosi ovde se tretiraju kao primitivi koji se dalje ne svode — to je modelski izbor, eksplicitno tako naznačen, ne tvrdnja da dublje svođenje nije moguće.)*
 
 ---
 
+**[META-PROMPT ZA CELINU II]** Proceni da li ograničenje gradijenta $dE/ds$ zaista iznuđuje konačnu donju granicu prostorne dužine, i da li to sledi bez dodatne pretpostavke mimo onoga što je već uvedeno u Celini I.
+
 ## II. Inherentno stabilan energetski soliton i zakon $E \cdot T = h$
 
-Lokalizovani entitet u glatkom kontinuumu ne može imati oštre prekide na rubovima. On se matematički definiše kao glatki energetski paket (*bump-like* entitet / soliton). 
+Lokalizovani entitet u glatkom kontinuumu ne može imati oštre prekide na rubovima. On se matematički definiše kao glatki energetski paket (*bump-like* entitet / soliton).
 
 Ukupna unutrašnja karakteristika ovog entiteta dobija se integracijom duž njegovog pravca prostiranja:
 $$\int E \, ds = \bar{E} \cdot s = A$$
-gde je $\bar{E}$ prosečna energija, a $s$ prostorni dijametar entiteta. 
+gde je $\bar{E}$ prosečna energija, a $s$ prostorni dijametar entiteta.
 
 Ako variramo unutrašnju strukturu stabilnog, samoodrživog entiteta ($d(\bar{E} \cdot s) = 0$), prostorni gradijent poprima oblik:
 $$\frac{dE}{ds} = -\frac{E}{s}$$
 Podvrgavanjem ovog unutrašnjeg gradijenta opštem kosmičkom ograničenju dinamičkog limita ($\left|dE/ds\right| \le F_{max}$), sledi:
 $$\left|-\frac{E}{s}\right| \le F_{max} \implies \frac{A/s}{s} \le F_{max} \implies s \ge \sqrt{\frac{A}{F_{max}}}$$
 
-**Logički zaključak:** Da bi postojala stabilna, fiksna donja granica prostorne dužine ($s_{min}$) — koja omogućava građenje atoma i sprečava amorfno rasplinjavanje energije — integralna vrednost $A$ **mora biti univerzalna konstanta**. Da je relacija bila količnik ($E/s$), donja geometrijska granica ne bi mogla biti definisana.
+**Zaključak:** Da bi postojala stabilna, fiksna donja granica prostorne dužine ($s_{min}$) — koja omogućava građenje atoma i sprečava amorfno rasplinjavanje energije — integralna vrednost $A$ mora biti univerzalna konstanta. Da je relacija bila količnik ($E/s$), donja geometrijska granica ne bi mogla biti definisana na ovaj način.
 
-Za bazični energetski entitet koji se kreće graničnom brzinom $c$ (foton), prostorna dužina $s$ je neraskidivo vezana za vreme $T$ koje mu je potrebno da prođe kroz sopstvenu tačku prostiranja:
+Za bazični energetski entitet koji se kreće graničnom brzinom $c$ (foton), prostorna dužina $s$ vezana je za vreme $T$ koje mu je potrebno da prođe kroz sopstvenu tačku prostiranja:
 $$s = c \cdot T$$
-Zamenom ove geometrije u prostornu konstantu akcije dobijamo prelaz sa prostorne na vremensku spregu:
+Zamenom u prostornu konstantu akcije:
 $$\bar{E} \cdot (c \cdot T) = C_u \implies \bar{E} \cdot T = \frac{C_u}{c} = h$$
-Relacija **$E_{ee} T_{ee} = h$** je najjednostavnija linearna sprega i prirodna posledica savršenosti kontinuuma. Ona dokazuje da **frekvencija ($\nu$) nije fundament — vreme ($T$) jeste**. Frekvencija je samo izvedena manifestacija unutrašnjeg vremenskog trajanja loklanog entiteta.
+Relacija **$E_{ee} T_{ee} = h$** je najjednostavnija linearna sprega saglasna sa glatkim kontinuumom. U ovom čitanju, frekvencija ($\nu$) se ne tretira kao fundamentalna veličina — vreme ($T$) jeste; frekvencija se izvodi kao $\nu=1/T$.
 
-Lokalna gustina energije unutra solitona ($\rho_E = E/V$) dimenziono je ekvivalentna unutrašnjem pritisku ($[J/m^3] = Pa$). Prostorna promena te gustine od centra ka periferiji generiše negativan, radijalni gradijent energije ($\nabla E < 0$), što predstavlja **inherentnu silu orijentisanu uvek ka centru solitona**. Ova sila drži entitet na okupu (sprečava disperziju), dok limit $F_{max}$ sprečava kolaps u tačku. Rezultat je stabilan, samoodrživi sferoidni soliton.
+Lokalna gustina energije unutar solitona ($\rho_E = E/V$) dimenziono je ekvivalentna pritisku ($[J/m^3] = Pa$). Njena prostorna promena od centra ka periferiji generiše negativan radijalni gradijent ($\nabla E < 0$) — inherentnu silu usmerenu ka centru, koja drži entitet na okupu, dok $F_{max}$ sprečava kolaps u tačku. Rezultat je stabilan, samoodrživi soliton.
 
 ---
 
-
-[META-PROMPT ZA CELINU III] Proveri korak po korak integraciju dε/ε. Oceni da li izvedeni eksponencijalni profil brzine v(r) zaista odgovara poznatim metričkim koeficijentima u slabom polju — i ako da, pod kojim uslovima i aproksimacijama to važi.
+**[META-PROMPT ZA CELINU III]** Proveri korak po korak integraciju $d\epsilon/\epsilon$. Oceni da li izvedeni eksponencijalni profil brzine $v(r)$ zaista odgovara poznatim metričkim koeficijentima u slabom polju — i ako da, pod kojim uslovima i aproksimacijama to važi.
 
 ## III. Nelinearna integracija kontinuuma i gravitacioni profil brzine
 
-Kada se dva visokoenergetska toka (npr. gama fotona) nađu u direktnom konfrontacionom toku, njihovi fluksevi vrše lokalni pritisak na kontinuum, menjajući njegove bazične parametre. Pošto je kontinuum varijabla koja reaguje na sopstveno trenutno stanje, priraštaj permitivnosti ($d\epsilon$) je srazmeran trenutnoj vrednosti ($\epsilon$), što iznuđuje nelinearnu integraciju:
+Kada se dva visokoenergetska toka (npr. gama fotona) nađu u direktnoj konfrontaciji, njihovi fluksevi vrše lokalni pritisak na kontinuum, menjajući njegove parametre. Tretirajući kontinuum kao reaktivan na sopstveno trenutno stanje, priraštaj permitivnosti ($d\epsilon$) uzima se srazmeran trenutnoj vrednosti ($\epsilon$), što daje nelinearni integral:
 
 $$\int_{\epsilon_p}^{\epsilon}\frac{d\epsilon}{\epsilon} = \frac{1}{F_{max}}\int_{0}^{E}\frac{dE}{R_0 + r} \implies \epsilon(r) = \epsilon_p e^{\frac{1}{F_{max}}\frac{E}{R_0 + r}}$$
-gde je $\epsilon_p$ početna vrednost permitivnosti na datom mestu, a $R_0$ minimalni radijus stabilizacije energetskog vrtloga. 
 
-Primenom principa linearne superpozicije u eksponentu za makroskopski sferni klaster koji se sastoji od $n$ identičnih vrtloga ukupne energije $\mathbf{E} = nE$, na rastojanjima $r \gg R_0$, asimptotski profili $\epsilon(r)$ i $\mu(r)$ u okolini tela poprimaju oblik:
+gde je $\epsilon_p$ početna vrednost permitivnosti na datom mestu, a $R_0$ minimalni radijus stabilizacije vrtloga.
+
+Za makroskopski sferni klaster od $n$ identičnih vrtloga ukupne energije $\mathbf{E}=nE$, na $r\gg R_0$, asimptotski profili postaju:
 $$\epsilon(r) = \epsilon_0 e^{\frac{\mathbf{E}}{F_{max}\cdot r}}, \quad \mu(r) = \mu_0 e^{\frac{\mathbf{E}}{F_{max}\cdot r}}$$
 
-Povećanjem ukupne zarobljene energije $\mathbf{E}$, parametri kontinuuma rastu, što uzrokuje eksponencijalni pad lokalno dozvoljene brzine prostiranja promena polja ($V_{ee}$):
-$$V_{ee}(r) = \frac{1}{\sqrt{\epsilon(r)\mu(r)}} = \frac{1}{\sqrt{\epsilon_0\mu_0 \cdot e^{\frac{2\mathbf{E}}{F_{max}\cdot r}}}} = V_{max} e^{-\frac{1}{F_{max}} \frac{\mathbf{E}}{r}} = c e^{-\frac{\mathbf{E}}{F_{max} \cdot r}}$$
+dajući lokalnu brzinu prostiranja:
+$$V_{ee}(r) = \frac{1}{\sqrt{\epsilon(r)\mu(r)}} = c\,e^{-\frac{\mathbf{E}}{F_{max}\cdot r}}$$
 
-Zamenom Njutnovog ekvivalenta maksimalne sile $F_{max} = c^4/G$ i totalne energije $\mathbf{E} = M c^2$, dobijamo fundamentalni profil brzine vakuuma u okolini masivnog tela:
-$$\boxed{ V_{ee}(r) = c e^{-\frac{GM}{c^2 r}} }$$
+Zamenom $F_{max}=c^4/G$ (videti Poglavlje 5, §5.3 objedinjene izvedbe za nezavisno izvođenje ovog identiteta) i $\mathbf{E}=Mc^2$:
+$$\boxed{ V_{ee}(r) = c\, e^{-\frac{GM}{c^2 r}} }$$
 
----
-
-
-[META-PROMPT ZA CELINU IV] Proveri dekompoziciju izvoda dv/dr korak po korak. Oceni da li su tri argumenta za to da eksponencijalni faktor mora modifikovati dτ (a ne ubrzanje) uverljiva, ili sadrže prećutnu pretpostavku. Proveri da li F=ma i E=mc² zaista slede iz gradijenta dE/dr bez dodatnih postulata, ili je neki korak sam po sebi postulat predstavljen kao posledica.
-
-
-## IV. Emergentna dinamika: Rađanje sile, mase i klasični dokazi
-
-Diferenciranjem izvedenog profila brzine $V_{ee}(r)$ po radijusu $r$ dobijamo:
-$$\frac{dv(r)}{dr} = v(r) \cdot \frac{\mathbf{E}}{F_{max}\,r^2}$$
-Iz bazične kinematičke relacije $dv = a \cdot dt$, sledi:
-$$a(r)\,dt(r) = v(r) \cdot \frac{\mathbf{E}}{F_{max}\,r^2} \cdot dr$$
-
-Zamenom lokalnog kinematičkog koraka fotona $dt = dr/c$, vršimo egzaktna dekompoziciju:
-
-$$a(r) \cdot dt(r) = c \\, e^{-\frac{\mathbf{E}}{F_{max}\\,r}} \cdot \frac{\mathbf{E}}{F_{max}\\,r^2} \cdot \frac{dr}{c} = \underbrace{\frac{c^2\\,\mathbf{E}}{F_{max}\\,r^2}}_{a(r)} \cdot \underbrace{e^{-\frac{\mathbf{E}}{F_{max}\\,r}}\\,dt}_{d\tau(r)}$$
-
-Eksponencijalni faktor mora biti ekskluzivno vezan za vremenski element ($d\tau$), a ne za ubrzanje ($a$), tapkanje eksperimenata potvrđuje da Njutnovo ubrzanje zadržava čistu $1/r^2$ zavisnost bez eksponenta. Vreme je bazična koordinata kontinuuma, dok je ubrzanje emergentna veličina. Iz ove kinematike direktno izviru rezultati:
-*   **Ubrzanje klastera:** $a(r) = \frac{c^2}{F_{max}} \cdot \frac{\mathbf{E}}{r^2} = \frac{GM}{r^2}$
-*   **Lokalno vreme (Dilatacija):** $d\tau(r) = e^{-\frac{GM}{c^2 r}} \cdot dt$
-*   **Lokalni putni element:** $ds(r) = e^{-2\frac{GM}{c^2 r}} \cdot dr$
-
-Prenošenjem univerzalnosti zakona $E \cdot T = h$ na lokalni nivo ($E(r) \cdot T(r) = h$), energija fotona u polju raste usled usporavanja lokalnog perioda $T(r)$:
-$$E(r) = E \cdot e^{\frac{\mathbf{E}}{F_{max}\,r}}$$
-Diferenciranjem ove energije po prostornom radijusu, dobijamo njen gradijent:
-$$\frac{dE(r)}{dr} = - E \cdot e^{\frac{\mathbf{E}}{F_{max}\,r}} \cdot \frac{\mathbf{E}}{F_{max}\,r^2} = - E(r) \cdot \frac{a(r)}{c^2} \implies \boxed{ \frac{dE(r)}{dr} = - a(r) \cdot \frac{E(r)}{c^2} }$$
-
-Leva strana ($dE/dr$) po svojoj dimenziji i fizičkom smislu predstavlja **silu ($F$)**. Desna strana odgovara Njutnovom obliku $F = m \cdot a$. Dinamičke kategorije sile i inercijalne mase ovde nisu postulisane, već su se rodile same kao čiste posledice kinematike kontinuuma, pružajući direktan dokaz za:
-$$\boxed{ F = m \cdot a } \quad \text{gde je} \quad \boxed{ m = \frac{E}{c^2} \implies E = mc^2 }$$
-
-### Eksperimentalna verifikacija modela
-1.  **Pound-Rebka eksperiment:** Linearizacijom izraza za $E(r)$ između vrha i dna tornja visine $H$ direktno se dobija relativna promena energije $\frac{\Delta E}{E} = \frac{gH}{c^2}$, što se stoprocentno poklapanja sa izmerenim vrednostima ($1.13 \times 10^{-15}$).
-2.  **Šapirovo vremensko kašnjenje:** Integral usporavanja brzine fotona $\int_0^L e^{-\frac{GM}{c^2r}}dl$ duž vidne linije pored Sunca generiše logaritamski član kašnjenja $\Delta t = \frac{4GM}{c^3}\ln(\frac{4L_1L_2}{R_s^2})$, dajući tačnih $247.4 \; \mu\text{s}$ bez pretpostavke o fizičkom krivljenju prostorne rešetke.
-3.  **Gravitaciono skretanje svetlosti:** Usled dualne interakcije fotona sa kontinuumom (promena brzine preko Snelovog zakona + promena energije preko $E(r)v(r)=\text{const}$), efekti se sabiraju dajući tačan faktor 2 unutar integrala skretanja: $\Delta\alpha = \frac{4GM}{c^2Y}$ (egzaktno $1.75''$ na rubu Sunca).
-4.  **Precesija Merkurove orbite:** Razvojem Lagranžijana za ekstremum putnje ($\int ds$) sa korigovanim prostorno-vremenskim elementima $ds(r)$ i $d\tau(r)$, u jednačini orbite izranja tačan relativistički faktor 3: $d\phi \approx d\phi_{n.p.}(1 + \frac{3GM}{c^2r})$, što integracijom daje tačno **43 lučne sekunde po veku** za Merkur.
+što reprodukuje Švaršildove metričke koeficijente u granici slabog polja (prvi red), bez upotrebe tenzorskog aparata.
 
 ---
 
+**[META-PROMPT ZA CELINU IV]** Proveri dekompoziciju izvoda $dv/dr$ korak po korak. Oceni da li je argument za to da eksponencijalni faktor mora modifikovati $d\tau$ (a ne ubrzanje) uverljiv, ili sadrži prećutnu pretpostavku. Proveri da li $F=ma$ i $E=mc^2$ zaista slede iz gradijenta $dE/dr$ bez dodatnih postulata, ili je neki korak sam po sebi postulat predstavljen kao posledica.
 
-[META-PROMPT ZA CELINU V] Proveri integraciju √(ε₀·ǔ(r)) do granice R=√2σ korak po korak. Oceni da li je izbor te granice nezavisno motivisan ili prilagođen da bi se dobila određena vrednost. Proveri da li je količnik I1/λ zaista nezavisan od mase, uporedi dobijenu vrednost (1.1725 e) sa elementarnim naelektrisanjem, i razmotri koliko to odstupanje ima fizički značaj.
+## IV. Emergentna dinamika: rađanje sile, mase i klasični testovi
 
+Diferenciranjem $V_{ee}(r)$ po $r$:
+$$\frac{dv(r)}{dr} = v(r) \cdot \frac{\mathbf{E}}{F_{max}\,r^2} \tag{1}$$
+
+### Koji element nosi eksponencijalni faktor?
+
+$v(r)=ds(r)/dt(r)$ — ali koji od $ds(r)$ ili $dt(r)$ zapravo nosi eksponencijalnu zavisnost od $r$? Pišemo to opšte, sa dva slobodna parametra ograničena samo zahtevom da njihov količnik reprodukuje već ustanovljeni $v(r)$:
+
+$$ds(r) = dr\,e^{-k_1\frac{1}{F_{max}}\frac{\mathbf{E}}{r}}, \qquad dt(r) = dt\,e^{-k_2\frac{1}{F_{max}}\frac{\mathbf{E}}{r}}, \qquad k_1-k_2=1$$
+
+Ovo fiksira samo *razliku* $k_1-k_2$, ne oba parametra pojedinačno. Proverena su tri prirodna kandidata:
+
+**(a) $dt(r)=dt$ nepromenjeno ($k_2=0,\,k_1=1$).** Vreme $T(r)$ potrebno fotonu da prođe kroz fiksnu tačku ne bi zavisilo od $r$. Iz $E(r)T(r)=h$ sa $T(r)=T=\text{const}$, sledi $E(r)=E=\text{const}$ — fotonova energija se ne bi menjala sa rastojanjem od klastera. **Ovo je u suprotnosti sa postojanjem gravitacionog crvenog pomaka — odbačeno.**
+
+**(b) $ds(r)=dr$ nepromenjeno ($k_1=0,\,k_2=-1$).** Tada $T(r)=T\,e^{+\frac{1}{F_{max}}\frac{\mathbf{E}}{r}}$ — suprotan znak od onog u $v(r)$. Iz $E(r)T(r)=h$ sledi da $E(r)$ *raste* sa rastojanjem od klastera. **Ovo je suprotno od onoga što Pound–Rebka meri (foton koji se penje iz gravitacionog polja gubi energiju) — odbačeno.**
+
+**(c) $dt(r)$ nosi isti eksponencijalni faktor kao i sam $v(r)$ ($k_2=1,\,k_1=2$).** Ovo je jedina od tri isprobane mogućnosti čije predviđanje — foton je energičniji blizu klastera, gubi energiju udaljavajući se — odgovara poznatom postojanju i smeru gravitacionog crvenog pomaka. Zadržava se.
+
+*Status ovog koraka: ovo je eliminacija među tri isprobane, fizički motivisane mogućnosti, potvrđena poređenjem sa poznatom (izmerenom) činjenicom o gravitacionom crvenom pomaku — nije tvrdnja da je (c) jedina matematički zamisliva raspodela $k_1,k_2$ uz $k_1-k_2=1$. Selekcija se oslanja na spoljašnji, empirijski podatak, ne na čistu unutrašnju nužnost.*
+
+### Posledice
+
+Uz (c): $T(r)=T\,e^{-\frac{1}{F_{max}}\frac{\mathbf E}{r}}$, i iz $E(r)T(r)=h$:
+$$E(r) = E\,e^{\frac{1}{F_{max}}\frac{\mathbf E}{r}}$$
+
+Diferenciranjem:
+$$\frac{dE(r)}{dr} = -\frac{1}{F_{max}}\frac{\mathbf E}{r^2}\,E(r) \tag{2}$$
+
+Iz definicije $a(r)\equiv dv(r)/dt(r)$ i (1):
+$$a(r) = \frac{c^2}{F_{max}}\frac{\mathbf E}{r^2} \tag{3}$$
+
+*(Dimenziona provera: $[\mathbf E/(F_{max}r^2)]=1/\text{m}$; da bi $a(r)$ imalo jedinicu ubrzanja, množilac mora biti $c^2$, ne $c$ — lako se ispusti pri ručnom prepisivanju.)*
+
+Pošto (2) i (3) dele isti faktor $\frac{1}{F_{max}}\frac{\mathbf E}{r^2}$:
+$$\frac{dE(r)}{dr} = -a(r)\,\frac{E(r)}{c^2}$$
+
+Leva strana je, po definiciji već uvedenoj u Celini II (stabilnost solitona), sila: $F\equiv dE/dr$. Desna strana je Njutnov oblik $F=ma$, sa efektivnom inercijalnom masom:
+$$\boxed{ m_{eff}(r) = \frac{E(r)}{c^2} } \quad\Rightarrow\quad \boxed{F=ma},\quad\boxed{E=mc^2}$$
+
+Ovo nije pozajmljeno iz relativnosti — izvedeno je ovde direktno iz istog brzinskog profila $v(r)$ već uvedenog za gravitaciju (Celina III), uz jedan spoljašnji unos: poznat smer gravitacionog crvenog pomaka, korišćen da se od tri proverene grane izabere jedina koja mu ne protivreči.
+
+Odatle: **ubrzanje klastera** $a(r)=GM/r^2$; **lokalna dilatacija vremena** $d\tau(r)=e^{-GM/(c^2r)}dt$; **lokalni putni element** $ds(r)=e^{-2GM/(c^2r)}dr$.
+
+### Eksperimentalni testovi
+
+1.  **Pound–Rebka eksperiment:** Linearizacijom $E(r)$ između vrha i dna tornja visine $H$: $\frac{\Delta E}{E} = \frac{gH}{c^2}$. Za $H=22.5\,\text{m}$ (visina originalnog eksperimenta, Jefferson-ov toranj), $g=9.81\,\text{m/s}^2$: $\frac{\Delta E}{E} \approx 2.456\times10^{-15}$, u skladu sa predviđenom/izmerenom vrednošću eksperimenta.
+2.  **Šapirovo vremensko kašnjenje:** Integral usporavanja brzine $\int_0^L e^{-GM/(c^2r)}dl$ duž vidne linije pored Sunca daje $\Delta t = \frac{4GM}{c^3}\ln\left(\frac{4L_1L_2}{R_s^2}\right)$, numerički $247.4\,\mu\text{s}$, bez pretpostavke o fizičkom krivljenju prostorne rešetke.
+3.  **Gravitaciono skretanje svetlosti:** Iz dualne interakcije fotona sa kontinuumom (promena brzine preko Snelovog zakona + promena energije preko $E(r)v(r)=\text{const}$), dva doprinosa se sabiraju dajući $\Delta\alpha = \frac{4GM}{c^2Y}$ — $1.75''$ na rubu Sunca.
+4.  **Precesija Merkurove orbite:** Razvojem ekstremuma putanje sa korigovanim elementima $ds(r)$ i $d\tau(r)$, jednačina orbite dobija relativistički faktor 3: $d\phi \approx d\phi_{n.p.}(1+3GM/(c^2r))$, integracijom daje **43 lučne sekunde po veku** za Merkur.
+
+*(Pun, korak-po-korak izvedeni dokaz sva četiri testa, uključujući Lagranžijansku formulaciju precesije Merkura, dostupan je u objedinjenom Poglavlju 5 — videti fusnotu na kraju ovog dokumenta.)*
+
+---
+
+**[META-PROMPT ZA CELINU V]** Proveri integraciju $\sqrt{\epsilon_0\cdot\breve u(r)}$ do granice $R=\sqrt2\sigma$ korak po korak. Oceni da li je izbor te granice nezavisno motivisan ili prilagođen da bi se dobila određena vrednost. Proveri da li je količnik $I_1/\lambda$ zaista nezavisan od mase, uporedi dobijenu vrednost ($1.1725\,e$) sa elementarnim naelektrisanjem, i razmotri koliko to odstupanje ima fizički značaj.
 
 ## V. Deterministički Gausov profil i emergentno naelektrisanje elektrona
 
-Unutar stabilnog energetskog vrtloga, kružno kretanje tankog ljuskastog sloja energije $\Delta E(r)$ brzinom $v(r)$ podleže centripetalnom ubrzanju $a = v^2/r$. Izjednačavanjem centripetalne sile ($F = \frac{\Delta E \cdot v^2}{c^2 \cdot r}$) sa radijalnim gradijentom te iste energije ($F = d(\Delta E)/dr$), dobijamo diferencijalnu jednačinu:
+Unutar stabilnog energetskog vrtloga, kružno kretanje tankog ljuskastog sloja energije $\Delta E(r)$ brzinom $v(r)$ podleže centripetalnom ubrzanju $a=v^2/r$. Izjednačavanjem centripetalne sile ($F=\Delta E\cdot v^2/(c^2r)$) sa radijalnim gradijentom te iste energije ($F=d(\Delta E)/dr$):
 $$\frac{d(\Delta E)}{\Delta E} = -\frac{v(r)^2}{c^2}\frac{dr}{r}$$
-Zamenom geometrijskog uslova kružnog kretanja unutar vrtloga ($dr/r = dv/v$), gornji izraz se transformiše u čist Gausov integral:
-$$\int \frac{d(\Delta E)}{\Delta E} = -\int \frac{v}{c^2}dv \implies \Delta E(r) = \Delta E_0 \cdot e^{-\frac{v(r)^2}{2c^2}}$$
 
-Gausova forma nije statistička slučajnost, već **dinamička nužnost** — obavezan oblik koji energija zauzima kada formira stabilan, rotirajući soliton. Zapreminskom normalizacijom na Plankov kvant ($\int_0^\infty u(r) \cdot 4\pi r^2 dr = hc/\lambda$), dobija se egzaktna gustina energije solitona:
-$$u(r) = \frac{h c (2 \pi)^{3/2}}{\lambda^4} e^{-\frac{2 \pi^2 r^2}{\lambda^2}} = A \cdot e^{-\frac{r^2}{2\sigma^2}}$$
-gde je $\sigma = \lambda/2\pi$ standardna devijacija (redukovana Komptonova talasna dužina $\bar{\lambda}$).
+Zamenom geometrijskog uslova kružnog kretanja unutar vrtloga ($dr/r=dv/v$), ovo se integrali jednoznačno i nedvosmisleno — ne kao jedan od nekoliko mogućih oblika, već kao jedino, tačno rešenje ove diferencijalne relacije:
+$$\int\frac{d(\Delta E)}{\Delta E} = -\int\frac{v}{c^2}dv \implies \Delta E(r) = \Delta E_0\cdot e^{-\frac{v(r)^2}{2c^2}}$$
 
-Pojedinačni foton je slobodna "kapljica" energije koja ne generiše polje. Međutim, unutar vrtloga energetski tokovi su u stanju permanentne konfrontacije. Samo ova **konfrontaciona gustina energije ($\breve{u}(r)$)** ima sposobnost da modifikuje kontinuum i generiše statičko električno polje:
-$$E_{el}(r) = \sqrt{\frac{\breve{u}(r)}{\epsilon(r)}}$$
+Zapreminskom normalizacijom na Plankov kvant ($\int_0^\infty u(r)\cdot4\pi r^2dr=hc/\lambda$) dobija se gustina energije solitona:
+$$u(r) = \frac{hc(2\pi)^{3/2}}{\lambda^4}e^{-\frac{2\pi^2r^2}{\lambda^2}} = A\cdot e^{-\frac{r^2}{2\sigma^2}}$$
+gde je $\sigma=\lambda/2\pi$ standardna devijacija (redukovana Komptonova talasna dužina).
 
-Naelektrisanje čestice ($I_1$) dobija se integracijom ovog polja do fizičkog ruba solitona $R$. Budući da gravitacioni doprinos na ovoj skali iznosi tek $\sim 10^{-46}$, opravdano važi \epsilon(r) = \epsilon_0:
-$$I_1 = \int_0^R \sqrt{\epsilon_0 \cdot u(r)} \cdot 4\pi r^2 dr = \sqrt{\epsilon_0 \cdot A} \cdot 4\pi \int_0^R r^2 \cdot e^{-\frac{\pi^2 r^2}{\lambda^2}} dr$$
+Izolovan foton je slobodna "kapljica" energije koja ne generiše polje. Unutar vrtloga, međutim, energetski tokovi su u stanju permanentne konfrontacije. Samo ova **konfrontaciona gustina energije** ($\breve u(r)$) može modifikovati kontinuum i generisati statičko električno polje:
+$$E_{el}(r) = \sqrt{\frac{\breve u(r)}{\epsilon(r)}}$$
 
-Uvođenjem bezdimenzione smene $x = r/\lambda$, gornja granica integracije $b = R/\lambda$ se fiksira nezavisnim fizičkim kriterijumom: tačka u kojoj gustina energije padne na $1/e$ ujedno je i tačka u kojoj sferna ljuska prostorno nosi najviše energije ($d/dr[r^2 u(r)] = 0$). Oba kriterijuma daju identičnu granicu:
-$$b = \frac{1}{\pi\sqrt{2}} \approx 0.225079$$
+Naelektrisanje čestice ($I_1$) dobija se integracijom ovog polja do fizičkog ruba solitona $R$. Budući da je gravitacioni doprinos na ovoj skali zanemarljiv ($\sim10^{-46}$), važi $\epsilon(r)\approx\epsilon_0$:
+$$I_1 = \int_0^R\sqrt{\epsilon_0\cdot u(r)}\cdot4\pi r^2dr$$
 
-Rešavanjem integrala zapremine, član $\lambda^2$ iz imenioca amplitude $\sqrt{A}$ se skraćuje sa članom $\lambda^3$ iz prostornog diferencijala, ostavljajući čistu linearnu zavisnost $I_1 \propto \lambda$. Deljenjem sa talasnom dužinom $\lambda$, dobijamo **univerzalnu bezdimenzionu konstantu naelektrisanja** (istu za svaku masu):
-$$\frac{I_1}{\lambda} = \sqrt{\epsilon_0 h c} \cdot (2\pi)^{3/4} \cdot 4\pi \cdot J(b) = Q_0 \cdot (2\pi)^{3/4} \cdot 4\pi \cdot J(b)$$
-gde je $Q_0 = \sqrt{\epsilon_0 hc} = 1.3262 \times 10^{-18} \text{ C}$ prirodna jedinica naelektrisanja, neraskidivo vezana za konstantu fine strukture preko $e = \sqrt{2\alpha} \cdot Q_0$.
+Sa $x=r/\lambda$, granica $b=R/\lambda$ fiksira se nezavisnim kriterijumom: tačka gde $u(r)$ padne na $1/e$ poklapa se sa tačkom gde sferna ljuska nosi maksimum energije ($d/dr[r^2u(r)]=0$). Oba kriterijuma daju istu granicu:
+$$b = \frac{1}{\pi\sqrt2} \approx 0.225079$$
 
-Egzaktno rešavanje zatvorene forme integrala $J(b)$ preko Rimanove greške funkcije ($\text{erf}(1/\sqrt{2}) \approx 68.27\%$) daje:
-$$J(b) = \frac{\sqrt{\pi}}{4\pi^3}\text{erf}\left(\frac{1}{\sqrt{2}}\right) - \frac{1}{2\pi^3\sqrt{2}}e^{-1/2} = 0.002840326$$
+Rešavanjem integrala, član $\lambda^2$ iz $\sqrt A$ skraćuje se sa $\lambda^3$ iz prostornog diferencijala, ostavljajući $I_1\propto\lambda$ — univerzalni, od mase nezavisan količnik:
+$$\frac{I_1}{\lambda} = Q_0\cdot(2\pi)^{3/4}\cdot4\pi\cdot J(b), \qquad Q_0=\sqrt{\epsilon_0hc}=1.3262\times10^{-18}\,\text{C}$$
 
-Uvrštavanjem svih geometrijskih konstanti, finalni proračun efektivnog naelektrisanja po Komptonovoj dužini iznosi:
-$$\frac{I_1}{\lambda} = \frac{(2\pi)^{3/4} \cdot 4\pi \cdot J(b)}{\sqrt{2\alpha}} \cdot e = 1.1725066 \cdot e$$
+povezan sa konstantom fine strukture preko $e=\sqrt{2\alpha}\cdot Q_0$. Rešavanjem $J(b)$ preko funkcije greške ($\text{erf}(1/\sqrt2)\approx68.27\%$):
+$$J(b) = \frac{\sqrt\pi}{4\pi^3}\text{erf}\left(\frac{1}{\sqrt2}\right) - \frac{1}{2\pi^3\sqrt2}e^{-1/2} = 0.002840326$$
 
-**Zaključak računa:** Dobijena je konačna vrednost reda veličine elementarnog naelektrisanja sa odstupanjem od **$+17.25\%$**. Model nema singulariteta i ne zahteva renormalizaciju. Odstupanje od 17% je direktna posledica korišćenja bazičnog Gausovog profila kao glatke anvelope; u naprednijem nelinearnom modelu konačnih elemenata (FEM) sa realnim fotonskim fluksevima, ova razlika konvergira ka nuli.
+dajući:
+$$\frac{I_1}{\lambda} = \frac{(2\pi)^{3/4}\cdot4\pi\cdot J(b)}{\sqrt{2\alpha}}\cdot e = 1.1725066\cdot e$$
 
-### 5.5 Prostorno-ugaona formulacija konfrontacione energije za FEM simulacije
-Dok uprošćeni radijalni model $\breve{u}(r)$ uspešno izoluje tačan red veličine emergentnog naelektrisanja, stvarni prelaz sa slobodne propagacije na lokalizovani anizotropni vrtlog zahteva uvođenje ugaone zavisnosti unutrašnjeg otpora kontinuuma. Za potrebe predstojećih numeričkih simulacija metodom konačnih elemenata (FEM), puni profil konfrontacione gustine energije definiše se kao:
-$$\breve{u}(r, \theta) = \sqrt{u_1(r) \cdot u_2(r)} \cdot \left[\sin\left(\pi \frac{\theta}{2}\right)\right]^2$$
+**Status ovog rezultata:** model nema singulariteta i ne zahteva renormalizaciju, i dostiže tačan red veličine elementarnog naelektrisanja sa nula slobodnih parametara — ali sa odstupanjem od **+17.25%** od tačne vrednosti. Ovo odstupanje je direktna posledica korišćenja bazičnog Gausovog profila kao energetske anvelope. Da li detaljniji profil uklanja to odstupanje, ostavlja ga nepromenjenim, ili ga pomera — otvoreno je pitanje za budući numerički rad (§5.5), ne unapred određen ishod.
 
-Gde su $u_1(r)$ i $u_2(r)$ Gausovi energetski profili flukseva koji interagiraju, dok je $\theta \in [0,1]$ normalizovani ugao definisan preko skalarnog proizvoda njihovih trodimenzionalnih vektora pravca kretanja:
-$$\theta = \frac{\arccos(\hat{k}_1 \cdot \hat{k}_2)}{\pi}$$
+### 5.5 Prostorno-ugaona formulacija za buduće FEM simulacije
 
-Ova prostorno-ugaona funkcija obezbeđuje glatke, diferencijabilne prelaze i striktno zadovoljava bazične granične uslove reaktivnog medijuma:
-*   **Paralelni fluksevi ($\theta = 0$):** $f(0) = 0 \implies \breve{u} = 0$. Nema unutrašnjeg otpora; slobodni fotoni propagiraju bez modifikacije baznih parametara $\epsilon_0$ i $\mu_0$, što objašnjava odsustvo statičkog polja.
-*   **Čeoni sudar ($\theta = 1$):** $f(1) = 1 \implies \breve{u} = \sqrt{u_1 u_2}$. Konfrontacija dostiže maksimum, vršeći ekstremni lokalni pritisak na kontinuum.
+Uprošćeni radijalni model $\breve u(r)$ izoluje tačan red veličine emergentnog naelektrisanja; potpuniji tretman prelaza sa slobodne propagacije na lokalizovani anizotropni vrtlog zahteva ugaonu zavisnost otpora kontinuuma. Kao kandidat za buduće simulacije metodom konačnih elemenata (FEM), jedna moguća formulacija je:
+$$\breve u(r,\theta) = \sqrt{u_1(r)\cdot u_2(r)}\cdot\left[\sin\left(\pi\frac\theta2\right)\right]^2, \qquad \theta = \frac{\arccos(\hat k_1\cdot\hat k_2)}{\pi}$$
 
-Ova nelinearna konfrontacija izaziva lokalno balansirano podizanje parametara vakuuma ($\epsilon$ i $\mu$) pod striktnim uslovom očuvanja kosmičkog limita brzine ($\epsilon \cdot \mu = \epsilon_0 \mu_0 = 1/c^2$). Anizotropija ovog ugaonog profila obezbeđuje nulti nagib na granicama, što omogućava stabilno orbitalno zaključavanje flukseva u trajni sferni vrtlog (česticu) i predstavlja bazični ulazni algoritam za numeričko eliminisanje preostalog odstupanja od $+17.25\%$ u proračunu naelektrisanja.
+sa $u_1(r),u_2(r)$ Gausovim profilima flukseva koji interaguju. Ovo zadovoljava granične uslove $\breve u=0$ za paralelne fluksove ($\theta=0$, nema konfrontacije, objašnjava odsustvo statičkog polja slobodnog fotona) i $\breve u=\sqrt{u_1u_2}$ za čeoni sudar ($\theta=1$, maksimalna konfrontacija), uz uslov $\epsilon\mu=\epsilon_0\mu_0=1/c^2$.
+
+Ova formulacija se predlaže kao ulaz za budući numerički rad na $+17.25\%$ odstupanju iz §V — utvrđivanje vrednosti ka kojoj bi takva simulacija konvergirala, bez unapred pretpostavljenog ishoda.
 
 ---
 
 ## VI. Termodinamika kontinuuma i geometrijski faktor zračenja $\frac{6}{\pi}$
 
-U stanju toplotne ravnoteže, makroskopski atomi se ponašaju kao deterministički pretvarači (*transduceri*) koji primljenu toplotnu energiju pakuju u diskretne prostorne solitone ($E \cdot T = h$). Broj načina na koji $n$ pretvarača može emitovati $k$ identičnih solitona definisan je kombinacijama sa ponavljanjem. Primenom Stirlingove aproksimacije za asimptotsku anvelopu ($n, k \gg 1$), indeks emisione složenosti po jednom pretvaraču ($\theta$) iznosi:
-$$\theta = \frac{1}{n}\ln\Theta = (1+u)\ln(1+u) - u\ln u \quad \text{gde je} \quad u = \frac{E}{E_s}$$
+U toplotnoj ravnoteži, makroskopski atomi se ponašaju kao pretvarači koji primljenu toplotnu energiju pakuju u diskretne solitone ($E\cdot T=h$). Broj načina na koji $n$ pretvarača može emitovati $k$ identičnih solitona dat je kombinacijama sa ponavljanjem. Primenom Stirlingove aproksimacije za $n,k\gg1$, indeks emisione složenosti po pretvaraču je:
+$$\theta = \frac1n\ln\Theta = (1+u)\ln(1+u)-u\ln u, \qquad u=\frac{E}{E_s}$$
 
-Diferenciranjem ove bezdimenzione funkcije po priraštaju energije $u$, dobijamo čist izvod:
-$$\frac{d\theta}{du} = \ln\left(\frac{1}{u}+1\right) \implies u = \frac{1}{e^{\frac{d\theta}{du}} - 1}$$
-Dokazom algebarskog identiteta $E \cdot d\ln u = dE$, bezdimenzioni izvod u eksponentu se egzaktno transformiše u odnos energetske promene i promene indeksa složenosti:
-$$\frac{d\theta}{du} = \frac{h\nu}{\frac{dE}{d\ln\sqrt[n]{\Theta}}}$$
+*(Napomena: gruba Stirlingova forma ne čuva sirovu vrednost $\Theta$ — relativna greška raste sa $n,k$ — ali relativna greška u $\ln\Theta$, jedinom što se dalje koristi, teži nuli za makroskopsko $n,k\sim10^{23}$.)*
 
-U toplotnoj ravnoteži, količnik $\frac{dE}{d\ln\sqrt[n]{\Theta}}$ predstavlja čistu dimenziju energije i identifikuje se kao emergentni temperaturni element kontinuuma ($kT$). Time se bez ikakvih spoljnih postulata izvodi **jezgro Plankovog zakona**:
-$$\boxed{ u = \frac{E}{E_s} = \frac{1}{e^{h\nu/kT} - 1} }$$
+Diferenciranjem:
+$$\frac{d\theta}{du} = \ln\left(\frac1u+1\right) \implies u = \frac{1}{e^{d\theta/du}-1}$$
 
-Fluks snage pojedinačnog sfernog solitona dobija se iz odnosa njegove energije $E_s = h\nu$, unutrašnjeg perioda kretanja $T_s = 1/\nu$ i prosečnog poprečnog preseka usrednjenog duž pravca prostiranja ($\bar{A}_{c.s.} = \frac{\pi}{6}\lambda^2 = \frac{\pi}{6}\frac{c^2}{\nu^2}$):
+Koristeći $E\,d\ln u = dE$ (pošto je $u=E/E_s$ sa $E_s=h\nu$ fiksnim na datom $\nu$):
+$$\frac{d\theta}{du} = \frac{h\nu}{dE/d\ln\sqrt[n]{\Theta}}$$
 
-$$\frac{P_s}{\bar{A}_{c.s.}} = \frac{E_s}{T_s \bar{A}_{c.s.}} = \frac{6}{\pi}\frac{h}{c^2}\nu^4$$
+**Identifikacija $dE/d\ln\sqrt[n]{\Theta}$.** Ovo nije proizvoljan izbor među podjednako mogućim kandidatima — to je, do preimenovanja, standardna termodinamička definicija temperature, $T=\partial Q/\partial S$ sa $S=k\ln\Omega$: prepoznavanjem $\partial Q\leftrightarrow dE$ i $\Omega\leftrightarrow\sqrt[n]{\Theta}$ direktno sledi $dE/d\ln\sqrt[n]{\Theta}=kT$. Put ovde je kombinatoran, a ne preko kanonskog ansambla, ali odredište je isto. Time se dobija jezgro Plankovog zakona:
+$$\boxed{ u = \frac{E}{E_s} = \frac{1}{e^{h\nu/kT}-1} }$$
 
-Deljenjem ovog fluksa sopstvenim frekvencijskim prozorom širine solitona ($\Delta\nu \sim \nu$), i množenjem sa funkcijom popunjenosti stanja $u$, dobijamo pun zakon spektralne gustine fluksa zračenja:
-$$\boxed{ PFpf\left(\nu,T\right)=\frac{6}{\pi}\frac{h}{c^2}\frac{\nu^3}{e^{h\nu/k_BT}-1}}$$
+**Fluks snage jednog solitona.** Iz $E_s=h\nu$, $T_s=1/\nu$, i preseka usrednjenog duž pravca prostiranja, $\bar A_{c.s.}=\frac\pi6\lambda^2=\frac\pi6\frac{c^2}{\nu^2}$ (tačan identitet — prosečan presek jednak je zapremini podeljenoj dužinom — ne aproksimacija usrednjavanja):
+$$\frac{P_s}{\bar A_{c.s.}} = \frac{E_s}{T_s\bar A_{c.s.}} = \frac6\pi\frac{h}{c^2}\nu^4$$
 
-Zakon spektralne gustine zračenja u ovom modelu uvodi **geometrijski prefaktor $\frac{6}{\pi}$** koji izranja iz odnosa zapremine i dužine sferne kapljice energije.
+Deljenjem sopstvenim frekvencijskim prozorom ($\Delta\nu\sim\nu$) i množenjem sa $u$:
+$$\boxed{ PFpf(\nu,T) = \frac6\pi\frac{h}{c^2}\frac{\nu^3}{e^{h\nu/k_BT}-1} }$$
 
-Integracijom ovog fluksa po celom frekvencijskom spektru ($\nu \in [0, \infty)$) preko Rimanove zeta funkcije ($\zeta(4) = \pi^4/90$), temperatura se samostalno izoluje na četvrti stepen, generišući **Štefan-Bolcmanov zakon kontinuuma**:
-$$j^\star = \int_0^\infty PFpf(\nu, T)d\nu = \frac{6 k_B^4}{\pi h^3 c^2} \left( \frac{\pi^4}{15} \right) \cdot T^4 \implies \boxed{ j^\star = \frac{2 \pi^3 k_B^4}{5 h^3 c^2} \cdot T^4 = \sigma_{\text{novi}} T^4 }$$
+**Poređenje sa standardnim rezultatom.** Standardni Plankov zakon ima prefaktor $2$, koji potiče od dva polarizaciona stanja bezmasenog spin-1 bozona — posledica gejž-invarijantnosti elektrodinamike, nezavisno utvrđena, ne proizvoljan izbor. Prefaktor dobijen ovde, $6/\pi\approx1.91$, potiče od odnosa zapremine i dužine sfernog solitona — takođe ne proizvoljan, ali oslonjen na sopstvene geometrijske pretpostavke ovog modela (granica $R=\lambda/2$, $\Delta\nu=\nu$ tačno).
 
-------------------------------
+Direktno poređenje ova dva prefaktora zahteva prevod između dva različita okvira: standardno "2" počiva na premisi da je foton pobuda elektromagnetnog polja (gejž bozon), premisi koju ovaj model ne usvaja. Argument iz gejž-invarijantnosti zato ne obavezuje ovaj model — ali simetrično, $6/\pi$ trenutno nema nezavisno utemeljenje osim gore opisane geometrijske konstrukcije. **Ovo ostaje otvoreno pitanje, tako naznačeno, nerešeno u korist bilo koje strane.**
+
+Provera nezavisna od ovog otvorenog pitanja: Vinov zakon pomeraja zavisi samo od oblika krive $\nu^3/(e^{h\nu/kT}-1)$, ne od prefaktora ispred nje — pa je odnos $h/k_B$ dobijen ovim putem nezavisan od toga da li je tačan prefaktor $2$ ili $6/\pi$.
+
+Integracijom preko celog spektra preko Rimanove zeta funkcije ($\zeta(4)=\pi^4/90$) dobija se Štefan-Bolcmanov zakon kontinuuma:
+$$j^\star = \int_0^\infty PFpf(\nu,T)\,d\nu = \frac{2\pi^3k_B^4}{5h^3c^2}T^4 = \sigma_{\text{novi}}T^4$$
+
+---
+
+## Napomena o obuhvatu
+
+Izvedbe iznad (Celine I–VI) čine proverenu srž ovog okvira: aksiomi, energetski soliton i $E\cdot T=h$, gravitacioni profil brzine i njegova četiri klasična testa, emergentno naelektrisanje (sa iskreno navedenim otvorenim odstupanjem od 17.25%), i termodinamička izvedba Plankovog zakona (sa iskreno otvorenim pitanjem $6/\pi$ naspram $2$). Svaka izvedba iznad proverena je korak po korak, i svako mesto gde ulazi pretpostavka — a ne stroga logička posledica — tako je i obeleženo.
+
+Proširenja ovog okvira ka kosmologiji (priroda kosmičkog crvenog pomaka, Hablova tenzija, poreklo kosmičkog mikrotalasnog zračenja) predstavljaju aktivan, ali znatno manje zreo pravac istraživanja. Svaka tvrdnja u toj oblasti morala bi nezavisno da se suoči sa značajnim telom postojećih posmatračkih dokaza — uključujući, u najmanju ruku, test vremenske dilatacije krivih sjaja supernova i Tolmanov test površinskog sjaja, koji istorijski idu protiv alternativa kosmičkom širenju zasnovanih na "umornoj svetlosti" — pre nego što bi mogla odgovorno da se predstavi kao rešenje otvorenih pitanja u kosmologiji. Nijedna takva tvrdnja se trenutno ne iznosi u ovom dokumentu.
+
+*(Fusnota: pun, nezavisno proveren dokaz Celine IV — uključujući detaljnu eliminaciju tri grane i njene numeričke provere — dostupan je na: https://github.com/zoransdimic-ai/foundations-of-existence/blob/main/explorations-with-AI/Claude/Chats_consolidated/05-gravitacija.md — za čitanje; https://raw.githubusercontent.com/zoransdimic-ai/foundations-of-existence/refs/heads/main/explorations-with-AI/Claude/Chats_consolidated/05-gravitacija.md — za mašinsko/AI parsiranje.)*
