@@ -49,8 +49,8 @@ Building on the 3D energy soliton established above, this section starts from a 
 
 ## 📂 Repository Structure
 
-*   [main-concept.en.md](main_concept.en.md) — Main scientific text and core mathematical derivations (English).
-*   [main-concept.sr.md](main_concept.sr.md) — Glavni naučni tekst i kompletna matematička izvođenja (Srpski).
+*   [main-concept.en.md](main-concept.en.md) — Main scientific text and core mathematical derivations (English).
+*   [main-concept.sr.md](main-concept.sr.md) — Glavni naučni tekst i kompletna matematička izvođenja (Srpski).
 *   [project-roadmap.md](project-roadmap.md) — Planned development path and future FEM simulation parameters.
 *   [explorations-with-AI/](explorations-with-AI/) — Directory containing talks and testing conducted with AI assistants.
 *   [LICENSE](LICENSE) — Creative Commons Attribution 4.0 International License.
