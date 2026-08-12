@@ -173,7 +173,7 @@ $$\frac{I_1}{\lambda} = \frac{(2\pi)^{3/4}\cdot4\pi\cdot J(b)}{\sqrt{2\alpha}}\c
 The simplified radial model $\breve u(r)$ isolates the correct order of magnitude of the emergent charge; a more complete treatment of the transition from free propagation to a localized anisotropic vortex requires the angular dependence of the continuum's resistance. As a candidate for future finite element (FEM) simulations, one possible formulation is:
 $$\breve u(r,\theta) = \sqrt{u_1(r)\cdot u_2(r)}\cdot\left[\sin\left(\pi\frac{\theta}{2}\right)\right]^2, \qquad \theta = \frac{\arccos(\hat k_1\cdot\hat k_2)}{\pi}$$
 
-with $u_1(r),u_2(r)$ the Gaussian profiles of the interacting fluxes. This satisfies the boundary conditions $\breve u=0$ for parallel fluxes ($\theta=0$, no confrontation, explaining the absence of a static field for a free photon) and $\breve u=\sqrt{u_1u_2}$ for a head-on collision ($\theta=1$, maximal confrontation), under the constraint $\epsilon\mu=\epsilon_0\mu_0=1/c^2$.
+with $u_1(r),u_2(r)$ the Gaussian profiles of the interacting fluxes. This satisfies the boundary conditions $\breve u=0$ for parallel fluxes ($\theta=0$, no confrontation, explaining the absence of a static field for a free photon) and $\breve u=\sqrt{u_1u_2}$ for a head-on collision ($\theta=1$, maximal confrontation), under the constraint $\epsilon\mu \ge \epsilon_0\mu_0=1/c^2$.
 
 This formulation is proposed as an input for future numerical investigation of the $+17.25\%$ deviation found in §V — determining the value toward which such a simulation converges, not assuming the outcome in advance.
 
