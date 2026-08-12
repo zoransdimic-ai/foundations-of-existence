@@ -173,7 +173,7 @@ $$\frac{I_1}{\lambda} = \frac{(2\pi)^{3/4}\cdot4\pi\cdot J(b)}{\sqrt{2\alpha}}\c
 Uprošćeni radijalni model $\breve u(r)$ izoluje tačan red veličine emergentnog naelektrisanja; potpuniji tretman prelaza sa slobodne propagacije na lokalizovani anizotropni vrtlog zahteva ugaonu zavisnost otpora kontinuuma. Kao kandidat za buduće simulacije metodom konačnih elemenata (FEM), jedna moguća formulacija je:
 $$\breve u(r,\theta) = \sqrt{u_1(r)\cdot u_2(r)}\cdot\left[\sin\left(\pi\frac\theta2\right)\right]^2, \qquad \theta = \frac{\arccos(\hat k_1\cdot\hat k_2)}{\pi}$$
 
-sa $u_1(r),u_2(r)$ Gausovim profilima flukseva koji interaguju. Ovo zadovoljava granične uslove $\breve u=0$ za paralelne fluksove ($\theta=0$, nema konfrontacije, objašnjava odsustvo statičkog polja slobodnog fotona) i $\breve u=\sqrt{u_1u_2}$ za čeoni sudar ($\theta=1$, maksimalna konfrontacija), uz uslov $\epsilon\mu=\epsilon_0\mu_0=1/c^2$.
+sa $u_1(r),u_2(r)$ Gausovim profilima flukseva koji interaguju. Ovo zadovoljava granične uslove $\breve u=0$ za paralelne fluksove ($\theta=0$, nema konfrontacije, objašnjava odsustvo statičkog polja slobodnog fotona) i $\breve u=\sqrt{u_1u_2}$ za čeoni sudar ($\theta=1$, maksimalna konfrontacija), uz uslov $\epsilon\mu \ge \epsilon_0\mu_0=1/c^2$.
 
 Ova formulacija se predlaže kao ulaz za budući numerički rad na $+17.25\%$ odstupanju iz §V — utvrđivanje vrednosti ka kojoj bi takva simulacija konvergirala, bez unapred pretpostavljenog ishoda.
 
