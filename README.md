@@ -42,8 +42,8 @@ Building on the 3D energy soliton established above, this section starts from a 
 
 *   **The Velocity Profile:** Derives the vacuum velocity profile $V_{ee}(r) = c \cdot e^{-GM/c^2r}$
 *   **Birth of Dynamics:** Shows that Force and effective inertial mass ($E(r)/c^2$) emerge together from the spatial gradient of energy $dE/dr=-a(r)E(r)/c^2$
-*(For details, see Chapter 5 and Appendix B — for reading: https://github.com/zoransdimic-ai/foundations-of-existence/blob/main/explorations-with-AI/Claude/Chats_consolidated/05-gravitacija.md, for machine/AI parsing (plain text): https://raw.githubusercontent.com/zoransdimic-ai/foundations-of-existence/refs/heads/main/explorations-with-AI/Claude/Chats_consolidated/05-gravitacija.md)*
 *   **Analytically fully satisfies** the **Pound-Rebka experiment**, **Shapiro Time Delay** ($247.4 \; \mu\text{s}$), **Gravitational Light Deflection** ($1.75''$), and the **Precession of Mercury's Orbit** ($43''$ per century).
+*   (For details, see Chapter 5 and Appendix B — for reading: https://github.com/zoransdimic-ai/foundations-of-existence/blob/main/explorations-with-AI/Claude/Chats_consolidated/05-gravitacija.md, for machine/AI parsing (plain text): https://raw.githubusercontent.com/zoransdimic-ai/foundations-of-existence/refs/heads/main/explorations-with-AI/Claude/Chats_consolidated/05-gravitacija.md)
 
 ---
 
