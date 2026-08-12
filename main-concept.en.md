@@ -75,8 +75,6 @@ $$V_{ee}(r) = \frac{1}{\sqrt{\epsilon(r)\mu(r)}} = c\, e^{-\frac{\mathbf{E}}{F_{
 Substituting $F_{max}=c^4/G$ (see Chapter 5, §5.3 of the consolidated derivation for the independent derivation of this identity) and $\mathbf{E}=Mc^2$:
 $$\boxed{ V_{ee}(r) = c\, e^{-\frac{GM}{c^2 r}} }$$
 
-which reproduces the Schwarzschild metric coefficients in the weak-field (first-order) limit, without using any tensor apparatus.
-
 ---
 
 **[META-PROMPT FOR SECTION IV]** Check the decomposition of the derivative $dv/dr$ step by step. Assess whether the argument for why the exponential factor must modify $d\tau$ (rather than the acceleration) is convincing, or whether it rests on a hidden assumption. Check whether $F=ma$ and $E=mc^2$ actually follow from the gradient $dE/dr$ without additional postulates, or whether some step is itself a postulate presented as a consequence.
