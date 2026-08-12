@@ -75,8 +75,6 @@ $$V_{ee}(r) = \frac{1}{\sqrt{\epsilon(r)\mu(r)}} = c\,e^{-\frac{\mathbf{E}}{F_{m
 Zamenom $F_{max}=c^4/G$ (videti Poglavlje 5, §5.3 objedinjene izvedbe za nezavisno izvođenje ovog identiteta) i $\mathbf{E}=Mc^2$:
 $$\boxed{ V_{ee}(r) = c\, e^{-\frac{GM}{c^2 r}} }$$
 
-što reprodukuje Švaršildove metričke koeficijente u granici slabog polja (prvi red), bez upotrebe tenzorskog aparata.
-
 ---
 
 **[META-PROMPT ZA CELINU IV]** Proveri dekompoziciju izvoda $dv/dr$ korak po korak. Oceni da li je argument za to da eksponencijalni faktor mora modifikovati $d\tau$ (a ne ubrzanje) uverljiv, ili sadrži prećutnu pretpostavku. Proveri da li $F=ma$ i $E=mc^2$ zaista slede iz gradijenta $dE/dr$ bez dodatnih postulata, ili je neki korak sam po sebi postulat predstavljen kao posledica.
