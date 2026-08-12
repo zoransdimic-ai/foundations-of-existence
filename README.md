@@ -41,7 +41,7 @@ Building on the 3D energy soliton established above, this section starts from a 
 ### 3. Macro-Scale: Kinematic Origin of Gravitation
 
 *   **The Velocity Profile:** Derives the vacuum velocity profile $V_{ee}(r) = c \cdot e^{-GM/c^2r}$
-*   **Birth of Dynamics:** Proves that Force and Inertial Mass are emergent kinematic consequences of the local spatial gradient of energy ($dE/dr = -a \cdot E/c^2$), naturally rendering $F=ma$ and $E=mc^2$.
+*   **Birth of Dynamics:** Shows that Force and effective inertial mass ($E(r)/c^2$) emerge together from the spatial gradient of energy $dE/dr=-a(r)E(r)/c^2$
 *   **Analytically fully satisfies** the **Pound-Rebka experiment**, **Shapiro Time Delay** ($247.4 \; \mu\text{s}$), **Gravitational Light Deflection** ($1.75''$), and the **Precession of Mercury's Orbit** ($43''$ per century).
 
 ---
