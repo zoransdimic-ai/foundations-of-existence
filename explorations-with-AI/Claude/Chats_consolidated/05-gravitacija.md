@@ -18,7 +18,7 @@ Najinteresantnija moguća posledica takvog sudara: formiranje energijskog vrtlog
 
 ## 5.3 Gravitaciona konstanta nije proizvoljna
 
-Iz sile na foton u polju promenljivog $\epsilon$: $dE/dr = -a(r)\,E(r)/c^2$, uz efektivnu masu fotona $m_{eff}=E/c^2$ (poznato iz relativnosti) i efektivnu masu klastera $\mathbf{M}=\mathbf{E}/c^2$, sledi:
+Iz sile na foton u polju promenljivog $\epsilon$: $dE/dr = -a(r)\,E(r)/c^2$ — gde efektivna masa $m_{eff}(r)=E(r)/c^2$ **nije ovde preuzeta iz teorije relativnosti**, nego je nezavisno izvedena unutar samog modela, direktno iz brzinskog profila $v(r)$ (puna izvedba, sa svim koracima koji su probani i odbačeni, u Dodatku B) — i efektivnu masu klastera $\mathbf{M}=\mathbf{E}/c^2$ (izvedenu na isti način), sledi:
 
 $$a(r) = \frac{c^2}{F_{max}}\cdot\frac{E}{r^2} = \frac{c^4}{F_{max}}\cdot\frac{\mathbf{M}}{r^2}$$
 
@@ -65,6 +65,64 @@ $$d\phi = d\phi_{n.p.}\cdot e^{3GM/(c^2r)} \approx d\phi_{n.p.}\left(1+3\frac{GM
 Dodatni ugao po orbiti: $\Delta\phi=\oint 3\dfrac{GM}{c^2r}\,d\phi_{n.p.} = \dfrac{6\pi GM}{c^2 a(1-e^2)}$.
 
 **Za Merkur** ($a=5.79\times10^{10}$ m, $e=0.2056$, $M_\odot=1.989\times10^{30}$ kg): $\Delta\phi\approx 43$ lučnih sekundi po veku — potvrđuje opaženu anomalnu precesiju.
+
+---
+
+## Dodatak B: Rađanje dinamike — F=ma i efektivna masa iz brzinskog profila
+
+*Ovo je nezavisna izvedba $F=ma$ i $m_{eff}=E/c^2$, koja ne pretpostavlja teoriju relativnosti niti bilo šta iz nje pozajmljuje — oba rezultata se dobijaju direktno iz brzinskog profila $v(r)$ već uvedenog u §5.2 i Poglavlju 8. Put je istraživački, sa granama koje su probane i odbačene; to je namerno zadržano, jer upravo ta eliminacija pokazuje zašto je preživela grana jedina koja daje predviđanja u skladu sa stvarnošću.*
+
+**Polazna tačka.** Već imamo (§5.2): $v(r)=v_0\,e^{-\frac{1}{K_F}\frac{\mathbf E}{r}}$, gde je $\mathbf E$ energija (masa) klastera, $K_F=F_{max}$. Direktnim izvodom:
+
+$$\frac{dv(r)}{dr} = \frac{v(r)}{K_F}\frac{\mathbf E}{r^2} \tag{1}$$
+
+**Pitanje koje se mora postaviti.** $v(r)=ds(r)/dt(r)$ — ali koji od dva elementa, $ds(r)$ ili $dt(r)$, zapravo nosi eksponencijalni faktor? Moguće je da ga nosi samo jedan, ili da ga nose oba (u nekoj kombinaciji koja se, sabrana, svede na poznati $v(r)$). Pišemo to opšte, sa dva slobodna parametra:
+
+$$ds(r) = dr\,e^{-k_1\frac{1}{K_F}\frac{\mathbf E}{r}}, \qquad dt(r) = dt\,e^{-k_2\frac{1}{K_F}\frac{\mathbf E}{r}}, \qquad k_1-k_2=1$$
+
+(uslov $k_1-k_2=1$ osigurava da količnik $ds(r)/dt(r)$ ponovo daje poznati $v(r)$). Ovo ne fiksira $k_1$ i $k_2$ pojedinačno — samo njihovu razliku. Tri prirodna kandidata:
+
+**(a) $dt(r)=dt$ (nepromenjeno; $k_2=0,\,k_1=1$).** Vreme $T(r)$ potrebno fotonu da prođe kroz fiksnu tačku na rastojanju $r$ ne bi zavisilo od $r$. Iz $E(r)T(r)=h$, sa $T(r)=T=\text{const}$, sledi $E(r)=E=\text{const}$ — fotonova energija se ne bi menjala sa rastojanjem od klastera. **Ovo je u suprotnosti sa postojanjem gravitacionog crvenog pomaka — odbačeno.**
+
+**(b) $ds(r)=dr$ (nepromenjeno; $k_1=0,\,k_2=-1$).** Tada $T(r)=T\,e^{+\frac{1}{K_F}\frac{\mathbf E}{r}}$ — eksponent suprotnog znaka od onog u $v(r)$. Iz $E(r)T(r)=h$ sledi da $E(r)$ **raste** sa rastojanjem od klastera (fažuje udaljavajući se). **Ovo je suprotno od onoga što Pound–Rebka meri (foton koji se penje iz gravitacionog polja gubi energiju) — odbačeno.**
+
+**(c) $dt(r)$ nosi isti eksponencijalni faktor kao i sam $v(r)$ ($k_2=1,\,k_1=2$).** Ovo je jedina od tri isprobane mogućnosti čije predviđanje — foton je energičniji blizu klastera, gubi energiju udaljavajući se — odgovara poznatom postojanju i smeru gravitacionog crvenog pomaka. Zadržava se.
+
+*Napomena o statusu ovog koraka: ovo je eliminacija među tri isprobane, fizički motivisane mogućnosti, potvrđena poređenjem sa poznatom (izmerenom) činjenicom o gravitacionom crvenom pomaku — nije tvrdnja da je (c) jedina matematički zamisliva raspodela $k_1,k_2$ uz $k_1-k_2=1$. Selekcija se oslanja na spoljašnji, empirijski podatak, ne na čistu unutrašnju nužnost.*
+
+**Sledi:** $T(r) = T\,e^{-\frac{1}{K_F}\frac{\mathbf E}{r}}$, i iz $E(r)T(r)=h$:
+
+$$E(r) = \frac{h}{T(r)} = E\,e^{\frac{1}{K_F}\frac{\mathbf E}{r}}$$
+
+Direktnim izvodom:
+
+$$\frac{dE(r)}{dr} = -\frac{1}{K_F}\frac{\mathbf E}{r^2}\,E(r) \tag{2}$$
+
+**Ubrzanje.** Iz definicije $a\equiv dv/dt$, odnosno, $a(r)\equiv dv(r)/dt(r)$ i jednačine (1):
+
+$$a(r) = \frac{v_0^2}{K_F}\frac{\mathbf E}{r^2} \tag{3}$$
+
+*(Dimenziona provera: $[\mathbf E/(K_Fr^2)]=1/\text{m}$; da bi $a(r)$ imalo jedinicu ubrzanja, m/s², množilac mora biti $v_0^2$, ne $v_0$ — proveriti pažljivo pri prepisivanju, lako se ispusti eksponent.)*
+
+**Rođenje dinamike.** Iz (2) i (3), pošto obe imaju isti faktor $\frac{1}{K_F}\frac{\mathbf E}{r^2}$:
+
+$$\frac{dE(r)}{dr} = -a(r)\,\frac{E(r)}{v_0^2}$$
+
+Leva strana je, po definiciji uvedenoj u Poglavlju 2 (stabilnost solitona), sila: $F\equiv dE/dr$. Desna strana je prepoznatljiva kao Njutnov oblik $F=am$, sa efektivnom (inercijalnom) masom:
+
+$$\boxed{m_{eff}(r) = \frac{E(r)}{v_0^2}}$$
+
+Ovo nije pretpostavka niti pozajmica iz relativnosti — izvedeno je iz istog brzinskog profila $v(r)$ koji je već uveden radi opisa gravitacije (§5.2), uz jedini spoljašnji unos: poznat smer gravitacionog crvenog pomaka, korišćen da se od tri geometrijski moguće raspodele eksponencijalnih faktora izabere jedina koja mu ne protivreči.
+
+**Numerička provera — Pound–Rebka.** Za malo $\delta r$, gde je $a(r)$ praktično konstantno ($a$):
+
+$$\frac{\delta E}{E} \approx -\frac{a}{v_0^2}\,\delta r$$
+
+Sa $a=9.81\ \text{m/s}^2$ (gravitaciono ubrzanje na Zemljinoj površini), $v_0=c=299792458\ \text{m/s}$, $\delta r=22.5\ \text{m}$ (visina Jefferson-ovog tornja, originalni eksperiment):
+
+$$\frac{\delta E}{E} \approx 2.4559\times10^{-15}$$
+
+— potvrđeno numerički, poklapa se sa izmerenim/predviđenim rezultatom Pound–Rebka eksperimenta (~2.5×10⁻¹⁵).
 
 ---
 
