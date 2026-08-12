@@ -98,7 +98,7 @@ Direktnim izvodom:
 
 $$\frac{dE(r)}{dr} = -\frac{1}{K_F}\frac{\mathbf E}{r^2}\,E(r) \tag{2}$$
 
-**Ubrzanje.** Iz definicije $a\equiv dv/dt$, odnosno, $a(r)\equiv dv(r)/dt(r)$ i jednačine (1):
+**Ubrzanje.** Iz definicije $a\equiv dv/dt$, odnosno, $a(r)\equiv dv(r)/dt(r)$:
 
 $$a(r) = \frac{v_0^2}{K_F}\frac{\mathbf E}{r^2} \tag{3}$$
 
