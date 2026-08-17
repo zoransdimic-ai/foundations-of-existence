@@ -77,13 +77,13 @@ Time is therefore not an optional background coordinate added after the fact. An
 Consequently, a finite physical change cannot occur through an infinitesimal temporal interval while its rate of change becomes undefined or infinite. For spatial displacement,
 
 $$
-\left|\frac{ds}{dt}\right|\leq V_{\max},
+\left|\frac{ds}{dt}\right|\leq V_{\max}
 $$
 
 so that during an infinitesimal $dt$,
 
 $$
-|ds|\leq V_{\max}dt.
+|ds|\leq V_{\max}dt
 $$
 
 Thus an infinitesimal interval of time can contain only a correspondingly infinitesimal displacement. A finite spatial jump occurring within $dt$ would require an unbounded $ds/dt$ and would therefore violate the assumed structure of the continuum.
@@ -113,7 +113,7 @@ f(x_0)
 =
 \lim_{x\to x_0}f(x)
 =
-0.
+0
 $$
 
 Therefore a nonzero continuous function cannot have support consisting of only one point.
@@ -137,7 +137,7 @@ However, **smoothness alone does not yet establish a universal minimum size**.
 A smooth bump can mathematically be rescaled to an arbitrarily small but still nonzero width. If
 
 $$
-f_\delta(x)=A\,\psi\!\left(\frac{x}{\delta}\right),
+f_\delta(x)=A\,\psi\!\left(\frac{x}{\delta}\right)
 $$
 
 then for every $\delta>0$, however small, $f_\delta$ can remain smooth. What changes is the magnitude of its derivatives:
@@ -146,13 +146,13 @@ $$
 \frac{d^n f_\delta}{dx^n}
 =
 \frac{A}{\delta^n}
-\psi^{(n)}\!\left(\frac{x}{\delta}\right).
+\psi^{(n)}\!\left(\frac{x}{\delta}\right)
 $$
 
 As
 
 $$
-\delta\rightarrow0,
+\delta\rightarrow0
 $$
 
 the derivatives required to preserve a nonvanishing structure become arbitrarily large.
@@ -166,7 +166,7 @@ Thus smoothness excludes an exactly point-like nonzero entity, while **bounded r
 The continuum is subject to the dynamic restriction
 
 $$
-\left|\frac{dE}{ds}\right|\leq F_{\max}.
+\left|\frac{dE}{ds}\right|\leq F_{\max}
 $$
 
 This means that a finite energetic change cannot be produced across an arbitrarily small spatial interval.
@@ -175,7 +175,7 @@ If a characteristic change $\Delta E$ occurs across a distance $\Delta s$, then
 
 $$
 \left|\frac{\Delta E}{\Delta s}\right|
-\lesssim F_{\max},
+\lesssim F_{\max}
 $$
 
 and therefore
@@ -183,7 +183,7 @@ and therefore
 $$
 \Delta s
 \gtrsim
-\frac{|\Delta E|}{F_{\max}}.
+\frac{|\Delta E|}{F_{\max}}
 $$
 
 The physical content of this relation is simple: a nonzero energetic structure requires a nonzero spatial interval over which that structure develops.
@@ -193,7 +193,7 @@ For a universal elementary packet shape, let $D$ denote its longitudinal size an
 $$
 \left|\frac{dE}{ds}\right|_{\mathrm{char}}
 =
-\kappa\,\frac{E_{ee}}{D},
+\kappa\,\frac{E_{ee}}{D}
 $$
 
 where $\kappa>0$ is a dimensionless geometrical factor determined by the normalized smooth profile of the packet.
@@ -204,7 +204,7 @@ The maximum-gradient condition then gives
 
 $$
 \kappa\,\frac{E_{ee}}{D}
-\leq F_{\max}.
+\leq F_{\max}
 $$
 
 This prevents the packet from being compressed without limit while retaining finite nonzero energy.
@@ -216,7 +216,7 @@ But it is important to keep the logical structure explicit:
 That relation is postulated here as
 
 $$
-\boxed{E_{ee}T_{ee}=h}.
+\boxed{E_{ee}T_{ee}=h}
 $$
 
 ---
@@ -230,7 +230,7 @@ The elementary energy packet has no physical state of rest.
 Its propagation is inseparable from its existence because the continuum necessarily possesses $\epsilon$ and $\mu$, which determine the allowed rate of propagation:
 
 $$
-v=\frac{1}{\sqrt{\epsilon\mu}}.
+v=\frac{1}{\sqrt{\epsilon\mu}}
 $$
 
 For the unperturbed continuum,
@@ -238,7 +238,7 @@ For the unperturbed continuum,
 $$
 \epsilon=\epsilon_0,
 \qquad
-\mu=\mu_0,
+\mu=\mu_0
 $$
 
 and the limiting propagation speed is
@@ -246,7 +246,7 @@ and the limiting propagation speed is
 $$
 c=V_{\max}
 =
-\frac{1}{\sqrt{\epsilon_0\mu_0}}.
+\frac{1}{\sqrt{\epsilon_0\mu_0}}
 $$
 
 The basic energy packet — the **Energieelement (EE)** — propagates at this limiting speed.
@@ -274,7 +274,7 @@ Let that longitudinal length be $D_{ee}$.
 Since the Energieelement propagates at $c$,
 
 $$
-\boxed{D_{ee}=cT_{ee}}.
+\boxed{D_{ee}=cT_{ee}}
 $$
 
 This relation is not an analogy with wavelength and is not introduced after the definition of $T_{ee}$. It is the definition of the spatial meaning of $T_{ee}$.
@@ -288,7 +288,7 @@ $$
 therefore immediately gives
 
 $$
-T_{ee}=\frac{h}{E_{ee}},
+T_{ee}=\frac{h}{E_{ee}}
 $$
 
 and hence
@@ -298,13 +298,13 @@ D_{ee}
 =
 cT_{ee}
 =
-\frac{hc}{E_{ee}}.
+\frac{hc}{E_{ee}}
 $$
 
 Thus
 
 $$
-\boxed{E_{ee}D_{ee}=hc}.
+\boxed{E_{ee}D_{ee}=hc}
 $$
 
 The energy, temporal extent, and longitudinal spatial extent of the elementary energetic entity are therefore not independent quantities:
@@ -340,7 +340,7 @@ $$
 and
 
 $$
-D_{ee}>0.
+D_{ee}>0
 $$
 
 The elementary energy packet therefore cannot have zero longitudinal extent.
@@ -354,7 +354,7 @@ In this formulation, frequency is secondary.
 Define
 
 $$
-\nu_{ee}=\frac{1}{T_{ee}}.
+\nu_{ee}=\frac{1}{T_{ee}}
 $$
 
 The fundamental relation then becomes
@@ -364,7 +364,7 @@ E_{ee}
 =
 \frac{h}{T_{ee}}
 =
-h\nu_{ee}.
+h\nu_{ee}
 $$
 
 Thus the familiar relation
@@ -380,7 +380,7 @@ The starting point is not an abstract oscillation of frequency $\nu$ to which an
 Frequency is simply the reciprocal representation of that time:
 
 $$
-\boxed{\nu_{ee}=1/T_{ee}}.
+\boxed{\nu_{ee}=1/T_{ee}}
 $$
 
 Correspondingly,
@@ -390,7 +390,7 @@ D_{ee}
 =
 \frac{c}{\nu_{ee}}
 =
-\frac{hc}{E_{ee}}.
+\frac{hc}{E_{ee}}
 $$
 
 Within this framework, the wavelength associated with the elementary energy packet is therefore interpreted as the longitudinal spatial scale of the packet itself.
@@ -414,7 +414,7 @@ $$
 and
 
 $$
-\text{finiteness of an entity existing within that medium}.
+\text{finiteness of an entity existing within that medium}
 $$
 
 The Energieelement is not a “piece of discrete space.” It is a finite, smooth distribution of energy existing and propagating within a continuous $\{dt,3D,\epsilon,\mu\}$ medium.
@@ -430,13 +430,13 @@ is interpreted here not as evidence that the continuum breaks into elementary ce
 In this sense, $h$ determines an invariant energy-time measure of the elementary energetic entity:
 
 $$
-\boxed{h=E_{ee}T_{ee}}.
+\boxed{h=E_{ee}T_{ee}}
 $$
 
 Equivalently,
 
 $$
-\boxed{hc=E_{ee}D_{ee}}.
+\boxed{hc=E_{ee}D_{ee}}
 $$
 
 Increasing the energy therefore necessarily decreases the temporal and spatial extent:
@@ -446,7 +446,7 @@ E_{ee}\uparrow
 \quad\Longleftrightarrow\quad
 T_{ee}\downarrow
 \quad\Longleftrightarrow\quad
-D_{ee}\downarrow.
+D_{ee}\downarrow
 $$
 
 This is not an arbitrary mathematical construction. It is the proposed fundamental scaling law of the elementary energy packet.
@@ -466,7 +466,7 @@ $$
 requires
 
 $$
-E_{ee}=\frac{hc}{D_{ee}}.
+E_{ee}=\frac{hc}{D_{ee}}
 $$
 
 The characteristic internal gradient of a universally shaped packet is
@@ -474,7 +474,7 @@ The characteristic internal gradient of a universally shaped packet is
 $$
 \left|\frac{dE}{ds}\right|_{\mathrm{char}}
 =
-\kappa\frac{E_{ee}}{D_{ee}}.
+\kappa\frac{E_{ee}}{D_{ee}}
 $$
 
 Substitution gives
@@ -482,7 +482,7 @@ Substitution gives
 $$
 \left|\frac{dE}{ds}\right|_{\mathrm{char}}
 =
-\kappa\frac{hc}{D_{ee}^2}.
+\kappa\frac{hc}{D_{ee}^2}
 $$
 
 The continuum requires
@@ -490,7 +490,7 @@ The continuum requires
 $$
 \kappa\frac{hc}{D_{ee}^2}
 \leq
-F_{\max}.
+F_{\max}
 $$
 
 Therefore
@@ -502,17 +502,17 @@ D_{ee}
 D_{\min}
 =
 \sqrt{\frac{\kappa hc}{F_{\max}}}
-}.
+}
 $$
 
 Thus, once the elementary packet has a universal normalized smooth profile, the combination of
 
 $$
-E_{ee}T_{ee}=h,
+E_{ee}T_{ee}=h
 $$
 
 $$
-D_{ee}=cT_{ee},
+D_{ee}=cT_{ee}
 $$
 
 and
@@ -535,7 +535,7 @@ $$
 D_{\min}
 =
 \sqrt{\frac{hc}{F_{\max}}}
-}.
+}
 $$
 
 Using
@@ -545,7 +545,7 @@ F_{\max}
 =
 \frac{1}{G\epsilon_0^2\mu_0^2}
 =
-\frac{c^4}{G},
+\frac{c^4}{G}
 $$
 
 this becomes
@@ -555,7 +555,7 @@ $$
 D_{\min}
 =
 \sqrt{\frac{hG}{c^3}}
-}.
+}
 $$
 
 The corresponding minimum traversal time is
@@ -567,7 +567,7 @@ T_{\min}
 \frac{D_{\min}}{c}
 =
 \sqrt{\frac{hG}{c^5}}
-},
+}
 $$
 
 while the maximum energy of a single elementary packet consistent with the same limits is
@@ -579,7 +579,7 @@ E_{\max}
 \frac{hc}{D_{\min}}
 =
 \sqrt{\frac{hcF_{\max}}{\kappa}}
-}.
+}
 $$
 
 For $\kappa=1$,
@@ -589,7 +589,7 @@ $$
 E_{\max}
 =
 \sqrt{\frac{hc^5}{G}}
-}.
+}
 $$
 
 These scales are not independently inserted into the framework. They arise from combining the two continuum limits with the universal energy-time law.
@@ -641,7 +641,7 @@ The logical structure is:
 $$
 \left|\frac{ds}{dt}\right|\leq V_{\max},
 \qquad
-\left|\frac{dE}{ds}\right|\leq F_{\max}.
+\left|\frac{dE}{ds}\right|\leq F_{\max}
 $$
 
 3. **Mathematical consequence:** A nonzero ordinary smooth localized function cannot have support consisting of one point.
@@ -655,19 +655,19 @@ $$
 $$
 T_{ee}
 =
-\text{time required for the Energieelement to travel its own longitudinal length}.
+\text{time required for the Energieelement to travel its own longitudinal length}
 $$
 
    Hence
 
 $$
-D_{ee}=cT_{ee}.
+D_{ee}=cT_{ee}
 $$
 
 7. **Fundamental law:**
 
 $$
-\boxed{E_{ee}T_{ee}=h}.
+\boxed{E_{ee}T_{ee}=h}
 $$
 
 8. **Immediate consequence:**
@@ -707,7 +707,7 @@ V_{\max},
 \qquad
 F_{\max},
 \qquad
-E_{ee}T_{ee}=h,
+E_{ee}T_{ee}=h
 $$
 
 define mutually compatible limits on possible physical manifestation:
