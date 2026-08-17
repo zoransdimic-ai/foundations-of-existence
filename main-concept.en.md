@@ -57,8 +57,6 @@ The local energy density within the soliton ($\rho_E = E/V$) is dimensionally eq
 ---
 This section, Section II, for some reason was not very clear to AI assistants (and among humans, no one has ever commented or asked me anything about it).For that reason, another version of this section is presented, Section II' :
 
-This section, Section II, for some reason was not very clear to AI assistants (and among humans, no one has ever commented or asked me anything about it).For that reason, another version of this section is presented, Section II' :
-
 
 ## II'. The Finite Energy Element and the Fundamental Law $E \cdot T = h$
 
