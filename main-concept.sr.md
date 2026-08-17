@@ -153,9 +153,7 @@ Dakle, glatkoća isključuje tačno tačkasti nenulti entitet, dok su **ogranič
 
 Kontinuum je podvrgnut dinamičkom ograničenju
 
-$$
-\left|\frac{dE}{ds}\right|\leq F_{\max}.
-$$
+$$\left|\frac{dE}{ds}\right|\leq F_{\max}$$
 
 To znači da se konačna energijska promena ne može ostvariti preko proizvoljno malog prostornog intervala.
 
@@ -163,7 +161,7 @@ Ako se karakteristična promena $\Delta E$ ostvaruje preko rastojanja $\Delta s$
 
 $$
 \left|\frac{\Delta E}{\Delta s}\right|
-\lesssim F_{\max},
+\lesssim F_{\max}
 $$
 
 pa prema tome
