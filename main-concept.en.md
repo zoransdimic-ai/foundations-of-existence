@@ -57,6 +57,678 @@ The local energy density within the soliton ($\rho_E = E/V$) is dimensionally eq
 ---
 This section, Section II, for some reason was not very clear to AI assistants (and among humans, no one has ever commented or asked me anything about it).For that reason, another version of this section is presented, Section II' :
 
+This section, Section II, for some reason was not very clear to AI assistants (and among humans, no one has ever commented or asked me anything about it).For that reason, another version of this section is presented, Section II' :
+
+
+## II'. The Finite Energy Element and the Fundamental Law $E \cdot T = h$
+
+### 1. What “consistent smooth continuum” means
+
+The continuum introduced in Section I is not merely assumed to be mathematically continuous. The stronger requirement is **consistency of change**.
+
+The four constitutive aspects
+
+$$
+\{dt,\;3D,\;\epsilon,\;\mu\}
+$$
+
+are not regarded as four independently existing substances. They are four inseparable manifestations of one and the same continuum: wherever spatial existence is defined, $dt$, $\epsilon$, and $\mu$ are present as well. None of them can physically occur “outside” the others.
+
+Time is therefore not an optional background coordinate added after the fact. Any physical change necessarily occurs **during $dt$**. To say that something changes already implies a temporal relation.
+
+Consequently, a finite physical change cannot occur through an infinitesimal temporal interval while its rate of change becomes undefined or infinite. For spatial displacement,
+
+$$
+\left|\frac{ds}{dt}\right|\leq V_{\max},
+$$
+
+so that during an infinitesimal $dt$,
+
+$$
+|ds|\leq V_{\max}dt.
+$$
+
+Thus an infinitesimal interval of time can contain only a correspondingly infinitesimal displacement. A finite spatial jump occurring within $dt$ would require an unbounded $ds/dt$ and would therefore violate the assumed structure of the continuum.
+
+The same principle applies to other physically meaningful changes. A physically admissible evolution must remain single-valued and finite: no discontinuous jumps, singular transitions, or infinite rates are admitted as fundamental physical processes.
+
+This is the intended meaning of a **consistent smooth continuum**.
+
+---
+
+### 2. Why a localized elementary entity cannot be a point
+
+Suppose energy appears locally in such a continuum.
+
+If the elementary energetic entity is genuinely localized, it must differ from the surrounding state. But if it is also continuous, it cannot make the transition
+
+$$
+0\longrightarrow E\longrightarrow0
+$$
+
+at a single spatial point.
+
+There is an elementary mathematical reason for this. If a continuous function $f(x)$ vanishes everywhere except at one point $x_0$, then continuity requires
+
+$$
+f(x_0)
+=
+\lim_{x\to x_0}f(x)
+=
+0.
+$$
+
+Therefore a nonzero continuous function cannot have support consisting of only one point.
+
+A nonzero localized entity represented by an ordinary smooth function must consequently occupy a nonzero spatial region.
+
+A Dirac delta distribution can formally represent a point-localized quantity, but a delta distribution is not an ordinary smooth function. It therefore belongs to a different mathematical category from the physical entities postulated here.
+
+This distinction is fundamental:
+
+$$
+\boxed{
+\text{nonzero smooth localized entity}
+\quad\Longrightarrow\quad
+\text{nonzero spatial extent}
+}
+$$
+
+However, **smoothness alone does not yet establish a universal minimum size**.
+
+A smooth bump can mathematically be rescaled to an arbitrarily small but still nonzero width. If
+
+$$
+f_\delta(x)=A\,\psi\!\left(\frac{x}{\delta}\right),
+$$
+
+then for every $\delta>0$, however small, $f_\delta$ can remain smooth. What changes is the magnitude of its derivatives:
+
+$$
+\frac{d^n f_\delta}{dx^n}
+=
+\frac{A}{\delta^n}
+\psi^{(n)}\!\left(\frac{x}{\delta}\right).
+$$
+
+As
+
+$$
+\delta\rightarrow0,
+$$
+
+the derivatives required to preserve a nonvanishing structure become arbitrarily large.
+
+Thus smoothness excludes an exactly point-like nonzero entity, while **bounded rates of change** are what exclude unlimited compression of a physically nonvanishing entity.
+
+---
+
+### 3. The role of the maximum spatial energy gradient
+
+The continuum is subject to the dynamic restriction
+
+$$
+\left|\frac{dE}{ds}\right|\leq F_{\max}.
+$$
+
+This means that a finite energetic change cannot be produced across an arbitrarily small spatial interval.
+
+If a characteristic change $\Delta E$ occurs across a distance $\Delta s$, then
+
+$$
+\left|\frac{\Delta E}{\Delta s}\right|
+\lesssim F_{\max},
+$$
+
+and therefore
+
+$$
+\Delta s
+\gtrsim
+\frac{|\Delta E|}{F_{\max}}.
+$$
+
+The physical content of this relation is simple: a nonzero energetic structure requires a nonzero spatial interval over which that structure develops.
+
+For a universal elementary packet shape, let $D$ denote its longitudinal size and $E_{ee}$ its total energy. The characteristic internal gradient may then be written in the form
+
+$$
+\left|\frac{dE}{ds}\right|_{\mathrm{char}}
+=
+\kappa\,\frac{E_{ee}}{D},
+$$
+
+where $\kappa>0$ is a dimensionless geometrical factor determined by the normalized smooth profile of the packet.
+
+If the same fundamental profile applies to all elementary energy packets, $\kappa$ is universal.
+
+The maximum-gradient condition then gives
+
+$$
+\kappa\,\frac{E_{ee}}{D}
+\leq F_{\max}.
+$$
+
+This prevents the packet from being compressed without limit while retaining finite nonzero energy.
+
+But it is important to keep the logical structure explicit:
+
+> The $F_{\max}$ condition by itself does not determine one unique size for every possible packet energy. An additional universal relation between the energy of the packet and its spatio-temporal extent is required.
+
+That relation is postulated here as
+
+$$
+\boxed{E_{ee}T_{ee}=h}.
+$$
+
+---
+
+### 4. Energy is intrinsically propagating
+
+In this framework, motion is not an accidental state that an elementary energy packet may or may not possess.
+
+The elementary energy packet has no physical state of rest.
+
+Its propagation is inseparable from its existence because the continuum necessarily possesses $\epsilon$ and $\mu$, which determine the allowed rate of propagation:
+
+$$
+v=\frac{1}{\sqrt{\epsilon\mu}}.
+$$
+
+For the unperturbed continuum,
+
+$$
+\epsilon=\epsilon_0,
+\qquad
+\mu=\mu_0,
+$$
+
+and the limiting propagation speed is
+
+$$
+c=V_{\max}
+=
+\frac{1}{\sqrt{\epsilon_0\mu_0}}.
+$$
+
+The basic energy packet — the **Energieelement (EE)** — propagates at this limiting speed.
+
+It is therefore not meaningful within this framework to construct the elementary packet as a stationary object and subsequently assign motion to it. Propagation belongs to its fundamental definition.
+
+---
+
+### 5. Precise definition of $T_{ee}$
+
+The quantity $T_{ee}$ in
+
+$$
+E_{ee}T_{ee}=h
+$$
+
+has a precise physical meaning.
+
+It is defined as:
+
+> **the time required for the Energieelement to travel a distance equal to its own longitudinal length in the direction of propagation.**
+
+Let that longitudinal length be $D_{ee}$.
+
+Since the Energieelement propagates at $c$,
+
+$$
+\boxed{D_{ee}=cT_{ee}}.
+$$
+
+This relation is not an analogy with wavelength and is not introduced after the definition of $T_{ee}$. It is the definition of the spatial meaning of $T_{ee}$.
+
+The fundamental law
+
+$$
+\boxed{E_{ee}T_{ee}=h}
+$$
+
+therefore immediately gives
+
+$$
+T_{ee}=\frac{h}{E_{ee}},
+$$
+
+and hence
+
+$$
+D_{ee}
+=
+cT_{ee}
+=
+\frac{hc}{E_{ee}}.
+$$
+
+Thus
+
+$$
+\boxed{E_{ee}D_{ee}=hc}.
+$$
+
+The energy, temporal extent, and longitudinal spatial extent of the elementary energetic entity are therefore not independent quantities:
+
+$$
+\boxed{
+E_{ee}
+\;\longleftrightarrow\;
+T_{ee}
+\;\longleftrightarrow\;
+D_{ee}
+}
+$$
+
+with
+
+$$
+\boxed{
+E_{ee}T_{ee}=h,
+\qquad
+D_{ee}=cT_{ee},
+\qquad
+E_{ee}D_{ee}=hc.
+}
+$$
+
+For every finite, nonzero $E_{ee}$,
+
+$$
+T_{ee}>0
+$$
+
+and
+
+$$
+D_{ee}>0.
+$$
+
+The elementary energy packet therefore cannot have zero longitudinal extent.
+
+---
+
+### 6. Frequency is derived, not fundamental
+
+In this formulation, frequency is secondary.
+
+Define
+
+$$
+\nu_{ee}=\frac{1}{T_{ee}}.
+$$
+
+The fundamental relation then becomes
+
+$$
+E_{ee}
+=
+\frac{h}{T_{ee}}
+=
+h\nu_{ee}.
+$$
+
+Thus the familiar relation
+
+$$
+E=h\nu
+$$
+
+is recovered, but its interpretation is reversed.
+
+The starting point is not an abstract oscillation of frequency $\nu$ to which an energy quantum is assigned. The starting point is a finite propagating energy entity characterized by $E_{ee}$ and by the traversal time $T_{ee}$ associated with its own physical extent.
+
+Frequency is simply the reciprocal representation of that time:
+
+$$
+\boxed{\nu_{ee}=1/T_{ee}}.
+$$
+
+Correspondingly,
+
+$$
+D_{ee}
+=
+\frac{c}{\nu_{ee}}
+=
+\frac{hc}{E_{ee}}.
+$$
+
+Within this framework, the wavelength associated with the elementary energy packet is therefore interpreted as the longitudinal spatial scale of the packet itself.
+
+This last statement is a **specific physical postulate of the present model**. A finite measured wavelength, by itself, does not mathematically prove compact spatial support. The finite extent of the Energieelement is instead obtained here from the combined structure of the smooth continuum, bounded physical change, unavoidable propagation, and the $E_{ee}T_{ee}=h$ law.
+
+---
+
+### 7. Why $E T=h$ is not a violation of continuity
+
+The existence of a universal constant $h$ does not require space or time themselves to be discrete.
+
+A continuous medium can contain finite localized structures without becoming a discrete medium.
+
+The distinction is between
+
+$$
+\text{continuity of the underlying medium}
+$$
+
+and
+
+$$
+\text{finiteness of an entity existing within that medium}.
+$$
+
+The Energieelement is not a “piece of discrete space.” It is a finite, smooth distribution of energy existing and propagating within a continuous $\{dt,3D,\epsilon,\mu\}$ medium.
+
+Accordingly, the relation
+
+$$
+E_{ee}T_{ee}=h
+$$
+
+is interpreted here not as evidence that the continuum breaks into elementary cells, but as a fundamental law governing how a finite elementary energy entity can exist within that continuum.
+
+In this sense, $h$ determines an invariant energy-time measure of the elementary energetic entity:
+
+$$
+\boxed{h=E_{ee}T_{ee}}.
+$$
+
+Equivalently,
+
+$$
+\boxed{hc=E_{ee}D_{ee}}.
+$$
+
+Increasing the energy therefore necessarily decreases the temporal and spatial extent:
+
+$$
+E_{ee}\uparrow
+\quad\Longleftrightarrow\quad
+T_{ee}\downarrow
+\quad\Longleftrightarrow\quad
+D_{ee}\downarrow.
+$$
+
+This is not an arbitrary mathematical construction. It is the proposed fundamental scaling law of the elementary energy packet.
+
+---
+
+### 8. Combination of $E T=h$ with $F_{\max}$
+
+The two fundamental restrictions now become mutually complementary.
+
+The law
+
+$$
+E_{ee}D_{ee}=hc
+$$
+
+requires
+
+$$
+E_{ee}=\frac{hc}{D_{ee}}.
+$$
+
+The characteristic internal gradient of a universally shaped packet is
+
+$$
+\left|\frac{dE}{ds}\right|_{\mathrm{char}}
+=
+\kappa\frac{E_{ee}}{D_{ee}}.
+$$
+
+Substitution gives
+
+$$
+\left|\frac{dE}{ds}\right|_{\mathrm{char}}
+=
+\kappa\frac{hc}{D_{ee}^2}.
+$$
+
+The continuum requires
+
+$$
+\kappa\frac{hc}{D_{ee}^2}
+\leq
+F_{\max}.
+$$
+
+Therefore
+
+$$
+\boxed{
+D_{ee}
+\geq
+D_{\min}
+=
+\sqrt{\frac{\kappa hc}{F_{\max}}}
+}.
+$$
+
+Thus, once the elementary packet has a universal normalized smooth profile, the combination of
+
+$$
+E_{ee}T_{ee}=h,
+$$
+
+$$
+D_{ee}=cT_{ee},
+$$
+
+and
+
+$$
+\left|\frac{dE}{ds}\right|\leq F_{\max}
+$$
+
+produces an actual nonzero universal lower bound on its spatial extent.
+
+The relation $E_{ee}T_{ee}=h$ is not the only mathematically conceivable way to establish, in combination with the constraints introduced above, a unique universal lower bound on size. However, it represents the simplest such case in a precise sense: it directly relates only $E$ and $T$, both quantities appear only to the first power, and apart from a single universal constant $h$, it introduces no additional parameters, characteristic scales, or arbitrarily chosen functions.
+
+If an even simpler universal relation satisfying the same requirements exists, it should be possible to formulate it explicitly.
+
+
+With the normalization $\kappa=1$,
+
+$$
+\boxed{
+D_{\min}
+=
+\sqrt{\frac{hc}{F_{\max}}}
+}.
+$$
+
+Using
+
+$$
+F_{\max}
+=
+\frac{1}{G\epsilon_0^2\mu_0^2}
+=
+\frac{c^4}{G},
+$$
+
+this becomes
+
+$$
+\boxed{
+D_{\min}
+=
+\sqrt{\frac{hG}{c^3}}
+}.
+$$
+
+The corresponding minimum traversal time is
+
+$$
+\boxed{
+T_{\min}
+=
+\frac{D_{\min}}{c}
+=
+\sqrt{\frac{hG}{c^5}}
+},
+$$
+
+while the maximum energy of a single elementary packet consistent with the same limits is
+
+$$
+\boxed{
+E_{\max}
+=
+\frac{hc}{D_{\min}}
+=
+\sqrt{\frac{hcF_{\max}}{\kappa}}
+}.
+$$
+
+For $\kappa=1$,
+
+$$
+\boxed{
+E_{\max}
+=
+\sqrt{\frac{hc^5}{G}}
+}.
+$$
+
+These scales are not independently inserted into the framework. They arise from combining the two continuum limits with the universal energy-time law.
+
+The dimensionless factor $\kappa$ is displayed explicitly because an exact numerical minimum requires an exact specification of the universal spatial profile of the Energieelement. If the profile is fixed elsewhere in the model, $\kappa$ is fixed as well. Without such a profile specification, the existence of a lower scale follows from the combined bounds, but its exact numerical coefficient should not be claimed.
+
+---
+
+### 9. The Energieelement as the elementary building block
+
+The role assigned to the Energieelement in this framework is more fundamental than the conventional role of a photon as merely one member of a list of elementary particles.
+
+The Energieelement is proposed as the elementary energetic building block from which other localized entities arise.
+
+Stable and metastable entities conventionally called particles — beginning with the electron and positron in the subsequent construction — are modeled as dynamically sustained vortical configurations of Energieelements.
+
+Their apparent rest mass does not arise because the constituent energy packets cease to move. The constituent Energieelements continue their unavoidable propagation, but their trajectories become bound into persistent vortex structures.
+
+Thus the conceptual hierarchy is
+
+$$
+\boxed{
+\text{continuum}
+\rightarrow
+\text{energy}
+\rightarrow
+\text{finite propagating Energieelement}
+\rightarrow
+\text{vortical bound structures}
+\rightarrow
+\text{matter}.
+}
+$$
+
+The hypothesis that electrons, positrons, and other material entities are such vortical configurations is a subsequent dynamical claim and is not derived solely from $E_{ee}T_{ee}=h$. What is established at the present axiomatic level is the proposed character of their elementary constituent: a finite, smooth, intrinsically propagating energy packet.
+
+---
+
+### 10. Logical status of the argument
+
+For clarity, the argument should not be presented as if every statement followed from mathematical continuity alone.
+
+The logical structure is:
+
+1. **Postulate:** Existence is described by one inseparable smooth continuum manifested through $dt$, $3D$, $\epsilon$, and $\mu$.
+
+2. **Postulate:** Fundamental physical change is finite, single-valued, and bounded. In particular,
+
+   $$
+   \left|\frac{ds}{dt}\right|\leq V_{\max},
+   \qquad
+   \left|\frac{dE}{ds}\right|\leq F_{\max}.
+   $$
+
+3. **Mathematical consequence:** A nonzero ordinary smooth localized function cannot have support consisting of one point.
+
+4. **Physical consequence of bounded gradients:** A finite nonzero energetic structure cannot be compressed to arbitrarily small extent while its relevant energetic variation remains finite and nonzero.
+
+5. **Postulate:** Elementary energy is intrinsically propagating, with limiting propagation speed $c$.
+
+6. **Definition:**
+
+   $$
+   T_{ee}
+   =
+   \text{time required for the Energieelement to travel its own longitudinal length}.
+   $$
+
+   Hence
+
+   $$
+   D_{ee}=cT_{ee}.
+   $$
+
+7. **Fundamental law:**
+
+   $$
+   \boxed{E_{ee}T_{ee}=h}.
+   $$
+
+8. **Immediate consequence:**
+
+   $$
+   \boxed{
+   D_{ee}=\frac{hc}{E_{ee}},
+   \qquad
+   E_{ee}D_{ee}=hc.
+   }
+   $$
+
+9. **Combined consequence:** Together with $F_{\max}$ and a universal smooth packet profile, this relation yields a nonzero minimum possible spatial scale.
+
+This distinction between postulate and consequence is essential. The purpose of the framework is not to hide fundamental assumptions behind increasingly abstract constructions, but to state the smallest proposed set of fundamental facts explicitly and then examine what necessarily follows from them.
+
+---
+
+### 11. Physical interpretation
+
+The relation
+
+$$
+\boxed{E_{ee}T_{ee}=h}
+$$
+
+is therefore not interpreted here as a mathematical trick, an inexplicable discontinuity imposed upon nature, or evidence that the underlying universe cannot be continuous.
+
+On the contrary, within the present framework it plays the opposite role.
+
+It is the law that connects the energy of a finite elementary entity with the finite time and finite spatial extent through which that entity manifests itself in a smooth continuum.
+
+Together,
+
+$$
+V_{\max},
+\qquad
+F_{\max},
+\qquad
+E_{ee}T_{ee}=h,
+$$
+
+define mutually compatible limits on possible physical manifestation:
+
+$$
+\boxed{
+\text{finite rate of motion}
+\quad+\quad
+\text{finite spatial rate of energetic change}
+\quad+\quad
+\text{fixed energy-time measure}.
+}
+$$
+
+The resulting picture contains neither point-like energetic singularities nor arbitrary finite jumps.
+
+It contains a continuous underlying medium and finite smooth energetic structures whose admissible spatial, temporal, and energetic scales are mutually constrained.
+
+That is the intended meaning of a **consistent smooth continuum**.
 
 ---
 
