@@ -55,8 +55,8 @@ Relacija **$E_{ee} T_{ee} = h$** je najjednostavnija linearna sprega saglasna sa
 Lokalna gustina energije unutar solitona ($\rho_E = E/V$) dimenziono je ekvivalentna pritisku ($[J/m^3] = Pa$). Njena prostorna promena od centra ka periferiji generiše negativan radijalni gradijent ($\nabla E < 0$) — inherentnu silu usmerenu ka centru, koja drži entitet na okupu, dok $F_{max}$ sprečava kolaps u tačku. Rezultat je stabilan, samoodrživi soliton.
 
 ---
-Sadržaj ove sekcije, sekcije II, iz nekog razloga nije baš bila jasna AI asistentima (a od ljudi nikada niko nije komentarisao, niti me bilo šta pitao u vezi sa ovim).
-Iz tog razloga predstavljena je još jedna verzija ove sekcije, sekcija II' :
+Sadržaj Sekcije II, iz nekog razloga, nije bila dovoljno jasna AI asistentima (a među ljudima to niko nikada nije komentarisao niti me o tome nešto pitao). Zbog toga je ovde predstavljena još jedna verzija ove sekcije, Sekcija II':
+
 ## II'. Konačni energijski element i fundamentalni zakon $E \cdot T = h$
 
 ### 1. Šta znači „konzistentni glatki kontinuum“
@@ -65,9 +65,7 @@ Kontinuum uveden u Odeljku I nije samo pretpostavljen kao matematički kontinual
 
 Četiri konstitutivna aspekta
 
-$$
-\{dt,\;3D,\;\epsilon,\;\mu\}
-$$
+$$\{dt,\;3D,\;\epsilon,\;\mu\}$$
 
 ne posmatraju se kao četiri nezavisno postojeće supstance. Oni su četiri nerazdvojiva vida ispoljavanja jednog te istog kontinuuma: gde god je definisano prostorno postojanje, prisutni su i $dt$, $\epsilon$ i $\mu$. Nijedan od tih aspekata ne može fizički postojati „izvan“ ostalih.
 
@@ -75,15 +73,11 @@ Vreme zato nije opcioni pozadinski koordinatni parametar koji se naknadno dodaje
 
 Prema tome, konačna fizička promena ne može da se dogodi tokom infinitezimalnog vremenskog intervala ako bi njena stopa promene pri tome postala neodređena ili beskonačna. Za prostorno pomeranje važi
 
-$$
-\left|\frac{ds}{dt}\right|\leq V_{\max},
-$$
+$$\left|\frac{ds}{dt}\right|\leq V_{\max}$$
 
 pa tokom infinitezimalnog $dt$ mora važiti
 
-$$
-|ds|\leq V_{\max}dt.
-$$
+$$|ds|\leq V_{\max}dt$$
 
 Dakle, infinitezimalni vremenski interval može obuhvatiti samo odgovarajuće infinitezimalno pomeranje. Konačan prostorni skok tokom $dt$ zahtevao bi neograničeno $ds/dt$ i time bi narušio pretpostavljenu strukturu kontinuuma.
 
@@ -99,15 +93,13 @@ Pretpostavimo da se energija lokalno pojavljuje u takvom kontinuumu.
 
 Ako je elementarni energijski entitet zaista lokalizovan, mora se razlikovati od okolnog stanja. Ali ako je istovremeno kontinualan, ne može da ostvari prelaz
 
-$$
-0\longrightarrow E\longrightarrow0
-$$
+$$0\longrightarrow E\longrightarrow0$$
 
 u jednoj jedinoj prostornoj tački.
 
 Za to postoji elementaran matematički razlog. Ako kontinualna funkcija $f(x)$ iščezava svuda osim u jednoj tački $x_0$, kontinualnost zahteva
 
-$$f(x_0)=\lim_{x\to x_0}f(x)=0$$
+$$f(x_0) = \lim_{x\to x_0}f(x) = 0$$
 
 Prema tome, nenulta kontinualna funkcija ne može imati nosač koji se sastoji samo od jedne tačke.
 
@@ -117,31 +109,21 @@ Dirakova delta distribucija formalno može predstavljati tačkasto lokalizovanu 
 
 Ova razlika je fundamentalna:
 
-$$
-\boxed{
-\text{nenulti glatki lokalizovani entitet}
-\quad\Longrightarrow\quad
-\text{nenulta prostorna ekstenzija}
-}
-$$
+$$\boxed{ \text{nenulti glatki lokalizovani entitet} \quad\Longrightarrow\quad \text{nenulta prostorna ekstenzija} }$$
 
 Međutim, **sama glatkoća još ne ustanovljava univerzalnu minimalnu veličinu**.
 
 Glatki bump može se matematički preskalirati na proizvoljno malu, ali i dalje nenultu širinu. Ako je
 
-$$
-f_\delta(x)=A\,\psi\!\left(\frac{x}{\delta}\right),
-$$
+$$f_\delta(x)=A\,\psi\!\left(\frac{x}{\delta}\right)$$
 
 onda za svako $\delta>0$, ma koliko malo, $f_\delta$ može ostati glatka funkcija. Ono što se menja jeste veličina njenih izvoda:
 
-$$\frac{d^n f_\delta}{dx^n}=\frac{A}{\delta^n}\psi^{(n)}\!\left(\frac{x}{\delta}\right)$$
+$$\frac{d^n f_\delta}{dx^n} = \frac{A}{\delta^n} \psi^{(n)}\!\left(\frac{x}{\delta}\right)$$
 
 Kada
 
-$$
-\delta\rightarrow0,
-$$
+$$\delta\rightarrow0$$
 
 izvodi potrebni da bi se očuvala nenulta struktura postaju proizvoljno veliki.
 
@@ -159,24 +141,17 @@ To znači da se konačna energijska promena ne može ostvariti preko proizvoljno
 
 Ako se karakteristična promena $\Delta E$ ostvaruje preko rastojanja $\Delta s$, tada važi
 
-$$
-\left|\frac{\Delta E}{\Delta s}\right|
-\lesssim F_{\max}
-$$
+$$\left|\frac{\Delta E}{\Delta s}\right| \lesssim F_{\max}$$
 
 pa prema tome
 
-$$
-\Delta s
-\gtrsim
-\frac{|\Delta E|}{F_{\max}}.
-$$
+$$\Delta s \gtrsim \frac{|\Delta E|}{F_{\max}}$$
 
 Fizički sadržaj ove relacije je jednostavan: nenulta energijska struktura zahteva nenulti prostorni interval preko koga se ta struktura razvija.
 
 Za univerzalni oblik elementarnog paketa neka $D$ označava njegovu longitudinalnu dimenziju, a $E_{ee}$ njegovu ukupnu energiju. Karakteristični unutrašnji gradijent tada se može zapisati u obliku
 
-$$\left|\frac{dE}{ds}\right|_{\mathrm{char}}=\kappa\,\frac{E_{ee}}{D}$$
+$$\left|\frac{dE}{ds}\right|_{\mathrm{char}} = \kappa\,\frac{E_{ee}}{D}$$
 
 gde je $\kappa>0$ bezdimenzioni geometrijski faktor određen normalizovanim glatkim profilom paketa.
 
@@ -184,7 +159,7 @@ Ako isti fundamentalni profil važi za sve elementarne energijske pakete, $\kapp
 
 Uslov maksimalnog gradijenta tada daje
 
-$$\kappa\,\frac{E_{ee}}{D}\leq F_{\max}$$
+$$\kappa\,\frac{E_{ee}}{D} \leq F_{\max}$$
 
 Time se sprečava neograničeno sabijanje paketa uz očuvanje konačne nenulte energije.
 
@@ -210,11 +185,11 @@ $$v=\frac{1}{\sqrt{\epsilon\mu}}$$
 
 Za neporemećeni kontinuum,
 
-$$\epsilon=\epsilon_0,\qquad\mu=\mu_0$$
+$$\epsilon=\epsilon_0, \qquad \mu=\mu_0$$
 
 a granična brzina propagacije je
 
-$$c=V_{\max}=\frac{1}{\sqrt{\epsilon_0\mu_0}}$$
+$$c=V_{\max} = \frac{1}{\sqrt{\epsilon_0\mu_0}}$$
 
 Osnovni energijski paket — **Energieelement (EE)** — propagira upravo tom graničnom brzinom.
 
@@ -252,7 +227,7 @@ $$T_{ee}=\frac{h}{E_{ee}}$$
 
 a zatim
 
-$$D_{ee}=cT_{ee}=\frac{hc}{E_{ee}}$$
+$$D_{ee} = cT_{ee} = \frac{hc}{E_{ee}}$$
 
 Dakle,
 
@@ -260,12 +235,11 @@ $$\boxed{E_{ee}D_{ee}=hc}$$
 
 Energija, vremenska ekstenzija i longitudinalna prostorna ekstenzija elementarnog energijskog entiteta zato nisu međusobno nezavisne veličine:
 
-$$\boxed{E_{ee}\;\longleftrightarrow\;T_{ee}\;\longleftrightarrow\;D_{ee}}$$
+$$\boxed{ E_{ee} \;\longleftrightarrow\; T_{ee} \;\longleftrightarrow\; D_{ee} }$$
 
 pri čemu važi
 
-$$\boxed{E_{ee}T_{ee}=h,\qquadD_{ee}=cT_{ee},\qquadE_{ee}D_{ee}=hc}
-$$
+$$\boxed{ E_{ee}T_{ee}=h, \qquad D_{ee}=cT_{ee}, \qquad E_{ee}D_{ee}=hc. }$$
 
 Za svako konačno, nenulto $E_{ee}$ važi
 
@@ -289,7 +263,7 @@ $$\nu_{ee}=\frac{1}{T_{ee}}$$
 
 Fundamentalna relacija tada postaje
 
-$$E_{ee}=\frac{h}{T_{ee}}=h\nu_{ee}$$
+$$E_{ee} = \frac{h}{T_{ee}} = h\nu_{ee}$$
 
 Tako se dobija poznata relacija
 
@@ -305,7 +279,7 @@ $$\boxed{\nu_{ee}=1/T_{ee}}$$
 
 Prema tome,
 
-$$D_{ee}=\frac{c}{\nu_{ee}}=\frac{hc}{E_{ee}}$$
+$$D_{ee} = \frac{c}{\nu_{ee}} = \frac{hc}{E_{ee}}$$
 
 U ovom okviru talasna dužina pridružena elementarnom energijskom paketu tumači se kao longitudinalna prostorna mera samog paketa.
 
@@ -345,8 +319,7 @@ $$\boxed{hc=E_{ee}D_{ee}}$$
 
 Povećanje energije zato nužno smanjuje vremensku i prostornu ekstenziju:
 
-$$
-E_{ee}\uparrow \quad\Longleftrightarrow\quad T_{ee}\downarrow \quad\Longleftrightarrow\quad D_{ee}\downarrow$$
+$$E_{ee}\uparrow \quad\Longleftrightarrow\quad T_{ee}\downarrow \quad\Longleftrightarrow\quad D_{ee}\downarrow$$
 
 To nije proizvoljna matematička konstrukcija. U ovom modelu to je predloženi fundamentalni zakon skaliranja elementarnog energijskog paketa.
 
@@ -366,19 +339,19 @@ $$E_{ee}=\frac{hc}{D_{ee}}$$
 
 Karakteristični unutrašnji gradijent univerzalno oblikovanog paketa je
 
-$$\left|\frac{dE}{ds}\right|_{\mathrm{char}}=\kappa\frac{E_{ee}}{D_{ee}}$$
+$$\left|\frac{dE}{ds}\right|_{\mathrm{char}} = \kappa\frac{E_{ee}}{D_{ee}}$$
 
 Zamenom se dobija
 
-$$\left|\frac{dE}{ds}\right|_{\mathrm{char}}=\kappa\frac{hc}{D_{ee}^2}$$
+$$\left|\frac{dE}{ds}\right|_{\mathrm{char}} = \kappa\frac{hc}{D_{ee}^2}$$
 
 Kontinuum zahteva
 
-$$\kappa\frac{hc}{D_{ee}^2}\leq F_{\max}$$
+$$\kappa\frac{hc}{D_{ee}^2} \leq F_{\max}$$
 
 Prema tome,
 
-$$\boxed{D_{ee}\geq D_{\min}=\sqrt{\frac{\kappa hc}{F_{\max}}}}$$
+$$\boxed{ D_{ee} \geq D_{\min} = \sqrt{\frac{\kappa hc}{F_{\max}}} }$$
 
 Dakle, kada elementarni paket ima univerzalni normalizovani glatki profil, kombinacija relacija
 
@@ -398,27 +371,27 @@ Ako postoji još jednostavnija univerzalna relacija koja ispunjava iste uslove, 
 
 Za normalizaciju $\kappa=1$,
 
-$$\boxed{D_{\min}=\sqrt{\frac{hc}{F_{\max}}}}$$
+$$\boxed{ D_{\min} = \sqrt{\frac{hc}{F_{\max}}} }$$
 
 Koristeći
 
-$$F_{\max}=\frac{1}{G\epsilon_0^2\mu_0^2}=\frac{c^4}{G}$$
+$$F_{\max} = \frac{1}{G\epsilon_0^2\mu_0^2} = \frac{c^4}{G}$$
 
 dobija se
 
-$$\boxed{D_{\min}=\sqrt{\frac{hG}{c^3}}}$$
+$$\boxed{ D_{\min} = \sqrt{\frac{hG}{c^3}} }$$
 
 Odgovarajuće minimalno vreme prolaska je
 
-$$\boxed{T_{\min}=\frac{D_{\min}}{c}=\sqrt{\frac{hG}{c^5}}}$$
+$$\boxed{ T_{\min} = \frac{D_{\min}}{c} = \sqrt{\frac{hG}{c^5}} }$$
 
 dok je maksimalna energija jednog elementarnog paketa, konzistentna sa istim ograničenjima,
 
-$$\boxed{E_{\max}=\frac{hc}{D_{\min}}=\sqrt{\frac{hcF_{\max}}{\kappa}}}$$
+$$\boxed{ E_{\max} = \frac{hc}{D_{\min}} = \sqrt{\frac{hcF_{\max}}{\kappa}} }$$
 
 Za $\kappa=1$,
 
-$$\boxed{E_{\max}=\sqrt{\frac{hc^5}{G}}}$$
+$$\boxed{ E_{\max} = \sqrt{\frac{hc^5}{G}} }$$
 
 Ove skale nisu nezavisno umetnute u model. One nastaju kombinovanjem dva ograničenja kontinuuma sa univerzalnim energijsko-vremenskim zakonom.
 
@@ -438,7 +411,7 @@ Njihova prividna masa mirovanja ne nastaje zato što konstitutivni energijski pa
 
 Konceptualna hijerarhija je zato
 
-$$\boxed{\text{kontinuum}\rightarrow\text{energija}\rightarrow\text{konačni propagirajući Energieelement}\rightarrow\text{vrtložne vezane strukture}\rightarrow\text{materija}}$$
+$$\boxed{ \text{kontinuum} \rightarrow \text{energija} \rightarrow \text{konačni propagirajući Energieelement} \rightarrow \text{vrtložne vezane strukture} \rightarrow \text{materija}. }$$
 
 Hipoteza da su elektron, pozitron i drugi materijalni entiteti upravo takve vrtložne konfiguracije predstavlja narednu dinamičku tvrdnju i ne izvodi se samo iz relacije $E_{ee}T_{ee}=h$. Ono što se na ovom aksiomatskom nivou postavlja jeste karakter njihovog elementarnog konstituenta: konačan, glatak i suštinski propagirajući energijski paket.
 
@@ -454,7 +427,7 @@ Logička struktura je sledeća:
 
 2. **Postulat:** Fundamentalna fizička promena je konačna, jednoznačna i ograničena. Posebno,
 
-   $$   \left|\frac{ds}{dt}\right|\leq V_{\max}\qquad\left|\frac{dE}{ds}\right|\leq F_{\max}$$
+$$\left|\frac{ds}{dt}\right|\leq V_{\max}, \qquad \left|\frac{dE}{ds}\right|\leq F_{\max}$$
 
 3. **Matematička posledica:** Nenulta obična glatka lokalizovana funkcija ne može imati nosač koji se sastoji od jedne tačke.
 
@@ -464,19 +437,19 @@ Logička struktura je sledeća:
 
 6. **Definicija:**
 
-   $$T_{ee}=\text{vreme potrebno da Energieelement pređe sopstvenu longitudinalnu dužinu}$$
+$$T_{ee} = \text{vreme potrebno da Energieelement pređe sopstvenu longitudinalnu dužinu}$$
 
    Zato
 
-   $$D_{ee}=cT_{ee}$$
+$$D_{ee}=cT_{ee}$$
 
 7. **Fundamentalni zakon:**
 
-   $$\boxed{E_{ee}T_{ee}=h}$$
+$$\boxed{E_{ee}T_{ee}=h}$$
 
 8. **Neposredna posledica:**
 
-   $$\boxed{D_{ee}=\frac{hc}{E_{ee}},\qquad E_{ee}D_{ee}=hc}$$
+$$\boxed{ D_{ee}=\frac{hc}{E_{ee}}, \qquad E_{ee}D_{ee}=hc. }$$
 
 9. **Kombinovana posledica:** Zajedno sa $F_{\max}$ i univerzalnim glatkim profilom paketa, ova relacija daje nenultu minimalnu moguću prostornu skalu.
 
@@ -498,18 +471,17 @@ To je zakon koji povezuje energiju konačnog elementarnog entiteta sa konačnim 
 
 Zajedno,
 
-$$V_{\max},\qquad F_{\max},\qquad E_{ee}T_{ee}=h$$
+$$V_{\max}, \qquad F_{\max}, \qquad E_{ee}T_{ee}=h$$
 
 određuju međusobno kompatibilna ograničenja mogućeg fizičkog ispoljavanja:
 
-$$\boxed{\text{konačna stopa kretanja}\quad+\quad\text{konačna prostorna stopa promene energije}\quad+\quad\text{fiksna energijsko-vremenska mera}}$$
+$$\boxed{ \text{konačna stopa kretanja} \quad+\quad \text{konačna prostorna stopa promene energije} \quad+\quad \text{fiksna energijsko-vremenska mera}. }$$
 
 Dobijena slika ne sadrži ni tačkaste energijske singularnosti ni proizvoljne konačne skokove.
 
 Ona sadrži kontinualnu osnovnu sredinu i konačne glatke energijske strukture čije su dozvoljene prostorne, vremenske i energijske skale međusobno povezane i ograničene.
 
 To je ovde zamišljeno značenje **konzistentnog glatkog kontinuuma**.
-
 
 ---
 
