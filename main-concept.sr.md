@@ -55,7 +55,7 @@ Relacija **$E_{ee} T_{ee} = h$** je najjednostavnija linearna sprega saglasna sa
 Lokalna gustina energije unutar solitona ($\rho_E = E/V$) dimenziono je ekvivalentna pritisku ($[J/m^3] = Pa$). Njena prostorna promena od centra ka periferiji generiše negativan radijalni gradijent ($\nabla E < 0$) — inherentnu silu usmerenu ka centru, koja drži entitet na okupu, dok $F_{max}$ sprečava kolaps u tačku. Rezultat je stabilan, samoodrživi soliton.
 
 ---
-Ova sekcija, sekcija II, iz nekog razloga nije baš bila jasna AI asistentima (od ljudi nikada niko nije komentarisao, niti me bilo šta pitao u vezi sa ovim).
+Sadržaj ove sekcije, sekcije II, iz nekog razloga nije baš bila jasna AI asistentima (a od ljudi nikada niko nije komentarisao, niti me bilo šta pitao u vezi sa ovim).
 Iz tog razloga predstavljena je još jedna verzija ove sekcije, sekcija II' :
 ## II'. Konačni energijski element i fundamentalni zakon $E \cdot T = h$
 
@@ -196,7 +196,6 @@ Ta relacija se ovde postulira kao
 
 $$\boxed{E_{ee}T_{ee}=h}$$
 
-(AI opet insistira na "postulira", ali, po meni, što se tiče tog postulata traba uočiti da to nije proizvoljan postulat. Jednostavno, ako se stvari malo proanaliziraju, to predstavlja NAJJEDNOSTAVNIJI mogući slučaj)("Nature is pleased with simplicity"; "Simplicity is the ultimate sophistication".)
 ---
 
 ### 4. Energija je suštinski propagirajuća
@@ -392,6 +391,10 @@ i
 $$\left|\frac{dE}{ds}\right|\leq F_{\max}$$
 
 daje stvarnu, nenultu univerzalnu donju granicu njegove prostorne ekstenzije.
+
+Relacija $E_{ee}T_{ee}=h$ nije jedini matematički zamisliv način da se, u kombinaciji sa prethodno uvedenim ograničenjima, uspostavi jedinstvena univerzalna donja granica veličine. Međutim, ona predstavlja najjednostavniji takav slučaj u preciznom smislu: neposredno povezuje samo $E$ i $T$, obe veličine pojavljuju se samo u prvom stepenu, a osim jedne univerzalne konstante $h$ ne uvodi nikakve dodatne parametre, karakteristične skale niti proizvoljno izabrane funkcije.
+
+Ako postoji još jednostavnija univerzalna relacija koja ispunjava iste uslove, trebalo bi da bude moguće eksplicitno je formulisati.
 
 Za normalizaciju $\kappa=1$,
 
