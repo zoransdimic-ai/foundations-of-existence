@@ -135,12 +135,7 @@ $$
 
 onda za svako $\delta>0$, ma koliko malo, $f_\delta$ može ostati glatka funkcija. Ono što se menja jeste veličina njenih izvoda:
 
-$$
-\frac{d^n f_\delta}{dx^n}
-=
-\frac{A}{\delta^n}
-\psi^{(n)}\!\left(\frac{x}{\delta}\right).
-$$
+$$\frac{d^n f_\delta}{dx^n}=\frac{A}{\delta^n}\psi^{(n)}\!\left(\frac{x}{\delta}\right)$$
 
 Kada
 
