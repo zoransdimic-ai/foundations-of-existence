@@ -196,6 +196,7 @@ Ta relacija se ovde postulira kao
 
 $$\boxed{E_{ee}T_{ee}=h}$$
 
+(AI opet insistira na "postulira", ali, po meni, što se tiče tog postulata traba uočiti da to nije proizvoljan postulat. Jednostavno, ako se stvari malo proanaliziraju, to predstavlja NAJJEDNOSTAVNIJI mogući slučaj)("Nature is pleased with simplicity"; "Simplicity is the ultimate sophistication".)
 ---
 
 ### 4. Energija je suštinski propagirajuća
