@@ -55,8 +55,7 @@ The relation **$E_{ee} T_{ee} = h$** is the simplest linear coupling consistent 
 The local energy density within the soliton ($\rho_E = E/V$) is dimensionally equivalent to pressure ($[\text{J/m}^3] = \text{Pa}$). Its spatial variation from center to periphery generates a negative radial gradient ($\nabla E < 0$) — an inherent force oriented toward the center, which holds the entity together, while $F_{max}$ prevents collapse into a point. The result is a stable, self-sustaining soliton.
 
 ---
-The content of the Section II, for some reason was not very clear to AI assistants (and among humans, no one has ever commented or asked me anything about it).
-For that reason, another version of this section is presented, Section II' :
+This section, Section II, for some reason was not very clear to AI assistants (and among humans, no one has ever commented or asked me anything about it). For that reason, another version of this section is presented, Section II' :
 
 
 ## II'. The Finite Energy Element and the Fundamental Law $E \cdot T = h$
@@ -639,11 +638,11 @@ The logical structure is:
 
 2. **Postulate:** Fundamental physical change is finite, single-valued, and bounded. In particular,
 
-   $$
-   \left|\frac{ds}{dt}\right|\leq V_{\max},
-   \qquad
-   \left|\frac{dE}{ds}\right|\leq F_{\max}.
-   $$
+$$
+\left|\frac{ds}{dt}\right|\leq V_{\max},
+\qquad
+\left|\frac{dE}{ds}\right|\leq F_{\max}.
+$$
 
 3. **Mathematical consequence:** A nonzero ordinary smooth localized function cannot have support consisting of one point.
 
@@ -653,33 +652,33 @@ The logical structure is:
 
 6. **Definition:**
 
-   $$
-   T_{ee}
-   =
-   \text{time required for the Energieelement to travel its own longitudinal length}.
-   $$
+$$
+T_{ee}
+=
+\text{time required for the Energieelement to travel its own longitudinal length}.
+$$
 
    Hence
 
-   $$
-   D_{ee}=cT_{ee}.
-   $$
+$$
+D_{ee}=cT_{ee}.
+$$
 
 7. **Fundamental law:**
 
-   $$
-   \boxed{E_{ee}T_{ee}=h}.
-   $$
+$$
+\boxed{E_{ee}T_{ee}=h}.
+$$
 
 8. **Immediate consequence:**
 
-   $$
-   \boxed{
-   D_{ee}=\frac{hc}{E_{ee}},
-   \qquad
-   E_{ee}D_{ee}=hc.
-   }
-   $$
+$$
+\boxed{
+D_{ee}=\frac{hc}{E_{ee}},
+\qquad
+E_{ee}D_{ee}=hc.
+}
+$$
 
 9. **Combined consequence:** Together with $F_{\max}$ and a universal smooth packet profile, this relation yields a nonzero minimum possible spatial scale.
 
