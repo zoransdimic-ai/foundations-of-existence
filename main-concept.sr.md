@@ -107,13 +107,7 @@ u jednoj jedinoj prostornoj tački.
 
 Za to postoji elementaran matematički razlog. Ako kontinualna funkcija $f(x)$ iščezava svuda osim u jednoj tački $x_0$, kontinualnost zahteva
 
-$$
-f(x_0)
-=
-\lim_{x\to x_0}f(x)
-=
-0.
-$$
+$$f(x_0)=\lim_{x\to x_0}f(x)=0$$
 
 Prema tome, nenulta kontinualna funkcija ne može imati nosač koji se sastoji samo od jedne tačke.
 
