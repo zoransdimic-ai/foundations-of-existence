@@ -55,6 +55,10 @@ The relation **$E_{ee} T_{ee} = h$** is the simplest linear coupling consistent 
 The local energy density within the soliton ($\rho_E = E/V$) is dimensionally equivalent to pressure ($[\text{J/m}^3] = \text{Pa}$). Its spatial variation from center to periphery generates a negative radial gradient ($\nabla E < 0$) — an inherent force oriented toward the center, which holds the entity together, while $F_{max}$ prevents collapse into a point. The result is a stable, self-sustaining soliton.
 
 ---
+This section, Section II, for some reason was not very clear to AI assistants (and among humans, no one has ever commented or asked me anything about it).For that reason, another version of this section is presented, Section II' :"
+
+
+---
 
 **[META-PROMPT FOR SECTION III]** Check the integration of $d\epsilon/\epsilon$ step by step. Assess whether the derived exponential velocity profile $v(r)$ actually corresponds to known metric coefficients in the weak-field limit — and if so, under which conditions and approximations this holds.
 
