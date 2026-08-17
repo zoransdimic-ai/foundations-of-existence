@@ -55,7 +55,7 @@ Relacija **$E_{ee} T_{ee} = h$** je najjednostavnija linearna sprega saglasna sa
 Lokalna gustina energije unutar solitona ($\rho_E = E/V$) dimenziono je ekvivalentna pritisku ($[J/m^3] = Pa$). Njena prostorna promena od centra ka periferiji generiše negativan radijalni gradijent ($\nabla E < 0$) — inherentnu silu usmerenu ka centru, koja drži entitet na okupu, dok $F_{max}$ sprečava kolaps u tačku. Rezultat je stabilan, samoodrživi soliton.
 
 ---
-Sadržaj Sekcije II, iz nekog razloga, nije bila dovoljno jasna AI asistentima (a među ljudima to niko nikada nije komentarisao niti me o tome nešto pitao). Zbog toga je ovde predstavljena još jedna verzija ove sekcije, Sekcija II':
+Sadržaj Sekcije II, iz nekog razloga, nije bio dovoljno jasan AI asistentima (a među ljudima to niko nikada nije komentarisao niti me o tome nešto pitao). Zbog toga je ovde predstavljena još jedna verzija ove sekcije, Sekcija II':
 
 ## II'. Konačni energijski element i fundamentalni zakon $E \cdot T = h$
 
