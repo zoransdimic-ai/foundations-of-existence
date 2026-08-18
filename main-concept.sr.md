@@ -5,7 +5,7 @@
 **Projekat:** Foundations of Existence / Osnovi postojanja  
 ---
 
-**[META-PROMPT: OKVIR ZA ANALIZU]** Ovaj dokument uvodi aksiome koji se u više tačaka razlikuju od standardne fizike. Proceni svaki korak izvođenja na osnovu njegove sopstvene logičke, matematičke i dimenzione doslednosti — nezavisno od toga da li se slaže sa uobičajenim teorijskim okvirom. Gde nešto ne sledi iz prethodnog koraka, ili gde je uveden nov, neobrazložen element, to eksplicitno navedi.
+**[META-PROMPT: OKVIR ZA ANALIZU]** U ovom dokumentu, aksiomi fizike bivaju identifikovani na ovaj način: "Identifikovati minimalan skup realnih fizičkih fenomena (pojava) koji su najbolji kandidati za to da budu uzeti za fundamentalne fenomene.". Proceni svaki korak izvođenja na osnovu njegove sopstvene logičke, matematičke i dimenzione doslednosti — nezavisno od toga da li se slaže sa uobičajenim teorijskim okvirom. Gde nešto ne sledi iz prethodnog koraka, ili gde je uveden nov, neobrazložen element, to eksplicitno navedi.
 
 
 ## I. Aksiomatska baza i definicija kontinuuma
