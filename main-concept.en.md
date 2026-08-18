@@ -70,7 +70,7 @@ $$\{dt,\;3D,\;\epsilon,\;\mu\}$$
 
 are not regarded as four independently existing substances. They are four inseparable manifestations of one and the same continuum: wherever spatial existence is defined, $dt$, $\epsilon$, and $\mu$ are present as well. None of them can physically occur “outside” the others.
 
-Time is therefore not an optional background coordinate added after the fact. Any physical change necessarily occurs **during $dt$**. To say that something changes already implies a temporal relation.
+Time is therefore not an optional background coordinate parameter added to the description retroactively. Every physical change necessarily occurs **during $dt$**. The very statement that something changes, or does not change, implies a temporal aspect. Time is implied as the most fundamental aspect of every change and every state. To exist means to endure, to last.
 
 Consequently, a finite physical change cannot occur through an infinitesimal temporal interval while its rate of change becomes undefined or infinite. For spatial displacement,
 
