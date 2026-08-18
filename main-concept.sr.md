@@ -69,7 +69,7 @@ $$\{dt,\;3D,\;\epsilon,\;\mu\}$$
 
 ne posmatraju se kao četiri nezavisno postojeće supstance. Oni su četiri nerazdvojiva vida ispoljavanja jednog te istog kontinuuma: gde god je definisano prostorno postojanje, prisutni su i $dt$, $\epsilon$ i $\mu$. Nijedan od tih aspekata ne može fizički postojati „izvan“ ostalih.
 
-Vreme zato nije opcioni pozadinski koordinatni parametar koji se naknadno dodaje opisu. Svaka fizička promena nužno se događa **tokom $dt$**. Već sam iskaz da se nešto menja podrazumeva vremenski odnos.
+Vreme zato nije opcioni pozadinski koordinatni parametar koji se naknadno dodaje opisu. Svaka fizička promena nužno se događa **tokom $dt$**. Već sam iskaz da se nešto menja, ili ne menja, podrazumeva vremenski aspekt. Vreme se podrazumeva kao najosnovniji aspekt svake promene i svakog stanja. Postojati znači **trajati**.
 
 Prema tome, konačna fizička promena ne može da se dogodi tokom infinitezimalnog vremenskog intervala ako bi njena stopa promene pri tome postala neodređena ili beskonačna. Za prostorno pomeranje važi
 
