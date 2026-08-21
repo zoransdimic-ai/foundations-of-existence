@@ -23,7 +23,7 @@ Kontinuum je restriktovan sa dve fundamentalne granične relacije koje sprečava
 1.  **Gornja granica brzine promene položaja (kinematički limit):**
     $$\left|\frac{ds}{dt}\right| \le V_{max} = \frac{1}{\sqrt{\epsilon_0 \mu_0}}$$
 2.  **Gornja granica prostornog gradijenta energije (dinamički limit / maksimalna sila):**
-    $$\left|\frac{dE}{ds}\right| \le F_{max} = \frac{1}{G \epsilon_0^2 \mu_0^2}$$
+    $$\left|\frac{dE}{ds}\right| \le F_{max}$$
 
 *(Napomena o četiri fundamentalna parametra postojanja: ovaj model tretira* $\epsilon_0$, $\mu_0$, $h$ i $G$ *kao konstitutivne parametre samog* $\{dt, 3D, \epsilon, \mu\}$ *kontinuuma, a ne kao konstante razbacane po odvojenim teorijskim domenima.* $h$ i $G$ *se tretiraju kao fiksne kosmičke invarijante;* $\epsilon$ i $\mu$ *kao lokalno reaktivni, odgovarajući na konfrontacioni tok energije, sa* $\epsilon_0,\mu_0$ *kao referentnim vrednostima za neporemećeni vakuum. Pod konfrontacijom,* $\epsilon$ i $\mu$ *lokalno rastu iznad bazne vrednosti, snižavajući lokalnu brzinu prostiranja i rađajući polja. Ovi parametri i njihovi odnosi ovde se tretiraju kao primitivi koji se dalje ne svode.)*
 
