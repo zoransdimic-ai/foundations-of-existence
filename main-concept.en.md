@@ -610,36 +610,220 @@ This formulation is proposed as an input for future numerical investigation of t
 
 ---
 
-## VI. Continuum Thermodynamics and the Geometric Radiation Factor $\frac{6}{\pi}$
+## ## VI. Thermal Combinatorics and the Core of the Radiation Law of a Heated Body
 
-In thermal equilibrium, macroscopic atoms act as transducers packing absorbed thermal energy into discrete solitons ($E\cdot T=h$). The number of ways $n$ transducers can emit $k$ identical solitons is given by combinations with repetition. Applying Stirling's approximation for $n,k\gg1$, the emission complexity index per transducer is:
-$$\theta = \frac1n\ln\Theta = (1+u)\ln(1+u)-u\ln u, \qquad u=\frac{E}{E_s}$$
+### 6.1. Characteristic Power Flux of a Single Energieelement
 
-*(Note: the crude Stirling form does not preserve the raw value of* $\Theta$ *itself — the relative error grows with* $n,k$ — *but the relative error in* $\ln\Theta$, *which is all that is used below, vanishes for macroscopic* $n,k\sim10^{23}$.*)*
+As established in the preceding sections, a fundamental energetic entity of a smooth continuum must possess a smooth, continuous, localized spatial distribution of energy. In the simplest isotropic case its spatial form is spherical, with a smooth *bump-like* radial energy-density profile.
 
-Differentiating:
-$$\frac{d\theta}{du} = \ln\left(\frac1u+1\right) \implies u = \frac{1}{e^{d\theta/du}-1}$$
+For such a fundamental energetic entity — an Energieelement — the relation
 
-Using $E\,d\ln u = dE$ (since $u=E/E_s$ with $E_s=h\nu$ fixed at given $\nu$):
-$$\frac{d\theta}{du} = \frac{h\nu}{dE/d\ln\sqrt[n]{\Theta}}$$
+$$E_sT_s=h$$
 
-**Identification of $dE/d\ln\sqrt[n]{\Theta}$.** This is not an arbitrary choice among equally plausible candidates — it is, up to relabeling, the standard thermodynamic definition of temperature, $T=\partial Q/\partial S$ with $S=k\ln\Omega$: identifying $\partial Q\leftrightarrow dE$ and $\Omega\leftrightarrow\sqrt[n]{\Theta}$ gives directly $dE/d\ln\sqrt[n]{\Theta}=kT$. The route here is combinatorial rather than through the canonical ensemble, but the destination is the same. This gives the core of Planck's law:
-$$\boxed{ u = \frac{E}{E_s} = \frac{1}{e^{h\nu/kT}-1} }$$
+holds, giving
 
-**Power flux of a single soliton.** From $E_s=h\nu$, $T_s=1/\nu$, and the average cross-section averaged along the direction of propagation, $\bar A_{c.s.}=\frac\pi6\lambda^2=\frac\pi6\frac{c^2}{\nu^2}$ (an exact identity — average cross-section equals volume divided by length — not an approximation of averaging):
-$$\frac{P_s}{\bar A_{c.s.}} = \frac{E_s}{T_s\bar A_{c.s.}} = \frac6\pi\frac{h}{c^2}\nu^4$$
+$$E_s=h\nu$$
 
-Dividing by the soliton's own frequency window ($\Delta\nu\sim\nu$) and multiplying by $u$:
-$$\boxed{ PFpf(\nu,T) = \frac6\pi\frac{h}{c^2}\frac{\nu^3}{e^{h\nu/k_BT}-1} }$$
+$$T_s=\frac{1}{\nu}$$
 
-**Comparison with the standard result.** The standard Planck law has prefactor $2$, arising from the two polarization states of a massless spin-1 boson — a consequence of gauge invariance in electrodynamics, independently established, not an arbitrary choice. The prefactor obtained here, $6/\pi\approx1.91$, arises from the volume-to-length ratio of a spherical soliton — also not arbitrary, but resting on this model's own geometric assumptions ($R=\lambda/2$ boundary, $\Delta\nu=\nu$ exactly).
+and
 
-A direct comparison between these two prefactors requires bridging two different frameworks: the standard "2" rests on the premise that the photon is an excitation of the electromagnetic field (a gauge boson), a premise this model does not adopt. The argument from gauge invariance therefore does not bind this model — but symmetrically, $6/\pi$ has, at present, no independent grounding beyond the geometric construction above. **This remains an open question, stated as such, not resolved in favor of either side.**
+$$\lambda=cT_s=\frac{c}{\nu}$$
 
-A check independent of this open question: Wien's displacement law depends only on the shape of the curve $\nu^3/(e^{h\nu/kT}-1)$, not on the prefactor in front of it — so the ratio $h/k_B$ obtained this way is independent of whether the correct prefactor is $2$ or $6/\pi$.
+During the complete passage of one soliton through an imagined plane, its entire energy $E_s$ must cross that plane. The instantaneous energy-flow profile depends on the detailed radial distribution of energy inside the soliton: a Gaussian profile, $cos^2$ profile, another smooth *bump-like* function, or even an idealized constant distribution produces a different instantaneous passage profile.
 
-Integrating over the full spectrum via the Riemann zeta function ($\zeta(4)=\pi^4/90$) gives the Stefan-Boltzmann law of the continuum:
-$$j^\star = \int_0^\infty PFpf(\nu,T)\,d\nu = \frac{2\pi^3k_B^4}{5h^3c^2}T^4 = \sigma_{\text{new}}T^4$$
+However, these different profiles do not change the total energy crossing the plane during the complete passage. Consequently, they do not change the characteristic mean power of the passage,
+
+$$P_s=\frac{E_s}{T_s}$$
+
+The detailed temporal passage profile may be relevant if the instantaneous local flux is required, but it is not required for determining this mean characteristic quantity.
+
+For a spherical soliton of diameter $\lambda$, the mean cross-sectional area during its complete passage through a plane equals the volume of the sphere divided by its length in the direction of propagation:
+
+$$\bar A_{cs}=\frac{V_s}{\lambda}$$
+
+Since
+
+$$V_s=\frac{\pi}{6}\lambda^3$$
+
+it follows that
+
+$$\bar A_{cs}=\frac{\pi}{6}\lambda^2$$
+
+The characteristic Power Flux of one spherical soliton is therefore
+
+$$\frac{P_s}{\bar A_{cs}}=\frac{E_s/T_s}{\bar A_{cs}}$$
+
+or
+
+$$\boxed{\frac{P_s}{\bar A_{cs}}=\frac{6}{\pi}\frac{h}{c^2}\nu^4}$$
+
+The factor $6/\pi$ is purely a geometrical factor arising from the spherical shape of the Energieelement. An entity with a different spatial shape would produce a different geometrical factor.
+
+For a photon of a particular frequency $\nu$, define its **Power Flux per frequency** as its characteristic Power Flux divided by its own frequency:
+
+$$PFpf_s(\nu)\equiv\frac{1}{\nu}\frac{P_s}{\bar A_{cs}}$$
+
+which immediately gives
+
+$$\boxed{PFpf_s(\nu)=\frac{6}{\pi}\frac{h}{c^2}\nu^3}$$
+
+The quantity $PFpf_s$ is the frequency-normalized characteristic Power Flux of **one Energieelement of frequency $\nu$**.
+
+Up to this point no assumption has been introduced concerning the spatial distribution of emitters, emission directions, solid angle, polarization, or any other possible degree of freedom of emission.
+
+### 6.2. The Most Elementary Combinatorics of Thermal Emission
+
+Now consider a heated body in thermal equilibrium at a constant temperature $T$.
+
+The body consists of a very large number of material constituents capable of exchanging and emitting energy. Their detailed internal structure is not required for the following argument. It is sufficient that the system contains $n$ emitters and that energy is emitted in the form of fundamental energy solitons, each carrying energy $E_s$.
+
+The most elementary statistical question is then:
+
+> **In how many distinct ways can $n$ emitters emit, or equivalently distribute among themselves, $k$ mutually identical energy solitons?**
+
+For $k$ identical solitons distributed among $n$ distinguishable emitters, the number of possible distributions is given by combinations with repetition:
+
+$$\Theta=\binom{n+k-1}{k}$$
+
+For a macroscopic system, where $n,k\gg1$, Stirling's approximation allows the discrete counting of individual configurations to be replaced by a smooth function of their relative distribution.
+
+Define the mean number of solitons per emitter as
+
+$$u\equiv\frac{k}{n}$$
+
+and the combinatorial index per emitter as
+
+$$\theta\equiv\frac{1}{n}\ln\Theta$$
+
+Stirling's approximation then gives
+
+$$\theta=(1+u)\ln(1+u)-u\ln u$$
+
+Differentiating,
+
+$$\frac{d\theta}{du}=\ln\left(1+\frac{1}{u}\right)$$
+
+and therefore
+
+$$u=\frac{1}{e^{d\theta/du}-1}$$
+
+If one soliton carries energy $E_s$, the mean energy associated with the mean occupation $u$ is
+
+$$E=uE_s$$
+
+For fixed $E_s$,
+
+$$dE=E_s,du$$
+
+and therefore
+
+$$\frac{d\theta}{du}=E_s\frac{d\theta}{dE}=\frac{E_s}{dE/d\theta}$$
+
+Since
+
+$$\theta=\ln\sqrt[n]{\Theta}$$
+
+we obtain
+
+$$\frac{d\theta}{du}=\frac{E_s}{dE/d\ln\sqrt[n]{\Theta}}$$
+
+and consequently
+
+$$u=\frac{1}{\exp\left(\frac{E_s}{dE/d\ln\sqrt[n]{\Theta}}\right)-1}$$
+
+### 6.3. Temperature as the Only Available Thermal-Energy Scale
+
+From the outset, the system has been considered to be in thermal equilibrium at temperature $T$. The quantity
+
+$$\frac{dE}{d\ln\sqrt[n]{\Theta}}$$
+
+has the dimension of energy because $\ln\sqrt[n]{\Theta}$ is dimensionless.
+
+Within the derived distribution, this quantity sets the energy scale controlling how many solitons of a given energy can be present at a given thermal state of the system.
+
+Within the present construction, the only macroscopic quantity characterizing that thermal state is the temperature $T$. The corresponding energy scale must therefore be proportional to temperature:
+
+$$\frac{dE}{d\ln\sqrt[n]{\Theta}}\propto T$$
+
+Denote the universal proportionality constant converting the temperature scale into an energy scale by $k$:
+
+$$\boxed{\frac{dE}{d\ln\sqrt[n]{\Theta}}=kT}$$
+
+Here $k$ has the direct meaning of a universal conversion factor between temperature and energy scales.
+
+Since for one Energieelement
+
+$$E_s=h\nu$$
+
+we obtain
+
+$$\boxed{u(\nu,T)=\frac{1}{e^{h\nu/kT}-1}}$$
+
+The quantity $u$ therefore has a direct physical interpretation:
+
+$$\boxed{u=\frac{k}{n}=\text{mean number of Energieelements of energy }h\nu\text{ per emitter}}$$
+
+The corresponding mean energy per emitter is
+
+$$E(\nu,T)=uE_s$$
+
+or
+
+$$E(\nu,T)=\frac{h\nu}{e^{h\nu/kT}-1}$$
+
+This quantity is not the energy of an individual emitted photon. Every individual Energieelement of frequency $\nu$ still carries the energy $h\nu$. The function $E(\nu,T)$ represents the mean energy corresponding to the thermal occupation by such Energieelements.
+
+### 6.4. Combining the Two Independently Obtained Results
+
+We now have two results obtained independently.
+
+The first describes the contribution of **one spherical Energieelement**:
+
+$$PFpf_s(\nu)=\frac{6}{\pi}\frac{h}{c^2}\nu^3$$
+
+The second describes the **mean number of such Energieelements** in the thermal distribution:
+
+$$u(\nu,T)=\frac{1}{e^{h\nu/kT}-1}$$
+
+Their mean combined contribution is therefore obtained directly by multiplication:
+
+$$PFpf(\nu,T)=PFpf_s(\nu)\cdot u(\nu,T)$$
+
+or
+
+$$\boxed{PFpf(\nu,T)=\frac{6}{\pi}\frac{h}{c^2}\frac{\nu^3}{e^{h\nu/kT}-1}}$$
+
+The physical meaning of this relation can be summarized as
+
+$$\boxed{\text{flux of one Energieelement}\times\text{mean number of such Energieelements}}$$
+
+This expression constitutes the **basic thermal-soliton kernel of the radiation law**.
+
+It is important to state explicitly what has not yet entered the derivation.
+
+The combinatorial question from which the distribution was derived — “in how many ways can $n$ emitters emit $k$ solitons?” — contains no concrete information about the spatial arrangement of the emitters or about the directions in which the solitons are emitted.
+
+Consequently, the present result contains no assumptions concerning:
+
+* the spatial distribution of emitters,
+* the angular distribution of emitted Energieelements,
+* solid angle or steradians,
+* polarization,
+* possible additional independent degrees of freedom of emission.
+
+The expression above should therefore not, at this stage, be automatically identified with either conventional spectral radiance or conventional spectral exitance.
+
+It represents a clean result obtained from only two ingredients:
+
+1. the geometry and fundamental law of an individual Energieelement,
+2. the most elementary combinatorics of their thermal distribution.
+
+Any further step must separately derive the spatial, angular, and possible internal structure of emission. Such factors should not be inserted afterwards merely to reproduce a predetermined conventional numerical prefactor.
+
+In this sense, the result obtained here is intentionally more limited than a complete macroscopic radiation law, but its mathematical and physical meaning is unambiguous:
+
+$$\boxed{\text{single-soliton frequency-normalized flux}\times\text{mean thermal occupation}=\text{thermal-soliton radiation kernel}}$$
 
 ---
 
