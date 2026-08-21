@@ -608,7 +608,7 @@ Ova formulacija se predlaže kao ulaz za budući numerički rad na $+17.25\%$ od
 
 ---
 
-## ## VI. Termalna kombinatorika i jezgro zakona zračenja zagrejanog tela
+## VI. Termalna kombinatorika i jezgro zakona zračenja zagrejanog tela
 
 ### 6.1. Karakterizacioni Power Flux jednog Energieelement-a
 
