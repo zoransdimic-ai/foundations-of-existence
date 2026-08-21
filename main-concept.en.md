@@ -25,7 +25,7 @@ The continuum is restricted by two fundamental boundary relations that prevent t
 2.  **The upper limit on the spatial gradient of energy (dynamic limit / maximum force):**
     $$\left|\frac{dE}{ds}\right| \le F_{max}$$
 
-*(Note on the four fundamental parameters of existence: this framework treats* $\epsilon_0$, $\mu_0$, $h$, and $G$ *as the constitutive parameters of the* $\{dt, 3D, \epsilon, \mu\}$ *continuum itself, rather than as constants scattered across separate theoretical domains.* $h$ and $G$ *are treated as fixed cosmic invariants;* $\epsilon$ and $\mu$ *are treated as locally reactive, responding to the confrontational flux of energy, with* $\epsilon_0,\mu_0$ *as their reference values for the unperturbed vacuum. Under confrontation,* $\epsilon$ and $\mu$ *locally rise above baseline, lowering the local propagation speed and giving rise to fields. These four parameters and their interrelations are treated here as primitives not further reduced.)*
+*(Note on the four fundamental parameters of existence: this framework treats* $\epsilon_0$, $\mu_0$, $h$, and $G$ *as the constitutive parameters of the* $\{dt, 3D, \epsilon, \mu\}$ *continuum itself, rather than as constants scattered across separate theoretical domains.* $h$ and $G$ *are treated as fixed cosmic invariants;* $\epsilon$ and $\mu$ *are treated as locally reactive, responding to the confrontational flux of energy, with* $\epsilon_0,\mu_0$ *as their reference values for the unperturbed vacuum. Under confrontation,* $\epsilon$ *and* $\mu$ *locally rise above baseline, lowering the local propagation speed and giving rise to fields. These four parameters and their interrelations are treated here as primitives not further reduced.)*
 
 ---
 
@@ -118,7 +118,7 @@ A smooth bump can mathematically be rescaled to an arbitrarily small but still n
 
 $$f_\delta(x)=A\,\psi\!\left(\frac{x}{\delta}\right)$$
 
-then for every $\delta>0$, however small, $f_\delta$ can remain smooth. What changes is the magnitude of its derivatives:
+then for every $\delta>ver small, $f_\delta$ can remain smooth. What changes is the magnitude of its derivatives:
 
 $$\frac{d^n f_\delta}{dx^n} = \frac{A}{\delta^n} \psi^{(n)}\!\left(\frac{x}{\delta}\right)$$
 
@@ -529,7 +529,7 @@ This fixes only the *difference* $k_1-k_2$, not the two parameters individually.
 
 **(c) $dt(r)$ carries the same exponential factor as $v(r)$ itself ($k_2=1,\,k_1=2$).** This is the only one of the three tested possibilities whose prediction — a photon is more energetic near the cluster, and loses energy moving away — matches the known existence and direction of gravitational redshift. Retained.
 
-*Status of this step: this is an elimination among three tested, physically motivated possibilities, confirmed against the known (measured) fact of gravitational redshift — not a claim that (c) is the only mathematically conceivable distribution of $k_1,k_2$ satisfying $k_1-k_2=1$. The selection relies on an external, empirical input, not on internal necessity alone.*
+*Status of this step: this is an elimination among three tested, physically motivated possibilities, confirmed against the known (measured) fact of gravitational redshift — not a claim that (c) is the only mathematically conceivable distribution of* $k_1,k_2$ *satisfying* $k_1-k_2=1$. *The selection relies on an external, empirical input, not on internal necessity alone.*
 
 ### Consequences
 
@@ -615,7 +615,7 @@ This formulation is proposed as an input for future numerical investigation of t
 In thermal equilibrium, macroscopic atoms act as transducers packing absorbed thermal energy into discrete solitons ($E\cdot T=h$). The number of ways $n$ transducers can emit $k$ identical solitons is given by combinations with repetition. Applying Stirling's approximation for $n,k\gg1$, the emission complexity index per transducer is:
 $$\theta = \frac1n\ln\Theta = (1+u)\ln(1+u)-u\ln u, \qquad u=\frac{E}{E_s}$$
 
-*(Note: the crude Stirling form does not preserve the raw value of $\Theta$ itself — the relative error grows with $n,k$ — but the relative error in $\ln\Theta$, which is all that is used below, vanishes for macroscopic $n,k\sim10^{23}$.)*
+*(Note: the crude Stirling form does not preserve the raw value of* $\Theta$ *itself — the relative error grows with* $n,k$ — *but the relative error in* $\ln\Theta$, *which is all that is used below, vanishes for macroscopic* $n,k\sim10^{23}$.*)*
 
 Differentiating:
 $$\frac{d\theta}{du} = \ln\left(\frac1u+1\right) \implies u = \frac{1}{e^{d\theta/du}-1}$$
