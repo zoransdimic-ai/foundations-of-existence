@@ -527,7 +527,7 @@ Ovo fiksira samo *razliku* $k_1-k_2$, ne oba parametra pojedinačno. Proverena s
 
 **(c) $dt(r)$ nosi isti eksponencijalni faktor kao i sam $v(r)$ ($k_2=1,\,k_1=2$).** Ovo je jedina od tri isprobane mogućnosti čije predviđanje — foton je energičniji blizu klastera, gubi energiju udaljavajući se — odgovara poznatom postojanju i smeru gravitacionog crvenog pomaka. Zadržava se.
 
-*Status ovog koraka: ovo je eliminacija među tri isprobane, fizički motivisane mogućnosti, potvrđena poređenjem sa poznatom (izmerenom) činjenicom o gravitacionom crvenom pomaku — nije tvrdnja da je (c) jedina matematički zamisliva raspodela $k_1,k_2$ uz $k_1-k_2=1$. Selekcija se oslanja na spoljašnji, empirijski podatak, ne na čistu unutrašnju nužnost.*
+*Status ovog koraka: ovo je eliminacija među tri isprobane, fizički motivisane mogućnosti, potvrđena poređenjem sa poznatom (izmerenom) činjenicom o gravitacionom crvenom pomaku — nije tvrdnja da je (c) jedina matematički zamisliva raspodela* $k_1,k_2$ *u*z $k_1-k_2=1$. *Selekcija se oslanja na spoljašnji, empirijski podatak, ne na čistu unutrašnju nužnost.*
 
 ### Posledice
 
@@ -540,7 +540,7 @@ $$\frac{dE(r)}{dr} = -\frac{1}{F_{max}}\frac{\mathbf E}{r^2}\,E(r) \tag{2}$$
 Iz definicije $a(r)\equiv dv(r)/dt(r)$ i (1):
 $$a(r) = \frac{c^2}{F_{max}}\frac{\mathbf E}{r^2} \tag{3}$$
 
-*(Dimenziona provera: $[\mathbf E/(F_{max}r^2)]=1/\text{m}$; da bi $a(r)$ imalo jedinicu ubrzanja, množilac mora biti $c^2$, ne $c$ — lako se ispusti pri ručnom prepisivanju.)*
+*(Dimenziona provera:* $[\mathbf E/(F_{max}r^2)]=1/\text{m}$; *da bi* $a(r)$ *imalo jedinicu ubrzanja, množilac mora biti* $c^2$, ne $c$ — *lako se ispusti pri ručnom prepisivanju.)*
 
 Pošto (2) i (3) dele isti faktor $\frac{1}{F_{max}}\frac{\mathbf E}{r^2}$:
 $$\frac{dE(r)}{dr} = -a(r)\,\frac{E(r)}{c^2}$$
@@ -613,7 +613,7 @@ Ova formulacija se predlaže kao ulaz za budući numerički rad na $+17.25\%$ od
 U toplotnoj ravnoteži, makroskopski atomi se ponašaju kao pretvarači koji primljenu toplotnu energiju pakuju u diskretne solitone ($E\cdot T=h$). Broj načina na koji $n$ pretvarača može emitovati $k$ identičnih solitona dat je kombinacijama sa ponavljanjem. Primenom Stirlingove aproksimacije za $n,k\gg1$, indeks emisione složenosti po pretvaraču je:
 $$\theta = \frac1n\ln\Theta = (1+u)\ln(1+u)-u\ln u, \qquad u=\frac{E}{E_s}$$
 
-*(Napomena: gruba Stirlingova forma ne čuva sirovu vrednost $\Theta$ — relativna greška raste sa $n,k$ — ali relativna greška u $\ln\Theta$, jedinom što se dalje koristi, teži nuli za makroskopsko $n,k\sim10^{23}$.)*
+*(Napomena: gruba Stirlingova forma ne čuva sirovu vrednost* $\Theta$ — *relativna greška raste sa* $n,k$ — *ali relativna greška u* $\ln\Theta$, *jedinom što se dalje koristi, teži nuli za makroskopsko* $n,k\sim10^{23}$.*)*
 
 Diferenciranjem:
 $$\frac{d\theta}{du} = \ln\left(\frac1u+1\right) \implies u = \frac{1}{e^{d\theta/du}-1}$$
