@@ -610,7 +610,7 @@ This formulation is proposed as an input for future numerical investigation of t
 
 ---
 
-## ## VI. Thermal Combinatorics and the Core of the Radiation Law of a Heated Body
+## VI. Thermal Combinatorics and the Core of the Radiation Law of a Heated Body
 
 ### 6.1. Characteristic Power Flux of a Single Energieelement
 
