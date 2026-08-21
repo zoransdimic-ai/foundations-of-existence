@@ -608,36 +608,220 @@ Ova formulacija se predlaže kao ulaz za budući numerički rad na $+17.25\%$ od
 
 ---
 
-## VI. Termodinamika kontinuuma i geometrijski faktor zračenja $\frac{6}{\pi}$
+## ## VI. Termalna kombinatorika i jezgro zakona zračenja zagrejanog tela
 
-U toplotnoj ravnoteži, makroskopski atomi se ponašaju kao pretvarači koji primljenu toplotnu energiju pakuju u diskretne solitone ($E\cdot T=h$). Broj načina na koji $n$ pretvarača može emitovati $k$ identičnih solitona dat je kombinacijama sa ponavljanjem. Primenom Stirlingove aproksimacije za $n,k\gg1$, indeks emisione složenosti po pretvaraču je:
-$$\theta = \frac1n\ln\Theta = (1+u)\ln(1+u)-u\ln u, \qquad u=\frac{E}{E_s}$$
+### 6.1. Karakterizacioni Power Flux jednog Energieelement-a
 
-*(Napomena: gruba Stirlingova forma ne čuva sirovu vrednost* $\Theta$ — *relativna greška raste sa* $n,k$ — *ali relativna greška u* $\ln\Theta$, *jedinom što se dalje koristi, teži nuli za makroskopsko* $n,k\sim10^{23}$.*)*
+Kao što je pokazano u prethodnim odeljcima, osnovni energijski entitet glatkog kontinuuma mora imati glatku, kontinualnu, lokalizovanu prostornu raspodelu energije. U najjednostavnijem izotropnom slučaju njegov prostorni oblik je sferan, sa glatkom *bump-like* radijalnom raspodelom gustine energije.
+
+Za takav osnovni energijski entitet — Energieelement — važi
+
+$$E_sT_s=h$$
+
+pa su
+
+$$E_s=h\nu$$
+
+$$T_s=\frac{1}{\nu}$$
+
+i
+
+$$\lambda=cT_s=\frac{c}{\nu}$$
+
+Tokom kompletnog prolaska jednog solitona kroz zamišljenu ravan, kroz tu ravan mora proći njegova ukupna energija $E_s$. Konkretan trenutni tok energije zavisi od detaljne radijalne raspodele energije unutar solitona: Gaussian, $cos^2$, neka druga glatka *bump-like* funkcija, ili čak idealizovana konstantna raspodela daju različite trenutne profile prolaska.
+
+Međutim, ti različiti profili ne menjaju ukupnu energiju koja pređe kroz ravan tokom kompletnog prolaska. Zbog toga ne menjaju ni karakterizacionu srednju snagu prolaska
+
+$$P_s=\frac{E_s}{T_s}$$
+
+Detaljan vremenski profil prolaska može biti od interesa ako se želi opis trenutnog lokalnog flux-a, ali nije potreban za određivanje ove srednje karakterizacione veličine.
+
+Za sferni soliton prečnika $\lambda$, srednja površina preseka tokom kompletnog prolaska kroz ravan jednaka je zapremini sfere podeljenoj njenom dužinom u pravcu kretanja:
+
+$$\bar A_{cs}=\frac{V_s}{\lambda}$$
+
+Pošto je
+
+$$V_s=\frac{\pi}{6}\lambda^3$$
+
+sledi
+
+$$\bar A_{cs}=\frac{\pi}{6}\lambda^2$$
+
+Prema tome, karakterizacioni Power Flux jednog sfernog solitona iznosi
+
+$$\frac{P_s}{\bar A_{cs}}=\frac{E_s/T_s}{\bar A_{cs}}$$
+
+odnosno
+
+$$\boxed{\frac{P_s}{\bar A_{cs}}=\frac{6}{\pi}\frac{h}{c^2}\nu^4}$$
+
+Faktor $6/\pi$ ovde je čisto geometrijski faktor koji proizlazi iz sfernog oblika Energieelement-a. Za entitet drugačijeg prostornog oblika odgovarajući geometrijski faktor bio bi drugačiji.
+
+Za foton konkretne frekvencije $\nu$ definišemo njegov **Power Flux per frequency** kao karakterizacioni Power Flux podeljen njegovom sopstvenom frekvencijom:
+
+$$PFpf_s(\nu)\equiv\frac{1}{\nu}\frac{P_s}{\bar A_{cs}}$$
+
+pa neposredno dobijamo
+
+$$\boxed{PFpf_s(\nu)=\frac{6}{\pi}\frac{h}{c^2}\nu^3}$$
+
+Ovde se ne uvodi nikakav frekvencijski interval $\Delta\nu$. Veličina $PFpf_s$ predstavlja frequency-normalized karakterizacioni Power Flux **jednog Energieelement-a frekvencije $\nu$**.
+
+Do ovog mesta nisu uvedene nikakve pretpostavke o prostornoj raspodeli emitera, pravcima emisije, prostornom uglu, polarizaciji ili eventualnim drugim stepenima slobode emitovanja.
+
+### 6.2. Najosnovnija kombinatorika termalnog emitovanja
+
+Sada posmatrajmo zagrejano telo u termalnom ekvilibrijumu, na konstantnoj temperaturi $T$.
+
+Telo se sastoji od velikog broja materijalnih konstituenata sposobnih da razmenjuju i emituju energiju. Njihova detaljna unutrašnja struktura za sledeće razmatranje nije potrebna. Dovoljno je da sistem sadrži $n$ emitera i da se energija emituje u obliku osnovnih energijskih solitona čija je pojedinačna energija $E_s$.
+
+Najosnovnije statističko pitanje tada glasi:
+
+> **Na koliko različitih načina $n$ emitera može da emituje, odnosno raspodeli među sobom, $k$ međusobno identičnih energijskih solitona?**
+
+Za $k$ identičnih solitona raspoređenih među $n$ razlučivih emitera, broj mogućih raspodela dat je kombinacijama sa ponavljanjem:
+
+$$\Theta=\binom{n+k-1}{k}$$
+
+Za makroskopski sistem, gde su $n,k\gg1$, Stirlingova aproksimacija omogućava prelazak sa diskretnog brojanja pojedinačnih konfiguracija na glatku funkciju njihove relativne raspodele.
+
+Definišimo prosečan broj solitona po emiteru:
+
+$$u\equiv\frac{k}{n}$$
+
+i kombinatorni indeks po emiteru:
+
+$$\theta\equiv\frac{1}{n}\ln\Theta$$
+
+Tada Stirlingova aproksimacija daje
+
+$$\theta=(1+u)\ln(1+u)-u\ln u$$
 
 Diferenciranjem:
-$$\frac{d\theta}{du} = \ln\left(\frac1u+1\right) \implies u = \frac{1}{e^{d\theta/du}-1}$$
 
-Koristeći $E\,d\ln u = dE$ (pošto je $u=E/E_s$ sa $E_s=h\nu$ fiksnim na datom $\nu$):
-$$\frac{d\theta}{du} = \frac{h\nu}{dE/d\ln\sqrt[n]{\Theta}}$$
+$$\frac{d\theta}{du}=\ln\left(1+\frac{1}{u}\right)$$
 
-**Identifikacija $dE/d\ln\sqrt[n]{\Theta}$.** Ovo nije proizvoljan izbor među podjednako mogućim kandidatima — to je, do preimenovanja, standardna termodinamička definicija temperature, $T=\partial Q/\partial S$ sa $S=k\ln\Omega$: prepoznavanjem $\partial Q\leftrightarrow dE$ i $\Omega\leftrightarrow\sqrt[n]{\Theta}$ direktno sledi $dE/d\ln\sqrt[n]{\Theta}=kT$. Put ovde je kombinatoran, a ne preko kanonskog ansambla, ali odredište je isto. Time se dobija jezgro Plankovog zakona:
-$$\boxed{ u = \frac{E}{E_s} = \frac{1}{e^{h\nu/kT}-1} }$$
+odakle:
 
-**Fluks snage jednog solitona.** Iz $E_s=h\nu$, $T_s=1/\nu$, i preseka usrednjenog duž pravca prostiranja, $\bar A_{c.s.}=\frac\pi6\lambda^2=\frac\pi6\frac{c^2}{\nu^2}$ (tačan identitet — prosečan presek jednak je zapremini podeljenoj dužinom — ne aproksimacija usrednjavanja):
-$$\frac{P_s}{\bar A_{c.s.}} = \frac{E_s}{T_s\bar A_{c.s.}} = \frac6\pi\frac{h}{c^2}\nu^4$$
+$$u=\frac{1}{e^{d\theta/du}-1}$$
 
-Deljenjem sopstvenim frekvencijskim prozorom ($\Delta\nu\sim\nu$) i množenjem sa $u$:
-$$\boxed{ PFpf(\nu,T) = \frac6\pi\frac{h}{c^2}\frac{\nu^3}{e^{h\nu/k_BT}-1} }$$
+Ako jedan soliton nosi energiju $E_s$, tada prosečna energija koja odgovara prosečnoj okupaciji $u$ iznosi
 
-**Poređenje sa standardnim rezultatom.** Standardni Plankov zakon ima prefaktor $2$, koji potiče od dva polarizaciona stanja bezmasenog spin-1 bozona — posledica gejž-invarijantnosti elektrodinamike, nezavisno utvrđena, ne proizvoljan izbor. Prefaktor dobijen ovde, $6/\pi\approx1.91$, potiče od odnosa zapremine i dužine sfernog solitona — takođe ne proizvoljan, ali oslonjen na sopstvene geometrijske pretpostavke ovog modela (granica $R=\lambda/2$, $\Delta\nu=\nu$ tačno).
+$$E=uE_s$$
 
-Direktno poređenje ova dva prefaktora zahteva prevod između dva različita okvira: standardno "2" počiva na premisi da je foton pobuda elektromagnetnog polja (gejž bozon), premisi koju ovaj model ne usvaja. Argument iz gejž-invarijantnosti zato ne obavezuje ovaj model — ali simetrično, $6/\pi$ trenutno nema nezavisno utemeljenje osim gore opisane geometrijske konstrukcije. **Ovo ostaje otvoreno pitanje, tako naznačeno, nerešeno u korist bilo koje strane.**
+Za fiksnu vrednost $E_s$ važi
 
-Provera nezavisna od ovog otvorenog pitanja: Vinov zakon pomeraja zavisi samo od oblika krive $\nu^3/(e^{h\nu/kT}-1)$, ne od prefaktora ispred nje — pa je odnos $h/k_B$ dobijen ovim putem nezavisan od toga da li je tačan prefaktor $2$ ili $6/\pi$.
+$$dE=E_s,du$$
 
-Integracijom preko celog spektra preko Rimanove zeta funkcije ($\zeta(4)=\pi^4/90$) dobija se Štefan-Bolcmanov zakon kontinuuma:
-$$j^\star = \int_0^\infty PFpf(\nu,T)\,d\nu = \frac{2\pi^3k_B^4}{5h^3c^2}T^4 = \sigma_{\text{novi}}T^4$$
+pa:
+
+$$\frac{d\theta}{du}=E_s\frac{d\theta}{dE}=\frac{E_s}{dE/d\theta}$$
+
+Pošto je
+
+$$\theta=\ln\sqrt[n]{\Theta}$$
+
+dobijamo
+
+$$\frac{d\theta}{du}=\frac{E_s}{dE/d\ln\sqrt[n]{\Theta}}$$
+
+i zato
+
+$$u=\frac{1}{\exp\left(\frac{E_s}{dE/d\ln\sqrt[n]{\Theta}}\right)-1}$$
+
+### 6.3. Temperatura kao jedina raspoloživa skala termalne energije
+
+Sistem je od početka posmatran kao sistem u termalnom ekvilibrijumu na temperaturi $T$. Veličina
+
+$$\frac{dE}{d\ln\sqrt[n]{\Theta}}$$
+
+ima dimenziju energije, jer je $\ln\sqrt[n]{\Theta}$ bezdimenziona veličina.
+
+Ona u izvedenoj raspodeli određuje energetsku skalu koja kontroliše koliko solitona određene energije može biti prisutno pri datom termalnom stanju sistema.
+
+U okviru ovog razmatranja jedina makroskopska veličina koja karakteriše to termalno stanje jeste temperatura $T$. Prema tome, odgovarajuća energetska skala mora biti proporcionalna temperaturi:
+
+$$\frac{dE}{d\ln\sqrt[n]{\Theta}}\propto T$$
+
+Univerzalnu konstantu proporcionalnosti između temperaturne i energetske skale označimo sa $k$:
+
+$$\boxed{\frac{dE}{d\ln\sqrt[n]{\Theta}}=kT}$$
+
+Konstanta $k$ ovde ima jednostavno značenje univerzalnog faktora konverzije između temperaturne skale i skale energije.
+
+Pošto je za jedan Energieelement
+
+$$E_s=h\nu$$
+
+dobijamo
+
+$$\boxed{u(\nu,T)=\frac{1}{e^{h\nu/kT}-1}}$$
+
+Veličina $u$ ima neposredno fizičko značenje:
+
+$$\boxed{u=\frac{k}{n}=\text{prosečan broj Energieelement-a energije }h\nu\text{ po emiteru}}$$
+
+Odgovarajuća prosečna energija po emiteru je
+
+$$E(\nu,T)=uE_s$$
+
+odnosno
+
+$$E(\nu,T)=\frac{h\nu}{e^{h\nu/kT}-1}$$
+
+Ova veličina nije energija pojedinačnog emitovanog fotona. Svaki pojedinačni Energieelement frekvencije $\nu$ i dalje nosi energiju $h\nu$. Funkcija $E(\nu,T)$ predstavlja prosečnu energiju koja odgovara termalnoj okupaciji takvim Energieelement-ima.
+
+### 6.4. Spajanje dva nezavisno dobijena rezultata
+
+Sada imamo dva rezultata koji su dobijeni potpuno nezavisno.
+
+Prvi opisuje doprinos **jednog sfernog Energieelement-a**:
+
+$$PFpf_s(\nu)=\frac{6}{\pi}\frac{h}{c^2}\nu^3$$
+
+Drugi opisuje **prosečan broj takvih Energieelement-a** u termalnoj raspodeli:
+
+$$u(\nu,T)=\frac{1}{e^{h\nu/kT}-1}$$
+
+Prema tome, njihov prosečni ukupni doprinos dobija se neposrednim množenjem:
+
+$$PFpf(\nu,T)=PFpf_s(\nu)\cdot u(\nu,T)$$
+
+odnosno
+
+$$\boxed{PFpf(\nu,T)=\frac{6}{\pi}\frac{h}{c^2}\frac{\nu^3}{e^{h\nu/kT}-1}}$$
+
+Fizičko značenje ove relacije može se sažeti kao:
+
+$$\boxed{\text{flux jednog Energieelement-a}\times\text{prosečan broj takvih Energieelement-a}}$$
+
+Ovaj izraz predstavlja **osnovno termalno-solitonsko jezgro zakona zračenja**.
+
+Važno je naglasiti šta u njemu još nije sadržano.
+
+Kombinatorno pitanje od kojeg je izvedena raspodela — „na koliko načina $n$ emitera može da emituje $k$ solitona?“ — samo po sebi ne sadrži nikakvu konkretnu informaciju o prostornom rasporedu emitera niti o pravcima u kojima se solitoni emituju.
+
+Zbog toga u ovom rezultatu nisu uvedeni:
+
+* prostorna raspodela emitera,
+* ugaona raspodela emitovanih Energieelement-a,
+* prostorni ugao ili steradijan,
+* polarizacija,
+* eventualni dodatni nezavisni stepeni slobode emitovanja.
+
+Prema tome, gornji izraz u ovoj fazi ne treba automatski identifikovati ni sa standardnom spektralnom radijansom ni sa standardnom spektralnom emitansom.
+
+On predstavlja čist rezultat dobijen iz dve stvari:
+
+1. geometrije i fundamentalnog zakona pojedinačnog Energieelement-a,
+2. najosnovnije kombinatorike njihove termalne raspodele.
+
+Svaki naredni korak  mora posebno izvesti prostornu, ugaonu i eventualnu unutrašnju strukturu emitovanja. Takvi faktori ne treba da budu naknadno uvedeni samo radi reprodukovanja unapred poznatog numeričkog prefaktora.
+
+U tom smislu, rezultat koji je ovde izveden namerno je ograničeniji od kompletnog makroskopskog zakona zračenja, ali je njegovo fizičko i matematičko značenje jednoznačno:
+
+$$\boxed{\text{single-soliton frequency-normalized flux}\times\text{mean thermal occupation}=\text{thermal-soliton radiation kernel}}$$
 
 ---
 
