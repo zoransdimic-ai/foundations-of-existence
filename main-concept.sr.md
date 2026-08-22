@@ -666,7 +666,7 @@ pa neposredno dobijamo
 
 $$\boxed{PFpf_s(\nu)=\frac{6}{\pi}\frac{h}{c^2}\nu^3}$$
 
-Ovde se ne uvodi nikakav frekvencijski interval $\Delta\nu$. Veličina $PFpf_s$ predstavlja frequency-normalized karakterizacioni Power Flux **jednog Energieelement-a frekvencije $\nu$**.
+Veličina $PFpf_s$ predstavlja frequency-normalized karakterizacioni Power Flux **jednog Energieelement-a frekvencije $\nu$**.
 
 Do ovog mesta nisu uvedene nikakve pretpostavke o prostornoj raspodeli emitera, pravcima emisije, prostornom uglu, polarizaciji ili eventualnim drugim stepenima slobode emitovanja.
 
