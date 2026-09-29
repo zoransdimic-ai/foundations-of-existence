@@ -60,7 +60,7 @@ This framework operates on just **two fundamental relations** within a smooth $\
 *   **Modeling of a photon as 3D-energy-soliton**
 *   **Modeling of gamma-photons whirl (vortex)**
 *   **Deterministic Gaussian Profile:** Under the assumption of the simplest possible circular motion of an energy shell within the vortex, the resulting centripetal-balance equation integrates uniquely and unambiguously to a Gaussian energy-density profile — not one of several candidate forms, but the single, exact solution of this differential relation.
-*   **Singularity-Free Charge:** Integrating the confrontational energy density ($\breve{u}$) to the physical boundary of the soliton ($R = \sqrt{2}\sigma$) yields an effective charge of $1.1725 \cdot e$. The model achieves the exact order of magnitude of elementary charge with zero free parameters and no renormalization.
+*   **Singularity-Free Charge:** In the very first, conceptually clear model, but still the preliminary model, integrating the confrontational energy density ($\breve{u}$) to the physical boundary of the soliton ($R = \sqrt{2}\sigma$) yields an effective charge of $1.1725 \cdot e$. The model achieves the exact order of magnitude of elementary charge with zero free parameters and no renormalization.
 
 ### 2. New derivation of thermal radiation and of thermodynamics
 
