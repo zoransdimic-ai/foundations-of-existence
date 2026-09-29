@@ -72,7 +72,7 @@ $$\mathbf{E}_{tot} = \frac{hc}{\lambda}$$
 Model je unutrašnje hermetički zatvoren. Izborom normalizacije, celokupan prostor solitona sadrži tačno onoliko energije koliko iznosi jedan kvant akcije, bez ikakvih matematičkih ostataka.
 
 ------------------------------
-## IV. TAČAN PRORAČUN EMERGENTNOG NAELEKTRISANJA ELEKTRONA
+## IV. PRORAČUN EMERGENTNOG NAELEKTRISANJA ELEKTRONA
 
 Autor: Izračunaćemo efektivno naelektrisanje po Komptonovoj talasnoj dužini, dobijeno integracijom sfernog Gausovog energetskog solitona do njegovog fizičkog ruba $R$.
 
