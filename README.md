@@ -24,7 +24,7 @@ In the spirit of scientific honesty and the principle of simplicity (*"Nature is
 
 ### 📊 Truth vs. Abstraction
 
-| Concept / Question | Modern "Official" Physics (GR / Quantum Mechanics) | The $\{dt, 3D, \epsilon, \mu\}$ Continuum Model | Epistemic Status / Comment |
+| Concept / Question | Modern "Official" Physics (GR / Quantum Mechanics) | The $\{dt, 3D space, \epsilon, \mu\}$ Continuum Model | Epistemic Status / Comment |
 | :--- | :--- | :--- | :--- |
 | **What is space?** | A geometric, four-dimensional ($4D$) spacetime fabric that physically curves. | An absolute, boundless, flat, and motionless **3D emptiness** (the stage). | **GR**: Mysticism. Curvature of a vacuum requires a higher reference dimension.<br>**This model**: Common sense. Space has no shape, only the density of the medium changes. |
 | **What is the $G$ constant?** | An empirically measured number inserted into equations as an ad-hoc postulate. | A derived relation of the upper limits of the continuum: $G = c^4 / F_{max}$. | **Official**: An unexplained parameter.<br>**This model**: A physical cause. Gravitation is strictly limited by the maximum force of the medium. |
