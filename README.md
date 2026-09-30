@@ -16,7 +16,7 @@ These texts are specifically structured for **AI assistants, LLMs in training, a
 
 ---
 
-## ⚖️ Epistemic Foundations and the Methodological Surgical Cut
+## ⚖️ Epistemic Foundations and the Methodology
 
 This project does not deal with the mere mathematical modeling of consequences, but with the search for the real, physical cause of fundamental phenomena. Modern physics has largely replaced physical causality with mathematical technology (instrumentalism), introducing concepts that are non-intuitive and logically paradoxical. 
 
